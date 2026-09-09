@@ -109,7 +109,7 @@ u8 disk_load(void){
  dos(26,header);e=dos(20,fcb);
  if(e||header[0]!='S'||header[1]!='R'||header[2]!='P'||header[3]!=2||header[11]!=0x7b||header[12]!=0xa5){dos(16,fcb);return 3;}
  n=header[4]|((u16)header[5]<<8);
- if(!n||n>8192||header[10]<1||header[10]>2){dos(16,fcb);return 3;}
+ if(!n||n>16384||header[10]<1||header[10]>2){dos(16,fcb);return 3;}
  recorded=0;
  for(p=0x4000;n&&!e;p+=128){dos(26,buffer);e=dos(20,fcb);for(i=0;i<128;++i)((u8*)p)[i]=buffer[i];if(n<=128)break;n-=128;}
  i=dos(16,fcb);if(e||i)return 2;

@@ -1,0 +1,14 @@
+Replay capacity validation, 2026-09-09
+ROM SHA256: 52569f29b23ae5ee319b3d959fb331c162e027848379443e3d97714ab371c035
+openMSX FS-A1ST + gfx9000, R800, 512KiB ASCII8.
+PASS counter boundary injection: continues at tick/score 8196 and 10004.
+PASS counter boundary injection: completes at tick 16384, recorded=16384.
+PASS synthetic completion replay: old 8192 and new 16384, match=1.
+PASS existing 4432-point recording: tick 2432, score 4432, match=1.
+PASS existing 3670-point recording (local copy): tick 2520, score 3670, match=1.
+PASS 16384-byte patterned input: save/load byte-exact roundtrip, DISK OK.
+Only completion limit and load bound changed in game/disk sources.
+Replay header, checksum, seed, input encoding and rule ID 2 unchanged.
+New recordings over 8192 inputs require the updated ROM.
+Counter/pattern tests are synthetic, not full-length survival demonstrations.
+Real hardware not tested.

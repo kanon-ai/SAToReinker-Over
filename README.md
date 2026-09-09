@@ -55,11 +55,11 @@ Load, Save and Replay View are available from the title and game-over screens. C
 - 保存先はディスク内の `A:SATORI2.RPL`。**Sは既存の同名ファイルを上書きします。現在は１件保存です。**
 - 同梱 `SAVE.dsk` は起動し直しても残ります。更新ZIPは別フォルダへ展開し、自分のSAVE.dskを上書きしないでください。
 - DISK OKを待ってから終了してください。同じディスクイメージを複数同時起動で共有しないでください。
-- 現状は8192入力までの仮上限です。STのマッパRAMを活用する長時間記録は未実装です。
+- 現状は16384入力までです（30更新/秒なら約9分6秒）。毎更新の生存点だけで10000点を通過できる枠です。STのマッパRAMを活用する長時間記録は未実装です。
 - 未挿入・ファイルなし・不正バージョン・チェックサム不一致の読込拒否は確認済みです。**書込禁止・容量不足・媒体エラーでは保存を中止し、DISK ERRORを表示して元のメニューへ戻ります。メモリ上のリプレイは保持され、ディスク交換後に再保存できます。** 保存途中のファイルは不完全な可能性があるため、DISK OKが出た保存だけを使用してください。既存ファイルを元に戻す処理はありません。
 - 暫定ルールID2です。以前のSATORI.RPLとは互換性がありません。今後の試作版間の互換性は保証しません。
 
-The current save slot is `A:SATORI2.RPL`; S overwrites it. Preserve your SAVE.dsk when updating and wait for DISK OK before closing. Recording is currently limited to 8192 input samples. Mapper-backed long recordings remain unfinished. Disk errors cancel saving and return to the original menu with DISK ERROR, preserving the in-memory replay for another save attempt. An interrupted on-disk file may be incomplete; only use saves confirmed by DISK OK. Overwriting is not transactional. This disk-error update preserves replay format/rule ID 2 and compatibility with the preceding public build; future prototype compatibility is not guaranteed.
+The current save slot is `A:SATORI2.RPL`; S overwrites it. Preserve your SAVE.dsk when updating and wait for DISK OK before closing. Recording is now limited to 16384 input samples (about 9m 6s at 30 updates/s). This permits passing 10000 points using survival points alone. Mapper-backed long recordings remain unfinished. Disk errors cancel saving and return to the original menu with DISK ERROR, preserving the in-memory replay for another save attempt. An interrupted on-disk file may be incomplete; only use saves confirmed by DISK OK. Overwriting is not transactional. Replay format/rule ID 2 is unchanged. Existing replays, including completed 8192-input runs, remain readable. Replays longer than 8192 inputs require this updated ROM; older ROMs reject them. Future prototype compatibility is not guaranteed.
 
 ## 検証 / Validation
 
@@ -73,6 +73,12 @@ Verified in openMSX using FS-A1ST + gfx9000: replay ends at tick 2432 with score
 書込禁止・容量不足・ディレクトリ満杯・未挿入・未フォーマット・保存中の取り出し・保存完了処理時の取り出しからのメニュー復帰をopenMSXで検証しました。保存中断後の再保存と再生も確認しています。旧版→修正版、修正版→旧版の再生はいずれも4432点で一致し、同じ入力の保存ファイルはバイト単位で一致しました。既存の3670点の記録も一致しました。弾幕・乱数・BGM・入力形式は変更していません。実機での障害試験は未実施です。
 
 Verified in openMSX: write protection, full disk/directory, absent/unformatted media, and removal during writing/closing. Saving stops, the menu remains usable, and the in-memory recording can be saved again. Cross-version playback matches; identical inputs produce identical replay files. Gameplay, RNG, music and replay format are unchanged. Real-hardware fault testing remains unverified. See [disk error validation](disk-error-validation.txt).
+
+### 記録枠の拡張 / Replay capacity update (2026-09-09)
+
+10000点挑戦を記録上限で止めないよう、8192入力から16384入力へ拡張しました。ROMは512KiBのままです。旧リプレイを読み込め、旧上限でのクリアも再現します。8192入力を超える新しい記録の再生には更新版が必要です。弾幕・得点・BGMは変更していません。
+
+Capacity doubled to 16384 inputs. Existing recordings remain supported; recipients of longer recordings need this updated ROM. Gameplay, scoring and music are unchanged. See [capacity validation](replay-capacity-validation.txt). Boundary tests use injected counters; they do not represent a human or automated full-length survival run.
 
 ## ビルド / Build
 

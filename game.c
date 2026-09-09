@@ -278,7 +278,8 @@ static void step(u8 k) {
  while(graze_batch){--graze_batch;add_score(25);++grazes;spark=12;}
  if(a){finish(1);return;}
  add_score(1);++tick;music();
- if(tick==8192)finish(2);
+ /* A completed old replay ends at its recorded limit (formerly 8192). */
+ if(tick==(replay && saved_result==2 ? recorded : 16384))finish(2);
 }
 static void glyph(u16 bits,u16 x,u16 y,u8 c) {
  u8 row,col;for(row=0;row<5;++row)for(col=0;col<3;++col){
