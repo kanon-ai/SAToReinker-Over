@@ -1,0 +1,25 @@
+Disk error update validation — 2026-09-09
+Environment: openMSX 21, Panasonic_FS-A1ST + gfx9000, ASCII8, R800.
+ROM SHA256: b157373b72b83160054a24de2d8a5a3b35f53943df7f037f2e89db5da9798ce5
+Scope: disk.c only; gameplay, hardware/audio code, boot and assets unchanged.
+
+PASS: write-protected / full / absent / directory-full / unformatted disks
+  -> DISK ERROR, original menu, 2433 input samples retained.
+  -> replace with a blank test disk, SAVE succeeds.
+PASS: eject during sequential write, in title AND game-over menu
+  -> cancel, same menu, recording retained, resave and replay match (4432).
+PASS: eject at file close -> error, menu, recording retained.
+PASS: load rejects bad version / checksum / truncated / unformatted / absent
+  -> menu usable, new game can start.
+PASS: previous-public-build save -> new ROM: tick 2432, score 4432, match=1.
+PASS: new ROM save -> previous-public-build: tick 2432, score 4432, match=1.
+PASS: existing user recording (local copy only): tick 2520, score 3670, match=1.
+PASS: old/new files from the same input: 2688 bytes, byte-identical.
+Replay SHA256: 1ba3a43868670a93c5a16cdffb9f96850f262dcae1a7467cce35c37b9690ad09
+
+No format or rule-ID change. Old SATORI.RPL (rule ID 1) remains unsupported.
+Disk error cancels the operation; it does not roll back an overwritten file.
+A partially written disk file may remain. RAM replay is retained after SAVE failure.
+Emulator tests, not physical hardware certification; physical CRC/seek faults not separately exercised.
+
+Implementation reference: https://map.grauw.nl/articles/dos-error-handling.php

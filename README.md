@@ -56,16 +56,23 @@ Load, Save and Replay View are available from the title and game-over screens. C
 - 同梱 `SAVE.dsk` は起動し直しても残ります。更新ZIPは別フォルダへ展開し、自分のSAVE.dskを上書きしないでください。
 - DISK OKを待ってから終了してください。同じディスクイメージを複数同時起動で共有しないでください。
 - 現状は8192入力までの仮上限です。STのマッパRAMを活用する長時間記録は未実装です。
-- 未挿入・ファイルなし・不正バージョン・チェックサム不一致の読込拒否は確認済みです。**書込禁止・容量不足・媒体エラーの復帰処理は未完成です。専用の空ディスクを使用してください。**
+- 未挿入・ファイルなし・不正バージョン・チェックサム不一致の読込拒否は確認済みです。**書込禁止・容量不足・媒体エラーでは保存を中止し、DISK ERRORを表示して元のメニューへ戻ります。メモリ上のリプレイは保持され、ディスク交換後に再保存できます。** 保存途中のファイルは不完全な可能性があるため、DISK OKが出た保存だけを使用してください。既存ファイルを元に戻す処理はありません。
 - 暫定ルールID2です。以前のSATORI.RPLとは互換性がありません。今後の試作版間の互換性は保証しません。
 
-The current save slot is `A:SATORI2.RPL`; S overwrites it. Preserve your SAVE.dsk when updating and wait for DISK OK before closing. Recording is currently limited to 8192 input samples. Mapper-backed long recordings and robust recovery from write protection, full disks and media errors are unfinished. Use a dedicated test disk. Replay compatibility between prototype versions is not guaranteed.
+The current save slot is `A:SATORI2.RPL`; S overwrites it. Preserve your SAVE.dsk when updating and wait for DISK OK before closing. Recording is currently limited to 8192 input samples. Mapper-backed long recordings remain unfinished. Disk errors cancel saving and return to the original menu with DISK ERROR, preserving the in-memory replay for another save attempt. An interrupted on-disk file may be incomplete; only use saves confirmed by DISK OK. Overwriting is not transactional. This disk-error update preserves replay format/rule ID 2 and compatibility with the preceding public build; future prototype compatibility is not guaranteed.
 
 ## 検証 / Validation
 
 openMSXのFS-A1ST + gfx9000で確認。今回の記録はtick2432・4432点で再生結果が一致。録音でMSX-MUSICの出力を確認。これはエミュレータ検証であり、実機動作を保証するものではありません。
 
 Verified in openMSX using FS-A1ST + gfx9000: replay ends at tick 2432 with score 4432 and match=1. FM output was recorded. These are emulator results, not real-hardware certification. See [capture log](replay-validation.txt).
+
+
+### ディスクエラー修正 / Disk error update (2026-09-09)
+
+書込禁止・容量不足・ディレクトリ満杯・未挿入・未フォーマット・保存中の取り出し・保存完了処理時の取り出しからのメニュー復帰をopenMSXで検証しました。保存中断後の再保存と再生も確認しています。旧版→修正版、修正版→旧版の再生はいずれも4432点で一致し、同じ入力の保存ファイルはバイト単位で一致しました。既存の3670点の記録も一致しました。弾幕・乱数・BGM・入力形式は変更していません。実機での障害試験は未実施です。
+
+Verified in openMSX: write protection, full disk/directory, absent/unformatted media, and removal during writing/closing. Saving stops, the menu remains usable, and the in-memory recording can be saved again. Cross-version playback matches; identical inputs produce identical replay files. Gameplay, RNG, music and replay format are unchanged. Real-hardware fault testing remains unverified. See [disk error validation](disk-error-validation.txt).
 
 ## ビルド / Build
 
