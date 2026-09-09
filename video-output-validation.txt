@@ -1,0 +1,31 @@
+Video9000 output initialization validation - 2026-09-09
+Previous ROM SHA256: 52569f29b23ae5ee319b3d959fb331c162e027848379443e3d97714ab371c035
+Updated ROM SHA256: dcb1c0c6bd279ac3bc26f37056864ce5387db3217860bfad24573dc6ad1f88af
+Environment: openMSX 21, Panasonic_FS-A1ST, R800, ASCII8.
+Both gfx9000 and video9000 extension configurations tested.
+
+Runtime change: hardware.c only, output initialization before existing V9990 reset.
+Write 0 to port 0x6F, wait for two fresh V9990 vertical-retrace rising edges.
+Observed first subsequent V9990 write after 28.660905 ms in both configurations.
+This exceeds one complete 60 Hz frame. No CPU-delay-loop timing assumption.
+Runtime 16304 -> 16313 bytes (+9); ROM 524288 bytes; DATA end remains 0xC862.
+game.c, disk.c, boot, audio logic, assets, replay header/seed/checksum and input format unchanged.
+
+PASS title startup with GFX9000 and Video9000.
+PASS existing 4432-point replay: tick 2432, 2433 inputs, match=1 (both configurations).
+PASS existing 3670-point replay: tick 2520, 2521 inputs, match=1 (GFX9000).
+PASS re-saving both recordings preserves every byte of SATORI2.RPL.
+PASS old/new GFX9000 framebuffer pairs match at ticks 600 and 1800 after accounting
+     for front/back page exchange caused by the additional startup wait.
+PASS updated GFX9000/Video9000 VRAM dumps are byte-identical at those ticks.
+PASS rebuilding the public source produces the exact distributed ROM.
+PASS ZIP ROM matches; bundled empty disks and launcher are unchanged.
+
+Replay format/rule ID remains 2; recording capacity remains 16384 input samples.
+The initialization delay changes wall-clock startup timing, not simulation or saved replay data.
+This update does not broaden the supported disk interfaces or change disk-error handling.
+These are emulator checks, not physical Video9000 or MSX hardware certification.
+Historical disk-error and capacity logs identify the earlier ROMs tested for those changes.
+
+Implementation reference: Sunrise Video9000 User Manual, pages 12-13 and 21:
+https://map.grauw.nl/resources/video/v9manual.pdf

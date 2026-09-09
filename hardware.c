@@ -10,6 +10,7 @@ __sfr __at (0x64) hw_reg_select;
 __sfr __at (0x65) hw_status;
 __sfr __at (0x66) hw_irq_flags;
 __sfr __at (0x67) hw_system;
+__sfr __at (0x6F) hw_video_control;
 __sfr __at (0xA0) hw_psg_select;
 __sfr __at (0xA1) hw_psg_write;
 __sfr __at (0xA2) hw_psg_read;
@@ -55,6 +56,12 @@ void gfx_init(void)
 {
     u8 i, bank, r, g, b;
     __asm di __endasm;
+    /* Video9000 manual pp. 12-13: disable genlock/external video, then
+     * wait at least one full frame before any V9990 register writes.
+     * Two fresh blank edges cover a full frame regardless of entry phase. */
+    hw_video_control = 0;
+    gfx_vblank();
+    gfx_vblank();
     hw_system = 0x02;
     hw_system = 0x00;
     /* R0..R28 are the defined writeable control registers. */
