@@ -1,0 +1,163 @@
+{
+  "physical_hardware_tested": false,
+  "rom_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7",
+  "checks": [
+    {
+      "name": "physical-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "physical-16KiB-VRAM",
+      "passed": true
+    },
+    {
+      "name": "title-on-boot",
+      "passed": true,
+      "mode": 0
+    },
+    {
+      "name": "space-start",
+      "passed": true
+    },
+    {
+      "name": "left-arrow",
+      "passed": true,
+      "pixels": 18
+    },
+    {
+      "name": "shift-focus",
+      "passed": true,
+      "normal_pixels": 18,
+      "focus_pixels": 6
+    },
+    {
+      "name": "pause",
+      "passed": true
+    },
+    {
+      "name": "pause-freezes-game",
+      "passed": true
+    },
+    {
+      "name": "resume",
+      "passed": true
+    },
+    {
+      "name": "native-hit-gameover",
+      "passed": true
+    },
+    {
+      "name": "high-score-retained",
+      "passed": true
+    },
+    {
+      "name": "restart-after-hit",
+      "passed": true
+    },
+    {
+      "name": "keyboard-demo-mode",
+      "passed": true
+    },
+    {
+      "name": "demo-space-exits-to-title",
+      "passed": true
+    },
+    {
+      "name": "held-demo-exit-does-not-start",
+      "passed": true
+    },
+    {
+      "name": "start-after-demo-exit",
+      "passed": true
+    },
+    {
+      "name": "paused-demo",
+      "passed": true
+    },
+    {
+      "name": "paused-demo-space-exits",
+      "passed": true
+    },
+    {
+      "name": "demo-reentry-after-exit",
+      "passed": true
+    },
+    {
+      "name": "scene-1-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-2-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-3-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-4-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-5-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-6-continues",
+      "passed": true
+    },
+    {
+      "name": "strict-VRAM-timing",
+      "passed": true,
+      "violations": 0
+    }
+  ],
+  "machine": {
+    "machine": "GRAZE_MSX1_RAM32_NTSC",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 32768,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.083444683612023,
+    "physical_hardware_tested": false
+  },
+  "rates": [
+    {
+      "scene": 1,
+      "updates": 100,
+      "emulated_seconds": 3.33350802965181,
+      "updates_per_second": 29.99842781553016
+    },
+    {
+      "scene": 2,
+      "updates": 99,
+      "emulated_seconds": 3.333484004251936,
+      "updates_per_second": 29.69865758279422
+    },
+    {
+      "scene": 3,
+      "updates": 100,
+      "emulated_seconds": 3.3335108233029587,
+      "updates_per_second": 29.998402675326105
+    },
+    {
+      "scene": 4,
+      "updates": 100,
+      "emulated_seconds": 3.33351976298664,
+      "updates_per_second": 29.998322226956233
+    },
+    {
+      "scene": 5,
+      "updates": 100,
+      "emulated_seconds": 3.3335077502866923,
+      "updates_per_second": 29.99843032955291
+    },
+    {
+      "scene": 6,
+      "updates": 100,
+      "emulated_seconds": 3.3335192042564117,
+      "updates_per_second": 29.998327254966693
+    }
+  ],
+  "capture_mode": "Keyboard-selected D showcase; invincible and labelled DEMO on screen. No gameplay-memory writes.",
+  "vram_timing_violations": 0
+}

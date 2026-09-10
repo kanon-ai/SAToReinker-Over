@@ -1,0 +1,9 @@
+{
+  "rom_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7",
+  "source_archive_sha256": "e2b0c35687bb3368deca899e605bc64fe4d71551e4b84ee66710170b474f5a0e",
+  "source_rebuild_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7",
+  "byte_identical": true,
+  "bios_or_disk_images_packaged": false,
+  "original_v9990_preservation_check_performed": true,
+  "original_v9990_rom_sha256": "dcb1c0c6bd279ac3bc26f37056864ce5387db3217860bfad24573dc6ad1f88af"
+}

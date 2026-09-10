@@ -1,0 +1,262 @@
+{
+  "machine": "GRAZE_MSX1_RAM32_PAL",
+  "bios": "externally installed C-BIOS MSX1 JP",
+  "physical_hardware_tested": false,
+  "rom_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7",
+  "rom_bytes": 524288,
+  "results": [
+    {
+      "name": "physical-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "physical-16KiB-VRAM",
+      "passed": true
+    },
+    {
+      "name": "native-PAL-TMS9929A-config",
+      "passed": true
+    },
+    {
+      "name": "title-boot-mode0",
+      "passed": true,
+      "mode": 0
+    },
+    {
+      "name": "SCREEN2",
+      "passed": true,
+      "registers": [
+        2,
+        194,
+        7,
+        255,
+        3,
+        55,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "ROM-debug-device-found",
+      "passed": true,
+      "device": "SAToReinker-Over-MSX1-PCG-v0.1.1.rom"
+    },
+    {
+      "name": "actual-executed-ROM-hash",
+      "passed": true,
+      "sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7"
+    },
+    {
+      "name": "boot-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "space-start",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-left",
+      "passed": true,
+      "before": 128,
+      "after": 122,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-right",
+      "passed": true,
+      "before": 122,
+      "after": 128,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-up",
+      "passed": true,
+      "before": 166,
+      "after": 157,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-down",
+      "passed": true,
+      "before": 157,
+      "after": 163,
+      "mode": 1
+    },
+    {
+      "name": "shift-focus-slower",
+      "passed": true,
+      "normal_pixels": 12,
+      "focus_pixels": 4,
+      "mode": 1
+    },
+    {
+      "name": "ESC-pauses",
+      "passed": true,
+      "mode": 3
+    },
+    {
+      "name": "pause-freezes-game-state",
+      "passed": true,
+      "frame": 28
+    },
+    {
+      "name": "ESC-resumes",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "ESC-resumes-sound-driver",
+      "passed": true,
+      "sound_run": 1
+    },
+    {
+      "name": "keyboard-smoke-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "seeded-dense-scene-progresses",
+      "passed": true,
+      "updates": 40,
+      "measured_updates_per_second": 25.0
+    },
+    {
+      "name": "seeded-dense-scene-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "pal-normal-stress-active",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "pal-normal-stress-no-hit",
+      "passed": true,
+      "mode": 1,
+      "first_frame": 23,
+      "last_frame": 73
+    },
+    {
+      "name": "pal-normal-stress-progresses",
+      "passed": true,
+      "updates": 50,
+      "measured_updates_per_second": 25.0
+    },
+    {
+      "name": "pal-normal-stress-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "ntsc-normal-stress-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "ntsc-normal-stress-active",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "ntsc-normal-stress-no-hit",
+      "passed": true,
+      "mode": 1,
+      "first_frame": 23,
+      "last_frame": 80
+    },
+    {
+      "name": "ntsc-normal-stress-progresses",
+      "passed": true,
+      "updates": 57,
+      "measured_updates_per_second": 28.5
+    },
+    {
+      "name": "ntsc-normal-stress-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "stock64-machine",
+      "passed": true
+    },
+    {
+      "name": "stock64-native-RAM",
+      "passed": true,
+      "bytes": 65536
+    },
+    {
+      "name": "stock64-title",
+      "passed": true
+    },
+    {
+      "name": "stock64-actual-ROM-hash",
+      "passed": true,
+      "sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7"
+    },
+    {
+      "name": "stock64-space-start",
+      "passed": true
+    },
+    {
+      "name": "stock64-VRAM-timing",
+      "passed": true,
+      "count": 0
+    }
+  ],
+  "environment": {
+    "machine": "GRAZE_MSX1_RAM32_PAL",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 32768,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.156190800786133,
+    "physical_hardware_tested": false
+  },
+  "stress": {
+    "scenario": "RAM-seeded scene4/frame60, invincible showcase mode4",
+    "player_survival_claim": false,
+    "updates": 40,
+    "emulated_seconds": 1.6000002793651147,
+    "updates_per_second": 24.999995634920847,
+    "final_scene": 4,
+    "final_frame": 104
+  },
+  "normal_play_stress": {
+    "pal": {
+      "scenario": "RAM-seeded normal mode1 scene4/frame20, player(8,180)",
+      "natural_survival_claim": false,
+      "collision_and_graze_enabled": true,
+      "updates": 50,
+      "emulated_seconds": 2.00000055873023,
+      "updates_per_second": 24.999993015874075,
+      "start_frame": 23,
+      "final_frame": 73,
+      "final_scene": 4,
+      "final_mode": 1,
+      "VRAM_timing_violations": 0
+    },
+    "ntsc": {
+      "scenario": "RAM-seeded normal mode1 scene4/frame20, player(8,180)",
+      "natural_survival_claim": false,
+      "collision_and_graze_enabled": true,
+      "updates": 57,
+      "emulated_seconds": 2.0,
+      "updates_per_second": 28.5,
+      "start_frame": 23,
+      "final_frame": 80,
+      "final_scene": 4,
+      "final_mode": 1,
+      "VRAM_timing_violations": 0
+    }
+  },
+  "stock_64KiB_smoke": {
+    "machine": "C-BIOS_MSX1_JP",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 65536,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.162540490481332,
+    "physical_hardware_tested": false
+  },
+  "passed": true
+}

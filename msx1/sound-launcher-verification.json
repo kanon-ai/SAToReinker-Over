@@ -1,0 +1,90 @@
+{
+  "rom_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7",
+  "rom_bytes": 524288,
+  "physical_hardware_tested": false,
+  "launcher": {
+    "ram_bytes": 32768,
+    "ram_base": "8000h",
+    "vdp": "TMS9918A",
+    "vram_bytes": 16384,
+    "mapper": "ASCII8",
+    "v9990_required": false,
+    "replay_disk_required": false,
+    "audible_driver_requested": true
+  },
+  "native_psg": {
+    "bass_periods": [
+      679,
+      906,
+      1016,
+      1141,
+      1357
+    ],
+    "percussion_periods": [
+      256,
+      512,
+      896,
+      1200
+    ],
+    "noise_periods": [
+      2,
+      12
+    ],
+    "bass_volumes": [
+      0,
+      4,
+      7,
+      10,
+      13
+    ],
+    "percussion_volumes": [
+      0,
+      3,
+      6,
+      8,
+      11,
+      13,
+      15
+    ],
+    "mixer_values": [
+      170,
+      184
+    ],
+    "snapshots": 135,
+    "sound_registers_written": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "io_direction_violations": 0,
+    "sound_writes_to_r14_r15": 0,
+    "pause_silences_all_channels": true,
+    "resume_restarts_groove": true,
+    "vram_timing_violations": 0,
+    "machine": {
+      "machine": "GRAZE_MSX1_RAM32_NTSC",
+      "version": "openMSX 21.0-unknown",
+      "ram_bytes": 32768,
+      "vram_bytes": 16384,
+      "emulated_seconds": 9.081810118325095,
+      "physical_hardware_tested": false
+    }
+  },
+  "audio": {
+    "path": "work\\sound\\a98055d88d57\\native-psg.wav",
+    "frames": 198144,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak": 13605,
+    "nonzero_samples": 195446,
+    "native_pcm_verified": true,
+    "subjective_listening_performed": false
+  },
+  "rom_unchanged": true
+}
