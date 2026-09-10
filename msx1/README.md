@@ -59,17 +59,13 @@ DEMOは当たり判定を省くため、下記の通常プレイ性能測定と�
 Silent GIFs captured from the actual ROM in openMSX, using the keyboard-selected **invincible DEMO**.
 These are not human survival runs. The demo skips collision checks; its speed is distinct from the normal-play measurement below.
 
-### 序盤 / Early
+### WAVE 2 — TWIN GALAXIES
 
-![MSX1 early pattern — invincible DEMO](wave-1-emulator.gif)
+![MSX1 WAVE 2 — TWIN GALAXIES — invincible DEMO](wave-2-emulator.gif)
 
-### 中盤 / Middle
+### WAVE 4 — MIRROR WINGS
 
-![MSX1 middle pattern — invincible DEMO](wave-3-emulator.gif)
-
-### 高密度 / Dense
-
-![MSX1 dense pattern — invincible DEMO](wave-5-emulator.gif)
+![MSX1 WAVE 4 — MIRROR WINGS — invincible DEMO](wave-4-emulator.gif)
 
 ## PCGを弾幕に使う / Using PCG for bullets
 
