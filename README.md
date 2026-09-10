@@ -1,5 +1,22 @@
 # SAToReinker-Over
 
+## 初代MSX版 — 弾幕表現チャレンジ / MSX1 challenge
+
+**[MSX版の紹介・ダウンロード / MSX1 page and downloads](msx1/README.md)**
+
+初代MSXのPCGで色鮮やかな弾幕をどこまで動かせるか試す、SAToReinker-Overの実験版を追加しました。
+**RAM32KiB・VRAM16KiB・512KiB ASCII8 ROM、リプレイなし。** ６種類の弾幕、かすり加点、PSGサウンドを搭載しています。
+専用ページにROM、ソース、Windows起動セット、３段階の実ROM GIFを掲載しています。実機は未検証・無保証です。
+
+A playable **MSX1 PCG bullet-pattern rendering challenge**: 32 KiB RAM, 16 KiB VRAM, a 512 KiB ASCII8 ROM and no replay.
+Six patterns, graze scoring and PSG sound. The dedicated page includes the ROM, full source archive, Windows launcher bundle
+and three native emulator GIFs. Experimental, no warranty, and not tested on physical hardware.
+
+## turbo R + V9990版 / turbo R + V9990 version
+
+以下はV9990版の説明です。MSX版は上記の専用ページをご覧ください。
+The following documentation covers the V9990 version; see the page above for the separate MSX1 version.
+
 MSX turbo R + V9990用の弾幕避けゲーム。**開発中の試作版です。正式完成版ではありません。**
 A work-in-progress bullet-dodging game for **MSX turbo R + V9990**, in a **512 KiB ASCII8 MegaROM**.
 
