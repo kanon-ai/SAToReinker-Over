@@ -34,6 +34,16 @@ Each silent 8-second, 25 fps GIF uses native emulator VRAM and palette captures 
 
 MSX-MUSIC drums and repeating bass without a melody, PSG graze effects, lime-green curved lasers, and slowly fading geoglyph-inspired backgrounds. Difficulty and rhythm tempo increase as the run continues.
 
+## 技術的な仕組み / How it works
+
+**弾はV9990のビットマップへ描画しています。** 起動時にVRAMへ用意した弾画像を、透明色付きのコピー命令で配置します。表示中の画面とは別のページに背景・弾・レーザー・自機を描き、描画完了を確認してから垂直帰線に合わせて表示を切り替えます。スプライトの交互表示による点滅や、描画途中の画面が見えるチラつきを避けるための構成です。
+
+**Bullets are drawn into the V9990 bitmap.** Small bullet images prepared in VRAM at startup are placed using transparent copy commands. The background, bullets, laser and player are drawn on a separate page; the game waits for drawing to finish, then switches the display during vertical retrace. This avoids alternating sprite visibility and exposing a partly drawn frame.
+
+通常弾は最大192発を管理します。これはソフトウェアの管理枠であり、192発で一定のfpsを保証する数値ではありません。R800は座標と当たり判定、V9990は画像のコピーと線の描画を担当します。固定小数点演算、パレットによる地上絵の変化、入力列から再現するリプレイの仕組みも、[技術解説 / Technical notes](TECHNICAL.md)にまとめています。
+
+The game has a pool of up to 192 ordinary bullets; this is a software capacity, not a fixed-fps guarantee. The R800 handles positions and collisions, while the V9990 performs image copies and line drawing. [Technical notes](TECHNICAL.md) explain buffering, fixed-point movement, palette-driven geoglyph transitions and deterministic input replays. Physical hardware remains unverified.
+
 ## 操作 / Controls
 
 | 操作 / Action | キーボード / Keyboard | MSX port 1 pad |
