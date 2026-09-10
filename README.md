@@ -6,11 +6,11 @@
 
 初代MSXのPCGで色鮮やかな弾幕をどこまで動かせるか試す、SAToReinker-Overの実験版を追加しました。
 **RAM32KiB・VRAM16KiB・512KiB ASCII8 ROM、リプレイなし。** ６種類の弾幕、かすり加点、PSGサウンドを搭載しています。
-専用ページにROM、ソース、Windows起動セット、３段階の実ROM GIFを掲載しています。実機は未検証・無保証です。
+専用ページにROM、ソース、Windows起動セット、WAVE 2・WAVE 4の実ROM GIFを掲載しています。実機は未検証・無保証です。
 
 A playable **MSX1 PCG bullet-pattern rendering challenge**: 32 KiB RAM, 16 KiB VRAM, a 512 KiB ASCII8 ROM and no replay.
 Six patterns, graze scoring and PSG sound. The dedicated page includes the ROM, full source archive, Windows launcher bundle
-and three native emulator GIFs. Experimental, no warranty, and not tested on physical hardware.
+and native emulator GIFs of WAVE 2 and WAVE 4. Experimental, no warranty, and not tested on physical hardware.
 
 ## turbo R + V9990版 / turbo R + V9990 version
 
