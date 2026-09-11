@@ -1,0 +1,5612 @@
+{
+  "passed": true,
+  "test_kind": "Actual Z80 ROM execution in a private openMSX process",
+  "targeted_state_injection": true,
+  "ordinary_gameplay_capture": false,
+  "physical_hardware_tested": false,
+  "source_rom": "outputs/SAToReinker-Over-MSX1-PCG-v0.2.rom",
+  "rom_sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
+  "machine": {
+    "machine": "GRAZE_MSX1_RAM32_NTSC",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 32768,
+    "vram_bytes": 16384,
+    "emulated_seconds": 2.765834484550411,
+    "physical_hardware_tested": false
+  },
+  "waves_checked": 37,
+  "wave_peak_frames": {
+    "0": {
+      "peak": 59,
+      "dynamic_peak": 32
+    },
+    "1": {
+      "peak": 50,
+      "dynamic_peak": 6
+    },
+    "2": {
+      "peak": 57,
+      "dynamic_peak": 0
+    },
+    "3": {
+      "peak": 60,
+      "dynamic_peak": 59
+    },
+    "4": {
+      "peak": 56,
+      "dynamic_peak": 50
+    },
+    "5": {
+      "peak": 51,
+      "dynamic_peak": 47
+    },
+    "6": {
+      "peak": 54,
+      "dynamic_peak": 19
+    },
+    "7": {
+      "peak": 58,
+      "dynamic_peak": 0
+    },
+    "8": {
+      "peak": 53,
+      "dynamic_peak": 54
+    },
+    "9": {
+      "peak": 55,
+      "dynamic_peak": 29
+    },
+    "10": {
+      "peak": 56,
+      "dynamic_peak": 28
+    },
+    "11": {
+      "peak": 58,
+      "dynamic_peak": 0
+    },
+    "12": {
+      "peak": 58,
+      "dynamic_peak": 0
+    },
+    "13": {
+      "peak": 45,
+      "dynamic_peak": 0
+    },
+    "14": {
+      "peak": 56,
+      "dynamic_peak": 29
+    },
+    "15": {
+      "peak": 48,
+      "dynamic_peak": 37
+    },
+    "16": {
+      "peak": 58,
+      "dynamic_peak": 0
+    },
+    "17": {
+      "peak": 48,
+      "dynamic_peak": 37
+    },
+    "18": {
+      "peak": 55,
+      "dynamic_peak": 36
+    },
+    "19": {
+      "peak": 53,
+      "dynamic_peak": 0
+    },
+    "20": {
+      "peak": 58,
+      "dynamic_peak": 0
+    },
+    "21": {
+      "peak": 53,
+      "dynamic_peak": 0
+    },
+    "22": {
+      "peak": 54,
+      "dynamic_peak": 19
+    },
+    "23": {
+      "peak": 55,
+      "dynamic_peak": 0
+    },
+    "24": {
+      "peak": 53,
+      "dynamic_peak": 0
+    },
+    "25": {
+      "peak": 54,
+      "dynamic_peak": 19
+    },
+    "26": {
+      "peak": 51,
+      "dynamic_peak": 0
+    },
+    "27": {
+      "peak": 55,
+      "dynamic_peak": 0
+    },
+    "28": {
+      "peak": 55,
+      "dynamic_peak": 19
+    },
+    "29": {
+      "peak": 52,
+      "dynamic_peak": 10
+    },
+    "30": {
+      "peak": 55,
+      "dynamic_peak": 12
+    },
+    "31": {
+      "peak": 60,
+      "dynamic_peak": 33
+    },
+    "32": {
+      "peak": 52,
+      "dynamic_peak": 0
+    },
+    "33": {
+      "peak": 57,
+      "dynamic_peak": 0
+    },
+    "34": {
+      "peak": 52,
+      "dynamic_peak": 27
+    },
+    "35": {
+      "peak": 53,
+      "dynamic_peak": 0
+    },
+    "36": {
+      "peak": 58,
+      "dynamic_peak": 0
+    }
+  },
+  "rom_banks_checked": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    15,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "upper_half_bank_boundary_packets_checked": true,
+  "decoder_scenarios": [
+    {
+      "scenario": "targeted scene=0, frame=0, page=0, mode=4",
+      "bank": 4,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=32, page=0, mode=4",
+      "bank": 4,
+      "address": 25962,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=58, page=0, mode=4",
+      "bank": 4,
+      "address": 29638,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=59, page=0, mode=4",
+      "bank": 4,
+      "address": 29815,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=60, page=0, mode=4",
+      "bank": 4,
+      "address": 30001,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=127, page=0, mode=4",
+      "bank": 5,
+      "address": 27752,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=0, page=0, mode=4",
+      "bank": 5,
+      "address": 27760,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=6, page=0, mode=4",
+      "bank": 5,
+      "address": 27814,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=49, page=0, mode=4",
+      "bank": 6,
+      "address": 26154,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=50, page=0, mode=4",
+      "bank": 6,
+      "address": 26358,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=51, page=0, mode=4",
+      "bank": 6,
+      "address": 26570,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=127, page=0, mode=4",
+      "bank": 6,
+      "address": 31014,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=0, page=0, mode=4",
+      "bank": 6,
+      "address": 31022,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=56, page=0, mode=4",
+      "bank": 8,
+      "address": 26762,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=57, page=0, mode=4",
+      "bank": 8,
+      "address": 27213,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=58, page=0, mode=4",
+      "bank": 8,
+      "address": 27696,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=127, page=0, mode=4",
+      "bank": 9,
+      "address": 32528,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=0, page=0, mode=4",
+      "bank": 9,
+      "address": 32536,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=59, page=0, mode=4",
+      "bank": 12,
+      "address": 24576,
+      "dynamic_count": 15,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=60, page=0, mode=4",
+      "bank": 12,
+      "address": 25121,
+      "dynamic_count": 10,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=61, page=0, mode=4",
+      "bank": 12,
+      "address": 25629,
+      "dynamic_count": 12,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=127, page=0, mode=4",
+      "bank": 13,
+      "address": 29769,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=0, page=0, mode=4",
+      "bank": 13,
+      "address": 29777,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=50, page=0, mode=4",
+      "bank": 15,
+      "address": 24985,
+      "dynamic_count": 24,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=55, page=0, mode=4",
+      "bank": 15,
+      "address": 27330,
+      "dynamic_count": 17,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=56, page=0, mode=4",
+      "bank": 15,
+      "address": 27764,
+      "dynamic_count": 23,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=57, page=0, mode=4",
+      "bank": 15,
+      "address": 28276,
+      "dynamic_count": 17,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=127, page=0, mode=4",
+      "bank": 17,
+      "address": 27110,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=0, page=0, mode=4",
+      "bank": 17,
+      "address": 27118,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=47, page=0, mode=4",
+      "bank": 19,
+      "address": 28743,
+      "dynamic_count": 14,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=50, page=0, mode=4",
+      "bank": 19,
+      "address": 30620,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=51, page=0, mode=4",
+      "bank": 19,
+      "address": 31230,
+      "dynamic_count": 10,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=52, page=0, mode=4",
+      "bank": 19,
+      "address": 31846,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=127, page=0, mode=4",
+      "bank": 21,
+      "address": 27812,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=0, page=0, mode=4",
+      "bank": 21,
+      "address": 27820,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=19, page=0, mode=4",
+      "bank": 21,
+      "address": 28074,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=53, page=0, mode=4",
+      "bank": 22,
+      "address": 26986,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=54, page=0, mode=4",
+      "bank": 22,
+      "address": 27319,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=55, page=0, mode=4",
+      "bank": 22,
+      "address": 27637,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=127, page=0, mode=4",
+      "bank": 23,
+      "address": 25391,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=0, page=0, mode=4",
+      "bank": 23,
+      "address": 25399,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=57, page=0, mode=4",
+      "bank": 23,
+      "address": 31392,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=58, page=0, mode=4",
+      "bank": 23,
+      "address": 31603,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=59, page=0, mode=4",
+      "bank": 23,
+      "address": 31846,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=127, page=0, mode=4",
+      "bank": 24,
+      "address": 30260,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=0, page=0, mode=4",
+      "bank": 24,
+      "address": 30268,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=52, page=0, mode=4",
+      "bank": 25,
+      "address": 27611,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=53, page=0, mode=4",
+      "bank": 25,
+      "address": 27842,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=54, page=0, mode=4",
+      "bank": 25,
+      "address": 28088,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=127, page=0, mode=4",
+      "bank": 25,
+      "address": 32281,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=0, page=0, mode=4",
+      "bank": 25,
+      "address": 32289,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=29, page=0, mode=4",
+      "bank": 26,
+      "address": 25234,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=54, page=0, mode=4",
+      "bank": 26,
+      "address": 29512,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=55, page=0, mode=4",
+      "bank": 26,
+      "address": 29751,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=56, page=0, mode=4",
+      "bank": 26,
+      "address": 29985,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=127, page=0, mode=4",
+      "bank": 27,
+      "address": 28451,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=0, page=0, mode=4",
+      "bank": 27,
+      "address": 28459,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=28, page=0, mode=4",
+      "bank": 27,
+      "address": 29242,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=31, page=0, mode=4",
+      "bank": 27,
+      "address": 29445,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=32, page=0, mode=4",
+      "bank": 27,
+      "address": 29506,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=55, page=0, mode=4",
+      "bank": 28,
+      "address": 24576,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=56, page=0, mode=4",
+      "bank": 28,
+      "address": 24772,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=57, page=0, mode=4",
+      "bank": 28,
+      "address": 24997,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=127, page=0, mode=4",
+      "bank": 28,
+      "address": 31716,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=0, page=0, mode=4",
+      "bank": 28,
+      "address": 31724,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=57, page=0, mode=4",
+      "bank": 29,
+      "address": 26732,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=58, page=0, mode=4",
+      "bank": 29,
+      "address": 26847,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=59, page=0, mode=4",
+      "bank": 29,
+      "address": 26974,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=127, page=0, mode=4",
+      "bank": 29,
+      "address": 30641,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=0, page=0, mode=4",
+      "bank": 29,
+      "address": 30649,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=57, page=0, mode=4",
+      "bank": 30,
+      "address": 28400,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=58, page=0, mode=4",
+      "bank": 30,
+      "address": 28605,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=59, page=0, mode=4",
+      "bank": 30,
+      "address": 28844,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=127, page=0, mode=4",
+      "bank": 31,
+      "address": 27452,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=0, page=0, mode=4",
+      "bank": 31,
+      "address": 27460,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=44, page=0, mode=4",
+      "bank": 31,
+      "address": 29908,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=45, page=0, mode=4",
+      "bank": 31,
+      "address": 30047,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=46, page=0, mode=4",
+      "bank": 31,
+      "address": 30192,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=69, page=0, mode=4",
+      "bank": 32,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=127, page=0, mode=4",
+      "bank": 32,
+      "address": 25681,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=0, page=0, mode=4",
+      "bank": 32,
+      "address": 25689,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=29, page=0, mode=4",
+      "bank": 32,
+      "address": 27479,
+      "dynamic_count": 7,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=51, page=0, mode=4",
+      "bank": 32,
+      "address": 32217,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=52, page=0, mode=4",
+      "bank": 33,
+      "address": 24576,
+      "dynamic_count": 7,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=55, page=0, mode=4",
+      "bank": 33,
+      "address": 25503,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=56, page=0, mode=4",
+      "bank": 33,
+      "address": 25799,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=57, page=0, mode=4",
+      "bank": 33,
+      "address": 26100,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=94, page=0, mode=4",
+      "bank": 33,
+      "address": 32712,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=95, page=0, mode=4",
+      "bank": 34,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=127, page=0, mode=4",
+      "bank": 34,
+      "address": 24887,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=0, page=0, mode=4",
+      "bank": 34,
+      "address": 24895,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=37, page=0, mode=4",
+      "bank": 34,
+      "address": 27821,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=47, page=0, mode=4",
+      "bank": 34,
+      "address": 30714,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=48, page=0, mode=4",
+      "bank": 34,
+      "address": 31033,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=49, page=0, mode=4",
+      "bank": 34,
+      "address": 31359,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=52, page=0, mode=4",
+      "bank": 34,
+      "address": 32357,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=53, page=0, mode=4",
+      "bank": 35,
+      "address": 24576,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=127, page=0, mode=4",
+      "bank": 35,
+      "address": 30947,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=0, page=0, mode=4",
+      "bank": 35,
+      "address": 30955,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=29, page=0, mode=4",
+      "bank": 35,
+      "address": 32522,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=30, page=0, mode=4",
+      "bank": 36,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=57, page=0, mode=4",
+      "bank": 36,
+      "address": 29877,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=58, page=0, mode=4",
+      "bank": 36,
+      "address": 30137,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=59, page=0, mode=4",
+      "bank": 36,
+      "address": 30396,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=68, page=0, mode=4",
+      "bank": 36,
+      "address": 32528,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=69, page=0, mode=4",
+      "bank": 37,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=127, page=0, mode=4",
+      "bank": 37,
+      "address": 29230,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=0, page=0, mode=4",
+      "bank": 37,
+      "address": 29238,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=37, page=0, mode=4",
+      "bank": 37,
+      "address": 31478,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=42, page=0, mode=4",
+      "bank": 37,
+      "address": 32465,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=43, page=0, mode=4",
+      "bank": 38,
+      "address": 24576,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=47, page=0, mode=4",
+      "bank": 38,
+      "address": 25516,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=48, page=0, mode=4",
+      "bank": 38,
+      "address": 25758,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=49, page=0, mode=4",
+      "bank": 38,
+      "address": 26012,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=127, page=0, mode=4",
+      "bank": 38,
+      "address": 32004,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=0, page=0, mode=4",
+      "bank": 38,
+      "address": 32012,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=24, page=0, mode=4",
+      "bank": 38,
+      "address": 32624,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=25, page=0, mode=4",
+      "bank": 39,
+      "address": 24576,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=36, page=0, mode=4",
+      "bank": 39,
+      "address": 25836,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=54, page=0, mode=4",
+      "bank": 39,
+      "address": 29374,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=55, page=0, mode=4",
+      "bank": 39,
+      "address": 29614,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=56, page=0, mode=4",
+      "bank": 39,
+      "address": 29884,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=66, page=0, mode=4",
+      "bank": 39,
+      "address": 32322,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=67, page=0, mode=4",
+      "bank": 40,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=127, page=0, mode=4",
+      "bank": 40,
+      "address": 29153,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=0, page=0, mode=4",
+      "bank": 40,
+      "address": 29161,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=31, page=0, mode=4",
+      "bank": 40,
+      "address": 30977,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=32, page=0, mode=4",
+      "bank": 40,
+      "address": 31127,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=40, page=0, mode=4",
+      "bank": 40,
+      "address": 32505,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=41, page=0, mode=4",
+      "bank": 41,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=52, page=0, mode=4",
+      "bank": 41,
+      "address": 27183,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=53, page=0, mode=4",
+      "bank": 41,
+      "address": 27439,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=54, page=0, mode=4",
+      "bank": 41,
+      "address": 27731,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=73, page=0, mode=4",
+      "bank": 41,
+      "address": 32530,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=74, page=0, mode=4",
+      "bank": 42,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=127, page=0, mode=4",
+      "bank": 42,
+      "address": 27846,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=0, page=0, mode=4",
+      "bank": 42,
+      "address": 27854,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=53, page=0, mode=4",
+      "bank": 42,
+      "address": 32456,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=54, page=0, mode=4",
+      "bank": 43,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=57, page=0, mode=4",
+      "bank": 43,
+      "address": 25209,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=58, page=0, mode=4",
+      "bank": 43,
+      "address": 25424,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=59, page=0, mode=4",
+      "bank": 43,
+      "address": 25652,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=127, page=0, mode=4",
+      "bank": 43,
+      "address": 32226,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=0, page=0, mode=4",
+      "bank": 43,
+      "address": 32234,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=18, page=0, mode=4",
+      "bank": 43,
+      "address": 32671,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=19, page=0, mode=4",
+      "bank": 44,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=52, page=0, mode=4",
+      "bank": 44,
+      "address": 29643,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=53, page=0, mode=4",
+      "bank": 44,
+      "address": 29880,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=54, page=0, mode=4",
+      "bank": 44,
+      "address": 30149,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=64, page=0, mode=4",
+      "bank": 44,
+      "address": 32563,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=65, page=0, mode=4",
+      "bank": 45,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=127, page=0, mode=4",
+      "bank": 45,
+      "address": 29137,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=0, page=0, mode=4",
+      "bank": 45,
+      "address": 29145,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=19, page=0, mode=4",
+      "bank": 45,
+      "address": 29390,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=39, page=0, mode=4",
+      "bank": 45,
+      "address": 32345,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=40, page=0, mode=4",
+      "bank": 46,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=53, page=0, mode=4",
+      "bank": 46,
+      "address": 28396,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=54, page=0, mode=4",
+      "bank": 46,
+      "address": 28723,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=55, page=0, mode=4",
+      "bank": 46,
+      "address": 29057,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=68, page=0, mode=4",
+      "bank": 46,
+      "address": 32551,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=69, page=0, mode=4",
+      "bank": 47,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=127, page=0, mode=4",
+      "bank": 47,
+      "address": 26845,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=0, page=0, mode=4",
+      "bank": 47,
+      "address": 26853,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=54, page=0, mode=4",
+      "bank": 47,
+      "address": 31634,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=55, page=0, mode=4",
+      "bank": 47,
+      "address": 31808,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=56, page=0, mode=4",
+      "bank": 47,
+      "address": 32015,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=58, page=0, mode=4",
+      "bank": 47,
+      "address": 32429,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=59, page=0, mode=4",
+      "bank": 48,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=127, page=0, mode=4",
+      "bank": 48,
+      "address": 30004,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=0, page=0, mode=4",
+      "bank": 48,
+      "address": 30012,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=49, page=0, mode=4",
+      "bank": 48,
+      "address": 32600,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=50, page=0, mode=4",
+      "bank": 49,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=52, page=0, mode=4",
+      "bank": 49,
+      "address": 24836,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=53, page=0, mode=4",
+      "bank": 49,
+      "address": 24966,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=54, page=0, mode=4",
+      "bank": 49,
+      "address": 25103,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=127, page=0, mode=4",
+      "bank": 49,
+      "address": 27694,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=0, page=0, mode=4",
+      "bank": 49,
+      "address": 27702,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=19, page=0, mode=4",
+      "bank": 49,
+      "address": 27958,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=44, page=0, mode=4",
+      "bank": 49,
+      "address": 32298,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=45, page=0, mode=4",
+      "bank": 50,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=53, page=0, mode=4",
+      "bank": 50,
+      "address": 26958,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=54, page=0, mode=4",
+      "bank": 50,
+      "address": 27279,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=55, page=0, mode=4",
+      "bank": 50,
+      "address": 27603,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=80, page=0, mode=4",
+      "bank": 50,
+      "address": 32666,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=81, page=0, mode=4",
+      "bank": 51,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=127, page=0, mode=4",
+      "bank": 51,
+      "address": 25219,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=0, page=0, mode=4",
+      "bank": 51,
+      "address": 25227,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=31, page=0, mode=4",
+      "bank": 51,
+      "address": 27276,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=32, page=0, mode=4",
+      "bank": 51,
+      "address": 27425,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=50, page=0, mode=4",
+      "bank": 51,
+      "address": 31079,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=51, page=0, mode=4",
+      "bank": 51,
+      "address": 31303,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=52, page=0, mode=4",
+      "bank": 51,
+      "address": 31562,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=55, page=0, mode=4",
+      "bank": 51,
+      "address": 32328,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=56, page=0, mode=4",
+      "bank": 52,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=102, page=0, mode=4",
+      "bank": 52,
+      "address": 32625,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=103, page=0, mode=4",
+      "bank": 53,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=127, page=0, mode=4",
+      "bank": 53,
+      "address": 25028,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=0, page=0, mode=4",
+      "bank": 53,
+      "address": 25036,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=54, page=0, mode=4",
+      "bank": 53,
+      "address": 29997,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=55, page=0, mode=4",
+      "bank": 53,
+      "address": 30176,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=56, page=0, mode=4",
+      "bank": 53,
+      "address": 30391,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=67, page=0, mode=4",
+      "bank": 53,
+      "address": 32550,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=68, page=0, mode=4",
+      "bank": 54,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=127, page=0, mode=4",
+      "bank": 54,
+      "address": 28648,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=0, page=0, mode=4",
+      "bank": 54,
+      "address": 28656,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=19, page=0, mode=4",
+      "bank": 54,
+      "address": 28879,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=54, page=0, mode=4",
+      "bank": 54,
+      "address": 32572,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=55, page=0, mode=4",
+      "bank": 55,
+      "address": 24576,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=56, page=0, mode=4",
+      "bank": 55,
+      "address": 24738,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=127, page=0, mode=4",
+      "bank": 55,
+      "address": 27534,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=0, page=0, mode=4",
+      "bank": 55,
+      "address": 27542,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=10, page=0, mode=4",
+      "bank": 55,
+      "address": 27622,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=51, page=0, mode=4",
+      "bank": 55,
+      "address": 30878,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=52, page=0, mode=4",
+      "bank": 55,
+      "address": 31013,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=53, page=0, mode=4",
+      "bank": 55,
+      "address": 31178,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=62, page=0, mode=4",
+      "bank": 55,
+      "address": 32532,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=63, page=0, mode=4",
+      "bank": 56,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=127, page=0, mode=4",
+      "bank": 56,
+      "address": 27579,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=0, page=0, mode=4",
+      "bank": 56,
+      "address": 27587,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=12, page=0, mode=4",
+      "bank": 56,
+      "address": 27699,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=31, page=0, mode=4",
+      "bank": 56,
+      "address": 28627,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=32, page=0, mode=4",
+      "bank": 56,
+      "address": 28693,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=54, page=0, mode=4",
+      "bank": 56,
+      "address": 31532,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=55, page=0, mode=4",
+      "bank": 56,
+      "address": 31724,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=56, page=0, mode=4",
+      "bank": 56,
+      "address": 31911,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=59, page=0, mode=4",
+      "bank": 56,
+      "address": 32528,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=60, page=0, mode=4",
+      "bank": 57,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=127, page=0, mode=4",
+      "bank": 57,
+      "address": 30081,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=0, page=0, mode=4",
+      "bank": 57,
+      "address": 30089,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=33, page=0, mode=4",
+      "bank": 57,
+      "address": 30942,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=54, page=0, mode=4",
+      "bank": 57,
+      "address": 32624,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=55, page=0, mode=4",
+      "bank": 58,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=59, page=0, mode=4",
+      "bank": 58,
+      "address": 25018,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=60, page=0, mode=4",
+      "bank": 58,
+      "address": 25134,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=61, page=0, mode=4",
+      "bank": 58,
+      "address": 25257,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=127, page=0, mode=4",
+      "bank": 58,
+      "address": 28640,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=0, page=0, mode=4",
+      "bank": 58,
+      "address": 28648,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=45, page=0, mode=4",
+      "bank": 58,
+      "address": 32426,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=46, page=0, mode=4",
+      "bank": 59,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=51, page=0, mode=4",
+      "bank": 59,
+      "address": 25617,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=52, page=0, mode=4",
+      "bank": 59,
+      "address": 25821,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=53, page=0, mode=4",
+      "bank": 59,
+      "address": 26040,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=127, page=0, mode=4",
+      "bank": 59,
+      "address": 32700,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=0, page=0, mode=4",
+      "bank": 59,
+      "address": 32708,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=6, page=0, mode=4",
+      "bank": 59,
+      "address": 32756,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=7, page=0, mode=4",
+      "bank": 60,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=56, page=0, mode=4",
+      "bank": 60,
+      "address": 30478,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=57, page=0, mode=4",
+      "bank": 60,
+      "address": 30711,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=58, page=0, mode=4",
+      "bank": 60,
+      "address": 30950,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=65, page=0, mode=4",
+      "bank": 60,
+      "address": 32490,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=66, page=0, mode=4",
+      "bank": 61,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=127, page=0, mode=4",
+      "bank": 61,
+      "address": 29420,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=0, page=0, mode=4",
+      "bank": 61,
+      "address": 29428,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=27, page=0, mode=4",
+      "bank": 61,
+      "address": 30058,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=48, page=0, mode=4",
+      "bank": 61,
+      "address": 32545,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=49, page=0, mode=4",
+      "bank": 62,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=51, page=0, mode=4",
+      "bank": 62,
+      "address": 24847,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=52, page=0, mode=4",
+      "bank": 62,
+      "address": 24983,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=53, page=0, mode=4",
+      "bank": 62,
+      "address": 25136,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=127, page=0, mode=4",
+      "bank": 62,
+      "address": 27917,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=0, page=0, mode=4",
+      "bank": 62,
+      "address": 27925,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=52, page=0, mode=4",
+      "bank": 62,
+      "address": 29604,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=53, page=0, mode=4",
+      "bank": 62,
+      "address": 29668,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=54, page=0, mode=4",
+      "bank": 62,
+      "address": 29733,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=127, page=0, mode=4",
+      "bank": 62,
+      "address": 31279,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=0, page=0, mode=4",
+      "bank": 62,
+      "address": 31287,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=36, page=0, mode=4",
+      "bank": 62,
+      "address": 32649,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=37, page=0, mode=4",
+      "bank": 63,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=57, page=0, mode=4",
+      "bank": 63,
+      "address": 26773,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=58, page=0, mode=4",
+      "bank": 63,
+      "address": 26903,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=59, page=0, mode=4",
+      "bank": 63,
+      "address": 27041,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=127, page=0, mode=4",
+      "bank": 63,
+      "address": 30691,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=16, page=0, mode=4",
+      "bank": 10,
+      "address": 25310,
+      "dynamic_count": 12,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=0, page=1, mode=4",
+      "bank": 4,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=32, page=1, mode=4",
+      "bank": 4,
+      "address": 25962,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=58, page=1, mode=4",
+      "bank": 4,
+      "address": 29638,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=59, page=1, mode=4",
+      "bank": 4,
+      "address": 29815,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=60, page=1, mode=4",
+      "bank": 4,
+      "address": 30001,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=0, frame=127, page=1, mode=4",
+      "bank": 5,
+      "address": 27752,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=0, page=1, mode=4",
+      "bank": 5,
+      "address": 27760,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=6, page=1, mode=4",
+      "bank": 5,
+      "address": 27814,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=49, page=1, mode=4",
+      "bank": 6,
+      "address": 26154,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=50, page=1, mode=4",
+      "bank": 6,
+      "address": 26358,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=51, page=1, mode=4",
+      "bank": 6,
+      "address": 26570,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=1, frame=127, page=1, mode=4",
+      "bank": 6,
+      "address": 31014,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=0, page=1, mode=4",
+      "bank": 6,
+      "address": 31022,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=56, page=1, mode=4",
+      "bank": 8,
+      "address": 26762,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=57, page=1, mode=4",
+      "bank": 8,
+      "address": 27213,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=58, page=1, mode=4",
+      "bank": 8,
+      "address": 27696,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=2, frame=127, page=1, mode=4",
+      "bank": 9,
+      "address": 32528,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=0, page=1, mode=4",
+      "bank": 9,
+      "address": 32536,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=59, page=1, mode=4",
+      "bank": 12,
+      "address": 24576,
+      "dynamic_count": 15,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=60, page=1, mode=4",
+      "bank": 12,
+      "address": 25121,
+      "dynamic_count": 10,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=61, page=1, mode=4",
+      "bank": 12,
+      "address": 25629,
+      "dynamic_count": 12,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=127, page=1, mode=4",
+      "bank": 13,
+      "address": 29769,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=0, page=1, mode=4",
+      "bank": 13,
+      "address": 29777,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=50, page=1, mode=4",
+      "bank": 15,
+      "address": 24985,
+      "dynamic_count": 24,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=55, page=1, mode=4",
+      "bank": 15,
+      "address": 27330,
+      "dynamic_count": 17,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=56, page=1, mode=4",
+      "bank": 15,
+      "address": 27764,
+      "dynamic_count": 23,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=57, page=1, mode=4",
+      "bank": 15,
+      "address": 28276,
+      "dynamic_count": 17,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=4, frame=127, page=1, mode=4",
+      "bank": 17,
+      "address": 27110,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=0, page=1, mode=4",
+      "bank": 17,
+      "address": 27118,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=47, page=1, mode=4",
+      "bank": 19,
+      "address": 28743,
+      "dynamic_count": 14,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=50, page=1, mode=4",
+      "bank": 19,
+      "address": 30620,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=51, page=1, mode=4",
+      "bank": 19,
+      "address": 31230,
+      "dynamic_count": 10,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=52, page=1, mode=4",
+      "bank": 19,
+      "address": 31846,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=5, frame=127, page=1, mode=4",
+      "bank": 21,
+      "address": 27812,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=0, page=1, mode=4",
+      "bank": 21,
+      "address": 27820,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=19, page=1, mode=4",
+      "bank": 21,
+      "address": 28074,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=53, page=1, mode=4",
+      "bank": 22,
+      "address": 26986,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=54, page=1, mode=4",
+      "bank": 22,
+      "address": 27319,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=55, page=1, mode=4",
+      "bank": 22,
+      "address": 27637,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=6, frame=127, page=1, mode=4",
+      "bank": 23,
+      "address": 25391,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=0, page=1, mode=4",
+      "bank": 23,
+      "address": 25399,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=57, page=1, mode=4",
+      "bank": 23,
+      "address": 31392,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=58, page=1, mode=4",
+      "bank": 23,
+      "address": 31603,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=59, page=1, mode=4",
+      "bank": 23,
+      "address": 31846,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=7, frame=127, page=1, mode=4",
+      "bank": 24,
+      "address": 30260,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=0, page=1, mode=4",
+      "bank": 24,
+      "address": 30268,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=52, page=1, mode=4",
+      "bank": 25,
+      "address": 27611,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=53, page=1, mode=4",
+      "bank": 25,
+      "address": 27842,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=54, page=1, mode=4",
+      "bank": 25,
+      "address": 28088,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=8, frame=127, page=1, mode=4",
+      "bank": 25,
+      "address": 32281,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=0, page=1, mode=4",
+      "bank": 25,
+      "address": 32289,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=29, page=1, mode=4",
+      "bank": 26,
+      "address": 25234,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=54, page=1, mode=4",
+      "bank": 26,
+      "address": 29512,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=55, page=1, mode=4",
+      "bank": 26,
+      "address": 29751,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=56, page=1, mode=4",
+      "bank": 26,
+      "address": 29985,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=9, frame=127, page=1, mode=4",
+      "bank": 27,
+      "address": 28451,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=0, page=1, mode=4",
+      "bank": 27,
+      "address": 28459,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=28, page=1, mode=4",
+      "bank": 27,
+      "address": 29242,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=31, page=1, mode=4",
+      "bank": 27,
+      "address": 29445,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=32, page=1, mode=4",
+      "bank": 27,
+      "address": 29506,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=55, page=1, mode=4",
+      "bank": 28,
+      "address": 24576,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=56, page=1, mode=4",
+      "bank": 28,
+      "address": 24772,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=57, page=1, mode=4",
+      "bank": 28,
+      "address": 24997,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=10, frame=127, page=1, mode=4",
+      "bank": 28,
+      "address": 31716,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=0, page=1, mode=4",
+      "bank": 28,
+      "address": 31724,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=57, page=1, mode=4",
+      "bank": 29,
+      "address": 26732,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=58, page=1, mode=4",
+      "bank": 29,
+      "address": 26847,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=59, page=1, mode=4",
+      "bank": 29,
+      "address": 26974,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=11, frame=127, page=1, mode=4",
+      "bank": 29,
+      "address": 30641,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=0, page=1, mode=4",
+      "bank": 29,
+      "address": 30649,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=57, page=1, mode=4",
+      "bank": 30,
+      "address": 28400,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=58, page=1, mode=4",
+      "bank": 30,
+      "address": 28605,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=59, page=1, mode=4",
+      "bank": 30,
+      "address": 28844,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=12, frame=127, page=1, mode=4",
+      "bank": 31,
+      "address": 27452,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=0, page=1, mode=4",
+      "bank": 31,
+      "address": 27460,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=44, page=1, mode=4",
+      "bank": 31,
+      "address": 29908,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=45, page=1, mode=4",
+      "bank": 31,
+      "address": 30047,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=46, page=1, mode=4",
+      "bank": 31,
+      "address": 30192,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=69, page=1, mode=4",
+      "bank": 32,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=13, frame=127, page=1, mode=4",
+      "bank": 32,
+      "address": 25681,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=0, page=1, mode=4",
+      "bank": 32,
+      "address": 25689,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=29, page=1, mode=4",
+      "bank": 32,
+      "address": 27479,
+      "dynamic_count": 7,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=51, page=1, mode=4",
+      "bank": 32,
+      "address": 32217,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=52, page=1, mode=4",
+      "bank": 33,
+      "address": 24576,
+      "dynamic_count": 7,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=55, page=1, mode=4",
+      "bank": 33,
+      "address": 25503,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=56, page=1, mode=4",
+      "bank": 33,
+      "address": 25799,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=57, page=1, mode=4",
+      "bank": 33,
+      "address": 26100,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=94, page=1, mode=4",
+      "bank": 33,
+      "address": 32712,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=95, page=1, mode=4",
+      "bank": 34,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=14, frame=127, page=1, mode=4",
+      "bank": 34,
+      "address": 24887,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=0, page=1, mode=4",
+      "bank": 34,
+      "address": 24895,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=37, page=1, mode=4",
+      "bank": 34,
+      "address": 27821,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=47, page=1, mode=4",
+      "bank": 34,
+      "address": 30714,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=48, page=1, mode=4",
+      "bank": 34,
+      "address": 31033,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=49, page=1, mode=4",
+      "bank": 34,
+      "address": 31359,
+      "dynamic_count": 8,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=52, page=1, mode=4",
+      "bank": 34,
+      "address": 32357,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=53, page=1, mode=4",
+      "bank": 35,
+      "address": 24576,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=15, frame=127, page=1, mode=4",
+      "bank": 35,
+      "address": 30947,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=0, page=1, mode=4",
+      "bank": 35,
+      "address": 30955,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=29, page=1, mode=4",
+      "bank": 35,
+      "address": 32522,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=30, page=1, mode=4",
+      "bank": 36,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=57, page=1, mode=4",
+      "bank": 36,
+      "address": 29877,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=58, page=1, mode=4",
+      "bank": 36,
+      "address": 30137,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=59, page=1, mode=4",
+      "bank": 36,
+      "address": 30396,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=68, page=1, mode=4",
+      "bank": 36,
+      "address": 32528,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=69, page=1, mode=4",
+      "bank": 37,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=16, frame=127, page=1, mode=4",
+      "bank": 37,
+      "address": 29230,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=0, page=1, mode=4",
+      "bank": 37,
+      "address": 29238,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=37, page=1, mode=4",
+      "bank": 37,
+      "address": 31478,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=42, page=1, mode=4",
+      "bank": 37,
+      "address": 32465,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=43, page=1, mode=4",
+      "bank": 38,
+      "address": 24576,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=47, page=1, mode=4",
+      "bank": 38,
+      "address": 25516,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=48, page=1, mode=4",
+      "bank": 38,
+      "address": 25758,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=49, page=1, mode=4",
+      "bank": 38,
+      "address": 26012,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=17, frame=127, page=1, mode=4",
+      "bank": 38,
+      "address": 32004,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=0, page=1, mode=4",
+      "bank": 38,
+      "address": 32012,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=24, page=1, mode=4",
+      "bank": 38,
+      "address": 32624,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=25, page=1, mode=4",
+      "bank": 39,
+      "address": 24576,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=36, page=1, mode=4",
+      "bank": 39,
+      "address": 25836,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=54, page=1, mode=4",
+      "bank": 39,
+      "address": 29374,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=55, page=1, mode=4",
+      "bank": 39,
+      "address": 29614,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=56, page=1, mode=4",
+      "bank": 39,
+      "address": 29884,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=66, page=1, mode=4",
+      "bank": 39,
+      "address": 32322,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=67, page=1, mode=4",
+      "bank": 40,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=18, frame=127, page=1, mode=4",
+      "bank": 40,
+      "address": 29153,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=0, page=1, mode=4",
+      "bank": 40,
+      "address": 29161,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=31, page=1, mode=4",
+      "bank": 40,
+      "address": 30977,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=32, page=1, mode=4",
+      "bank": 40,
+      "address": 31127,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=40, page=1, mode=4",
+      "bank": 40,
+      "address": 32505,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=41, page=1, mode=4",
+      "bank": 41,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=52, page=1, mode=4",
+      "bank": 41,
+      "address": 27183,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=53, page=1, mode=4",
+      "bank": 41,
+      "address": 27439,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=54, page=1, mode=4",
+      "bank": 41,
+      "address": 27731,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=73, page=1, mode=4",
+      "bank": 41,
+      "address": 32530,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=74, page=1, mode=4",
+      "bank": 42,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=19, frame=127, page=1, mode=4",
+      "bank": 42,
+      "address": 27846,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=0, page=1, mode=4",
+      "bank": 42,
+      "address": 27854,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=53, page=1, mode=4",
+      "bank": 42,
+      "address": 32456,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=54, page=1, mode=4",
+      "bank": 43,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=57, page=1, mode=4",
+      "bank": 43,
+      "address": 25209,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=58, page=1, mode=4",
+      "bank": 43,
+      "address": 25424,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=59, page=1, mode=4",
+      "bank": 43,
+      "address": 25652,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=20, frame=127, page=1, mode=4",
+      "bank": 43,
+      "address": 32226,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=0, page=1, mode=4",
+      "bank": 43,
+      "address": 32234,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=18, page=1, mode=4",
+      "bank": 43,
+      "address": 32671,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=19, page=1, mode=4",
+      "bank": 44,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=52, page=1, mode=4",
+      "bank": 44,
+      "address": 29643,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=53, page=1, mode=4",
+      "bank": 44,
+      "address": 29880,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=54, page=1, mode=4",
+      "bank": 44,
+      "address": 30149,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=64, page=1, mode=4",
+      "bank": 44,
+      "address": 32563,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=65, page=1, mode=4",
+      "bank": 45,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=21, frame=127, page=1, mode=4",
+      "bank": 45,
+      "address": 29137,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=0, page=1, mode=4",
+      "bank": 45,
+      "address": 29145,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=19, page=1, mode=4",
+      "bank": 45,
+      "address": 29390,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=39, page=1, mode=4",
+      "bank": 45,
+      "address": 32345,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=40, page=1, mode=4",
+      "bank": 46,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=53, page=1, mode=4",
+      "bank": 46,
+      "address": 28396,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=54, page=1, mode=4",
+      "bank": 46,
+      "address": 28723,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=55, page=1, mode=4",
+      "bank": 46,
+      "address": 29057,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=68, page=1, mode=4",
+      "bank": 46,
+      "address": 32551,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=69, page=1, mode=4",
+      "bank": 47,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=22, frame=127, page=1, mode=4",
+      "bank": 47,
+      "address": 26845,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=0, page=1, mode=4",
+      "bank": 47,
+      "address": 26853,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=54, page=1, mode=4",
+      "bank": 47,
+      "address": 31634,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=55, page=1, mode=4",
+      "bank": 47,
+      "address": 31808,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=56, page=1, mode=4",
+      "bank": 47,
+      "address": 32015,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=58, page=1, mode=4",
+      "bank": 47,
+      "address": 32429,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=59, page=1, mode=4",
+      "bank": 48,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=23, frame=127, page=1, mode=4",
+      "bank": 48,
+      "address": 30004,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=0, page=1, mode=4",
+      "bank": 48,
+      "address": 30012,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=49, page=1, mode=4",
+      "bank": 48,
+      "address": 32600,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=50, page=1, mode=4",
+      "bank": 49,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=52, page=1, mode=4",
+      "bank": 49,
+      "address": 24836,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=53, page=1, mode=4",
+      "bank": 49,
+      "address": 24966,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=54, page=1, mode=4",
+      "bank": 49,
+      "address": 25103,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=24, frame=127, page=1, mode=4",
+      "bank": 49,
+      "address": 27694,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=0, page=1, mode=4",
+      "bank": 49,
+      "address": 27702,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=19, page=1, mode=4",
+      "bank": 49,
+      "address": 27958,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=44, page=1, mode=4",
+      "bank": 49,
+      "address": 32298,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=45, page=1, mode=4",
+      "bank": 50,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=53, page=1, mode=4",
+      "bank": 50,
+      "address": 26958,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=54, page=1, mode=4",
+      "bank": 50,
+      "address": 27279,
+      "dynamic_count": 4,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=55, page=1, mode=4",
+      "bank": 50,
+      "address": 27603,
+      "dynamic_count": 6,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=80, page=1, mode=4",
+      "bank": 50,
+      "address": 32666,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=81, page=1, mode=4",
+      "bank": 51,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=25, frame=127, page=1, mode=4",
+      "bank": 51,
+      "address": 25219,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=0, page=1, mode=4",
+      "bank": 51,
+      "address": 25227,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=31, page=1, mode=4",
+      "bank": 51,
+      "address": 27276,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=32, page=1, mode=4",
+      "bank": 51,
+      "address": 27425,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=50, page=1, mode=4",
+      "bank": 51,
+      "address": 31079,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=51, page=1, mode=4",
+      "bank": 51,
+      "address": 31303,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=52, page=1, mode=4",
+      "bank": 51,
+      "address": 31562,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=55, page=1, mode=4",
+      "bank": 51,
+      "address": 32328,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=56, page=1, mode=4",
+      "bank": 52,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=102, page=1, mode=4",
+      "bank": 52,
+      "address": 32625,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=103, page=1, mode=4",
+      "bank": 53,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=26, frame=127, page=1, mode=4",
+      "bank": 53,
+      "address": 25028,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=0, page=1, mode=4",
+      "bank": 53,
+      "address": 25036,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=54, page=1, mode=4",
+      "bank": 53,
+      "address": 29997,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=55, page=1, mode=4",
+      "bank": 53,
+      "address": 30176,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=56, page=1, mode=4",
+      "bank": 53,
+      "address": 30391,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=67, page=1, mode=4",
+      "bank": 53,
+      "address": 32550,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=68, page=1, mode=4",
+      "bank": 54,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=27, frame=127, page=1, mode=4",
+      "bank": 54,
+      "address": 28648,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=0, page=1, mode=4",
+      "bank": 54,
+      "address": 28656,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=19, page=1, mode=4",
+      "bank": 54,
+      "address": 28879,
+      "dynamic_count": 5,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=54, page=1, mode=4",
+      "bank": 54,
+      "address": 32572,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=55, page=1, mode=4",
+      "bank": 55,
+      "address": 24576,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=56, page=1, mode=4",
+      "bank": 55,
+      "address": 24738,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=28, frame=127, page=1, mode=4",
+      "bank": 55,
+      "address": 27534,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=0, page=1, mode=4",
+      "bank": 55,
+      "address": 27542,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=10, page=1, mode=4",
+      "bank": 55,
+      "address": 27622,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=51, page=1, mode=4",
+      "bank": 55,
+      "address": 30878,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=52, page=1, mode=4",
+      "bank": 55,
+      "address": 31013,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=53, page=1, mode=4",
+      "bank": 55,
+      "address": 31178,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=62, page=1, mode=4",
+      "bank": 55,
+      "address": 32532,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=63, page=1, mode=4",
+      "bank": 56,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=29, frame=127, page=1, mode=4",
+      "bank": 56,
+      "address": 27579,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=0, page=1, mode=4",
+      "bank": 56,
+      "address": 27587,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=12, page=1, mode=4",
+      "bank": 56,
+      "address": 27699,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=31, page=1, mode=4",
+      "bank": 56,
+      "address": 28627,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=32, page=1, mode=4",
+      "bank": 56,
+      "address": 28693,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=54, page=1, mode=4",
+      "bank": 56,
+      "address": 31532,
+      "dynamic_count": 2,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=55, page=1, mode=4",
+      "bank": 56,
+      "address": 31724,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=56, page=1, mode=4",
+      "bank": 56,
+      "address": 31911,
+      "dynamic_count": 3,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=59, page=1, mode=4",
+      "bank": 56,
+      "address": 32528,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=60, page=1, mode=4",
+      "bank": 57,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=30, frame=127, page=1, mode=4",
+      "bank": 57,
+      "address": 30081,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=0, page=1, mode=4",
+      "bank": 57,
+      "address": 30089,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=33, page=1, mode=4",
+      "bank": 57,
+      "address": 30942,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=54, page=1, mode=4",
+      "bank": 57,
+      "address": 32624,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=55, page=1, mode=4",
+      "bank": 58,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=59, page=1, mode=4",
+      "bank": 58,
+      "address": 25018,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=60, page=1, mode=4",
+      "bank": 58,
+      "address": 25134,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=61, page=1, mode=4",
+      "bank": 58,
+      "address": 25257,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=31, frame=127, page=1, mode=4",
+      "bank": 58,
+      "address": 28640,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=0, page=1, mode=4",
+      "bank": 58,
+      "address": 28648,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=45, page=1, mode=4",
+      "bank": 58,
+      "address": 32426,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=46, page=1, mode=4",
+      "bank": 59,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=51, page=1, mode=4",
+      "bank": 59,
+      "address": 25617,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=52, page=1, mode=4",
+      "bank": 59,
+      "address": 25821,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=53, page=1, mode=4",
+      "bank": 59,
+      "address": 26040,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=32, frame=127, page=1, mode=4",
+      "bank": 59,
+      "address": 32700,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=0, page=1, mode=4",
+      "bank": 59,
+      "address": 32708,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=6, page=1, mode=4",
+      "bank": 59,
+      "address": 32756,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=7, page=1, mode=4",
+      "bank": 60,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=56, page=1, mode=4",
+      "bank": 60,
+      "address": 30478,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=57, page=1, mode=4",
+      "bank": 60,
+      "address": 30711,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=58, page=1, mode=4",
+      "bank": 60,
+      "address": 30950,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=65, page=1, mode=4",
+      "bank": 60,
+      "address": 32490,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=66, page=1, mode=4",
+      "bank": 61,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=33, frame=127, page=1, mode=4",
+      "bank": 61,
+      "address": 29420,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=0, page=1, mode=4",
+      "bank": 61,
+      "address": 29428,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=27, page=1, mode=4",
+      "bank": 61,
+      "address": 30058,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=48, page=1, mode=4",
+      "bank": 61,
+      "address": 32545,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=49, page=1, mode=4",
+      "bank": 62,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=51, page=1, mode=4",
+      "bank": 62,
+      "address": 24847,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=52, page=1, mode=4",
+      "bank": 62,
+      "address": 24983,
+      "dynamic_count": 1,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=53, page=1, mode=4",
+      "bank": 62,
+      "address": 25136,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=34, frame=127, page=1, mode=4",
+      "bank": 62,
+      "address": 27917,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=0, page=1, mode=4",
+      "bank": 62,
+      "address": 27925,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=52, page=1, mode=4",
+      "bank": 62,
+      "address": 29604,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=53, page=1, mode=4",
+      "bank": 62,
+      "address": 29668,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=54, page=1, mode=4",
+      "bank": 62,
+      "address": 29733,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=35, frame=127, page=1, mode=4",
+      "bank": 62,
+      "address": 31279,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=0, page=1, mode=4",
+      "bank": 62,
+      "address": 31287,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=36, page=1, mode=4",
+      "bank": 62,
+      "address": 32649,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=37, page=1, mode=4",
+      "bank": 63,
+      "address": 24576,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=57, page=1, mode=4",
+      "bank": 63,
+      "address": 26773,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=58, page=1, mode=4",
+      "bank": 63,
+      "address": 26903,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=59, page=1, mode=4",
+      "bank": 63,
+      "address": 27041,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=36, frame=127, page=1, mode=4",
+      "bank": 63,
+      "address": 30691,
+      "dynamic_count": 0,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    },
+    {
+      "scenario": "targeted scene=3, frame=16, page=1, mode=4",
+      "bank": 10,
+      "address": 25310,
+      "dynamic_count": 12,
+      "name_bytes_checked": 768,
+      "pattern_banks_checked": 3,
+      "opposite_page_unchanged": true
+    }
+  ],
+  "collision_tests": [
+    {
+      "native_calls": 296,
+      "coverage": [
+        {
+          "page": 0,
+          "screen_bank": 0,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 0,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 0,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 1,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 1,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 1,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 2,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 2,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 0,
+          "screen_bank": 2,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        }
+      ],
+      "fixture_label": "Targeted RAM fixture using native-decoded masks; not ordinary gameplay",
+      "register_and_stack_guards": "passed",
+      "ram_restored": true
+    },
+    {
+      "native_calls": 296,
+      "coverage": [
+        {
+          "page": 1,
+          "screen_bank": 0,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 0,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 0,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 1,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 1,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 1,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 2,
+          "kind": "single",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 2,
+          "kind": "pair",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        },
+        {
+          "page": 1,
+          "screen_bank": 2,
+          "kind": "dynamic",
+          "positive_microdot_positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "occupied_and_empty": true,
+          "native_calls": 32
+        }
+      ],
+      "fixture_label": "Targeted RAM fixture using native-decoded masks; not ordinary gameplay",
+      "register_and_stack_guards": "passed",
+      "ram_restored": true
+    }
+  ],
+  "native_collision_calls": 592,
+  "vram_timing_violations": 0,
+  "rom_and_runtime_preserved": true
+}

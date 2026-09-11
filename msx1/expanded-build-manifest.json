@@ -1,0 +1,714 @@
+{
+  "title": "SAToReinker-Over MSX1 PCG Challenge - Expanded Waves",
+  "version": "0.2",
+  "file": "SAToReinker-Over-MSX1-PCG-v0.2.rom",
+  "mapper": "ASCII8",
+  "rom_bytes": 524288,
+  "ram_required_bytes": 32768,
+  "vram_bytes": 16384,
+  "runtime_bytes": 21508,
+  "runtime_address": "8000-DFFF",
+  "working_ram": "E000-E91F",
+  "stack_top": "F300",
+  "replay": false,
+  "video": "TMS9918A SCREEN2 256x192; 2x2-pixel PCG bullets; two name tables and separate dynamic PCG sets",
+  "physical_hardware_tested": false,
+  "sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
+  "assets": {
+    "generator": "tools/generate_assets.py",
+    "width": 256,
+    "height": 192,
+    "frames_per_scene": 128,
+    "total_frames": 4736,
+    "scenes": [
+      {
+        "index": 0,
+        "name": "LUNAR FAN",
+        "description": "Seven turning fans open from the northern edge.",
+        "first_frame": 0,
+        "frames": 128,
+        "peak_dots": 85,
+        "peak_dynamic_masks": 4,
+        "payload_bytes": 11286,
+        "peak_frame": 59,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "0ed560028193c4b0ae22f9309f2c6594473f8d63a0abf988dda3ede8045ee004"
+      },
+      {
+        "index": 1,
+        "name": "TWIN GALAXIES",
+        "description": "Counter-rotating paired radial spirals.",
+        "first_frame": 128,
+        "frames": 128,
+        "peak_dots": 80,
+        "peak_dynamic_masks": 1,
+        "payload_bytes": 11373,
+        "peak_frame": 50,
+        "emitters": [
+          [
+            82,
+            88
+          ],
+          [
+            174,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "1b4915c8ea6ddd39e632ca0049e446736faabb082c3b9c99c86ad2adab6da4ac"
+      },
+      {
+        "index": 2,
+        "name": "SINE LOOM",
+        "description": "Alternating cyan and magenta sine curtains.",
+        "first_frame": 256,
+        "frames": 128,
+        "peak_dots": 162,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 25962,
+        "peak_frame": 57,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "87752061b59e5f382daec7b65c6b59f5d73877fa617a420e3510d92298a51bbd"
+      },
+      {
+        "index": 3,
+        "name": "MIRROR WINGS",
+        "description": "Two wide fans weave through one another.",
+        "first_frame": 384,
+        "frames": 128,
+        "peak_dots": 271,
+        "peak_dynamic_masks": 15,
+        "payload_bytes": 29605,
+        "peak_frame": 60,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "0d38a34923efd7beccd6d9ae808ac27e129d4aa1072ae21aa82167358aa8cf77"
+      },
+      {
+        "index": 4,
+        "name": "BRAIDED RIBBONS",
+        "description": "Twelve narrow streams braid into four ribbons.",
+        "first_frame": 512,
+        "frames": 128,
+        "peak_dots": 309,
+        "peak_dynamic_masks": 24,
+        "payload_bytes": 28994,
+        "peak_frame": 56,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "18ae2ab4c0c48ea35d20f59e13207bcf252ea64734bf546dcf7d260e88be0e1e"
+      },
+      {
+        "index": 5,
+        "name": "MANDALA OVER",
+        "description": "Rotating radial rings and a crossing outer weave.",
+        "first_frame": 640,
+        "frames": 128,
+        "peak_dots": 274,
+        "peak_dynamic_masks": 14,
+        "payload_bytes": 32231,
+        "peak_frame": 51,
+        "emitters": [
+          [
+            128,
+            89
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "58a49fc20861579ce5946eadc48414a5a5a97825c18c2e5bde520c522cddd668"
+      },
+      {
+        "index": 6,
+        "name": "LOTUS BLOOM",
+        "description": "Six petals unfurl as alternating open rings.",
+        "first_frame": 768,
+        "frames": 128,
+        "peak_dots": 120,
+        "peak_dynamic_masks": 6,
+        "payload_bytes": 13780,
+        "peak_frame": 54,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "e49d099ccb9993d2e3291572e71b1ba0ebe5ed67ce2552daa1821ac5b462fdac"
+      },
+      {
+        "index": 7,
+        "name": "DRIFTING GATES",
+        "description": "Broad moving openings guide a lateral dance.",
+        "first_frame": 896,
+        "frames": 128,
+        "peak_dots": 148,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 13041,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "97c285f28e842979fe8dee1f798473fe59068e5d08e3ca86dc5746affaf4dbda"
+      },
+      {
+        "index": 8,
+        "name": "CRESCENT MOON",
+        "description": "Open crescents twist around a marked centre.",
+        "first_frame": 1024,
+        "frames": 128,
+        "peak_dots": 96,
+        "peak_dynamic_masks": 6,
+        "payload_bytes": 10081,
+        "peak_frame": 53,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "12ced8d4c4108fa02e73518582175247af5ee3dd4cd41ad7c9e0143ae6ba8f66"
+      },
+      {
+        "index": 9,
+        "name": "PRISM RICOCHET",
+        "description": "A northern fan reflects into a zigzag prism.",
+        "first_frame": 1152,
+        "frames": 128,
+        "peak_dots": 104,
+        "peak_dynamic_masks": 3,
+        "payload_bytes": 12409,
+        "peak_frame": 55,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "e7af39d256707272c37c39cb279a4b49ef72cccc531376d6d8b43a1d1b1ef0ce"
+      },
+      {
+        "index": 10,
+        "name": "RISING FOUNTAIN",
+        "description": "Wide upward fans rise from below the playfield.",
+        "first_frame": 1280,
+        "frames": 128,
+        "peak_dots": 114,
+        "peak_dynamic_masks": 3,
+        "payload_bytes": 11340,
+        "peak_frame": 56,
+        "emitters": [],
+        "entry_hint": 1,
+        "packet_sha256": "c6f7739ab2da4bef0482a8e5934395bb7ac6fda6d648adf9dfd36dc4cba527ca"
+      },
+      {
+        "index": 11,
+        "name": "DOUBLE HELIX",
+        "description": "Two bright helices weave through their shared axis.",
+        "first_frame": 1408,
+        "frames": 128,
+        "peak_dots": 68,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 7107,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "ca6a034e07b9b1eb1bdc28362ba1816fc0a87c504436c3e0a96d52b69e79e8a0"
+      },
+      {
+        "index": 12,
+        "name": "SNAKE PASS",
+        "description": "A narrow gate winds left and right in long waves.",
+        "first_frame": 1536,
+        "frames": 128,
+        "peak_dots": 144,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 13108,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "ae42854f9d91cf88fc19707a17f112579f3351f9657d273ddb4ed9893d0aa94c"
+      },
+      {
+        "index": 13,
+        "name": "BINARY CLOCK",
+        "description": "Paired four-hand clocks trace expanding arcs.",
+        "first_frame": 1664,
+        "frames": 128,
+        "peak_dots": 54,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 6400,
+        "peak_frame": 45,
+        "emitters": [
+          [
+            72,
+            88
+          ],
+          [
+            184,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "118ac5d117c4147d2b0d50ebdd77746392947f68de4f89d2a49db2605371b7f7"
+      },
+      {
+        "index": 14,
+        "name": "KITE FESTIVAL",
+        "description": "Paired wing-like fans sweep across the centre.",
+        "first_frame": 1792,
+        "frames": 128,
+        "peak_dots": 145,
+        "peak_dynamic_masks": 7,
+        "payload_bytes": 15316,
+        "peak_frame": 56,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "bebec2e7b0efa4ca62efefe5bf6a110919bb6daddc03e6e108c2ef8816ed5098"
+      },
+      {
+        "index": 15,
+        "name": "SUNFLOWER",
+        "description": "Golden-angle pinwheels bloom into a broad corona.",
+        "first_frame": 1920,
+        "frames": 128,
+        "peak_dots": 129,
+        "peak_dynamic_masks": 8,
+        "payload_bytes": 14127,
+        "peak_frame": 48,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "658c70a64180e69531788fed7acd4aaa5b2fb5ed4117f56d6fdbdc775b2f3e5f"
+      },
+      {
+        "index": 16,
+        "name": "IRIS GATES",
+        "description": "Alternating gate openings travel across the screen.",
+        "first_frame": 2048,
+        "frames": 128,
+        "peak_dots": 108,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 14520,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "9a37a4e1e0ac1c92cbf964cd7a9462f7f32b87aca42c1bb48e1d1d47bbd3297c"
+      },
+      {
+        "index": 17,
+        "name": "LUNAR ECHO",
+        "description": "Two successive crescent clusters chase one another.",
+        "first_frame": 2176,
+        "frames": 128,
+        "peak_dots": 94,
+        "peak_dynamic_masks": 6,
+        "payload_bytes": 10892,
+        "peak_frame": 48,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "2e1555fc51510e99064d8762cdab5681893199376b894edbe3e430875f317566"
+      },
+      {
+        "index": 18,
+        "name": "MIRROR CASCADE",
+        "description": "Bent side-reflected streams descend as a lattice.",
+        "first_frame": 2304,
+        "frames": 128,
+        "peak_dots": 109,
+        "peak_dynamic_masks": 3,
+        "payload_bytes": 13245,
+        "peak_frame": 55,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "eda114628f47b251f1f9192b597d91284a440153915f016a78aff7bd0306d0a7"
+      },
+      {
+        "index": 19,
+        "name": "REVERSE RAIN",
+        "description": "Staggered rising waves demand a new direction of travel.",
+        "first_frame": 2432,
+        "frames": 128,
+        "peak_dots": 96,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 14947,
+        "peak_frame": 53,
+        "emitters": [],
+        "entry_hint": 1,
+        "packet_sha256": "f38d252cd4399827fbcd7a704f7bb7b6d1b0b7c5f44e245a47ddb745a65f4094"
+      },
+      {
+        "index": 20,
+        "name": "SILK RIBBONS",
+        "description": "Four thin paired ribbons make a flowing silk curtain.",
+        "first_frame": 2560,
+        "frames": 128,
+        "peak_dots": 136,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 12462,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "42e1ee4bfb57d74195334dbe4cf9cd1c47fe017fe886dd1c2be5f6289e097a1e"
+      },
+      {
+        "index": 21,
+        "name": "METEOR WEAVE",
+        "description": "Two coloured meteor showers cross with broad gaps.",
+        "first_frame": 2688,
+        "frames": 128,
+        "peak_dots": 92,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 13256,
+        "peak_frame": 53,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "009b00dfab197b25c5c2cb7406ea2840826d89b9a2709e9800cf57e75f8f0a73"
+      },
+      {
+        "index": 22,
+        "name": "CLOVER CROWN",
+        "description": "Four-lobed rings evolve into a turning clover crown.",
+        "first_frame": 2816,
+        "frames": 128,
+        "peak_dots": 120,
+        "peak_dynamic_masks": 6,
+        "payload_bytes": 13890,
+        "peak_frame": 54,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "69b0566db23c96b7063a26a35f49265531a856f2f3bf0817d34a5ff65af98d5a"
+      },
+      {
+        "index": 23,
+        "name": "ALTERNATE DOORS",
+        "description": "Successive wide doors switch between left and right.",
+        "first_frame": 2944,
+        "frames": 128,
+        "peak_dots": 124,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 11220,
+        "peak_frame": 55,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "1f5b40e8bb23c5e08a7a3cc02ab6759c26a8dea570e1c5822aab7c2e2308fe2d"
+      },
+      {
+        "index": 24,
+        "name": "ORBITAL CLOCK",
+        "description": "A six-hand spiral clock bends its rays in flight.",
+        "first_frame": 3072,
+        "frames": 128,
+        "peak_dots": 48,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 5842,
+        "peak_frame": 53,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "ee5faa2596b1c6316f99d25d6ecc7174eedce9d06fe059cb63473dacfaba78b1"
+      },
+      {
+        "index": 25,
+        "name": "STAR ANEMONE",
+        "description": "Eight-point flowers stretch into star-shaped rings.",
+        "first_frame": 3200,
+        "frames": 128,
+        "peak_dots": 121,
+        "peak_dynamic_masks": 6,
+        "payload_bytes": 13689,
+        "peak_frame": 54,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "b76188c9781619bf67deb473751ffaba5549b8464f62f00d6eb3cc14f32d16f3"
+      },
+      {
+        "index": 26,
+        "name": "TIDAL CROSS",
+        "description": "Side-launched sine tides wash through one another.",
+        "first_frame": 3328,
+        "frames": 128,
+        "peak_dots": 96,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 15944,
+        "peak_frame": 51,
+        "emitters": [],
+        "entry_hint": 2,
+        "packet_sha256": "bc2864e05a6c4e421949055d70c3d2e691104690933f0cdfc56172053ff0a2f0"
+      },
+      {
+        "index": 27,
+        "name": "WAVERING CORRIDOR",
+        "description": "Three broad slalom walls leave a winding corridor.",
+        "first_frame": 3456,
+        "frames": 128,
+        "peak_dots": 98,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 11775,
+        "peak_frame": 55,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "0063ddfcb08b00228e4f867ccf5d8718602ba4841ba147e75944336d0abdfeef"
+      },
+      {
+        "index": 28,
+        "name": "ECLIPSE ARCS",
+        "description": "Sparse sweeping arcs leave an off-centre escape path.",
+        "first_frame": 3584,
+        "frames": 128,
+        "peak_dots": 58,
+        "peak_dynamic_masks": 5,
+        "payload_bytes": 7029,
+        "peak_frame": 55,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "01738a70b80ef012c353c8b8d68bd3d2a7eebeb9d60c8778beec8e1dc24d23d1"
+      },
+      {
+        "index": 29,
+        "name": "CRYSTAL RAIN",
+        "description": "Reflected narrow fans draw long crystal diagonals.",
+        "first_frame": 3712,
+        "frames": 128,
+        "peak_dots": 63,
+        "peak_dynamic_masks": 2,
+        "payload_bytes": 8154,
+        "peak_frame": 52,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "32e5a7114dc063a8c8e50cbb86a61d31c82a5ebf3eff92c81d97325ae4f0a63e"
+      },
+      {
+        "index": 30,
+        "name": "SKY BLOSSOM",
+        "description": "An upward fountain opens into two opposed bouquets.",
+        "first_frame": 3840,
+        "frames": 128,
+        "peak_dots": 101,
+        "peak_dynamic_masks": 3,
+        "payload_bytes": 10652,
+        "peak_frame": 55,
+        "emitters": [],
+        "entry_hint": 1,
+        "packet_sha256": "1960a7f3fcce127da6e7145b957eeaab353b86c09d29c938a8c83c3b19c8bb38"
+      },
+      {
+        "index": 31,
+        "name": "QUANTUM BRAID",
+        "description": "Two asymmetric helices separate and rejoin.",
+        "first_frame": 3968,
+        "frames": 128,
+        "peak_dots": 67,
+        "peak_dynamic_masks": 1,
+        "payload_bytes": 6716,
+        "peak_frame": 60,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "48d7dd9e7366db8727367b85b8c7961b2571880eed3171707166c7319a53e291"
+      },
+      {
+        "index": 32,
+        "name": "CHECKER COMETS",
+        "description": "Checker-spaced diagonals sweep in opposite directions.",
+        "first_frame": 4096,
+        "frames": 128,
+        "peak_dots": 82,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 12090,
+        "peak_frame": 52,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "d1bb1a2207cb6a7e5a3e00ec31a27c3af1f360f33070f9d48cf247a2dc19cf8e"
+      },
+      {
+        "index": 33,
+        "name": "SERPENT RIVER",
+        "description": "A rippling stream winds between banks of falling dots.",
+        "first_frame": 4224,
+        "frames": 128,
+        "peak_dots": 102,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 13027,
+        "peak_frame": 57,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "61a6331a85d06605a6f36996b7e0b88b9035c2cffa286aaa35444a91bd09e952"
+      },
+      {
+        "index": 34,
+        "name": "CELESTIAL GEARS",
+        "description": "Two marked pinwheels turn like interlocking gears.",
+        "first_frame": 4352,
+        "frames": 128,
+        "peak_dots": 54,
+        "peak_dynamic_masks": 1,
+        "payload_bytes": 6604,
+        "peak_frame": 52,
+        "emitters": [
+          [
+            76,
+            88
+          ],
+          [
+            180,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "f09acd9edd48eba18a982a823e8e2ea81654e6643c5ace48e99ed0b6c7994719"
+      },
+      {
+        "index": 35,
+        "name": "SPARSE CONSTELLATION",
+        "description": "A gentle six-spoke constellation gives room to breathe.",
+        "first_frame": 4480,
+        "frames": 128,
+        "peak_dots": 24,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 3362,
+        "peak_frame": 53,
+        "emitters": [
+          [
+            128,
+            88
+          ]
+        ],
+        "entry_hint": 0,
+        "packet_sha256": "a721ff921a51131b48a13197a1172192fa13ecd991e309d314d39fd9cad2debe"
+      },
+      {
+        "index": 36,
+        "name": "SILVER STREAM",
+        "description": "A sparse winding shower closes the programme softly.",
+        "first_frame": 4608,
+        "frames": 128,
+        "peak_dots": 45,
+        "peak_dynamic_masks": 0,
+        "payload_bytes": 7574,
+        "peak_frame": 58,
+        "emitters": [],
+        "entry_hint": 0,
+        "packet_sha256": "9a7f3a90e2227b9c86a4726ba129e2f072d437ec301e410f8a4e184fb3285df0"
+      }
+    ],
+    "mask_order": "bit0 top-left 2x2 dot; four dots across, four rows; little-endian u16",
+    "dynamic_indices_page0": [
+      153,
+      184
+    ],
+    "dynamic_indices_page1": [
+      185,
+      216
+    ],
+    "packet_format": "u8 dynamic_count; count*(u16LE mask + 8 ready PCG bytes); RLE768 names; 0 terminator",
+    "dynamic_pattern_bytes_precomputed": true,
+    "rle": "1..127 literal length; 128..255 zero run length=(token&127)+1",
+    "index_format": "u8 ASCII8 bank; u16LE CPU address in 6000..7FFF",
+    "first_stream_bank": 4,
+    "stream_banks": 60,
+    "packet_payload_bytes": 483050,
+    "bank_padding_bytes": 8470,
+    "stream_bytes": 491520,
+    "index_bytes": 14208,
+    "estimated_used_rom_bytes_including_reserved_banks": 524288,
+    "rom_limit_bytes": 524288,
+    "wave_count": 37,
+    "wave_loop_start": 6,
+    "free_stream_bytes": 0,
+    "unused_tail_bytes": 2069,
+    "legacy_packet_sha256": "928aff40073c387e1cfb1e57fcedef6a964c09dd7fdaa500d0c74956449d975c",
+    "legacy_packets_preserved": true,
+    "candidate_waves_evaluated": 42,
+    "selected_additional_wave_names": [
+      "LOTUS BLOOM",
+      "DRIFTING GATES",
+      "CRESCENT MOON",
+      "PRISM RICOCHET",
+      "RISING FOUNTAIN",
+      "DOUBLE HELIX",
+      "SNAKE PASS",
+      "BINARY CLOCK",
+      "KITE FESTIVAL",
+      "SUNFLOWER",
+      "IRIS GATES",
+      "LUNAR ECHO",
+      "MIRROR CASCADE",
+      "REVERSE RAIN",
+      "SILK RIBBONS",
+      "METEOR WEAVE",
+      "CLOVER CROWN",
+      "ALTERNATE DOORS",
+      "ORBITAL CLOCK",
+      "STAR ANEMONE",
+      "TIDAL CROSS",
+      "WAVERING CORRIDOR",
+      "ECLIPSE ARCS",
+      "CRYSTAL RAIN",
+      "SKY BLOSSOM",
+      "QUANTUM BRAID",
+      "CHECKER COMETS",
+      "SERPENT RIVER",
+      "CELESTIAL GEARS",
+      "SPARSE CONSTELLATION",
+      "SILVER STREAM"
+    ],
+    "omitted_candidate_names": [
+      "SIDEWINDER",
+      "DIAMOND RAIN",
+      "CHERRY ORBIT",
+      "SWALLOWTAIL",
+      "WATERFALL PEARLS",
+      "SCISSOR DANCE",
+      "HOURGLASS",
+      "RAINBOW COMBS",
+      "BUTTERFLY WINGS",
+      "PETAL STORM",
+      "HORIZON CROSS"
+    ],
+    "capacity_note": "All 42 candidates meet the 32-dynamic-PCG limit. 31 additions selected with all 11 trajectory families represented. The 32 cheapest candidates plus the original packets need 496993 bytes even without bank padding, exceeding the 491520-byte stream budget.",
+    "validation": "All 4736 packets decoded and compared; every visible dot retained; dynamic dictionaries <=32; packets do not cross banks; index round-trip checked; scene endpoints empty.",
+    "preview": {
+      "gif": "pcg-preview.gif",
+      "contact_sheet": "pcg-preview-contact.png",
+      "overview_wave_indices": [
+        0,
+        4,
+        6,
+        8,
+        10,
+        14,
+        20,
+        26,
+        30,
+        36
+      ],
+      "kind": "Offline generated asset preview; not an emulator capture."
+    }
+  }
+}

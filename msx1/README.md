@@ -1,3 +1,7 @@
+> **全37WAVEの拡張版 v0.2を追加しました。** [紹介・ダウンロード / Expanded Waves downloads](EXPANDED.md)  
+> 既存6WAVE＋新31WAVE、RAM32KiB・512KiB ROM。以下は従来の6WAVE版 v0.1.1の説明とダウンロードです。  
+> **37-wave expanded edition v0.2 is available.** This page retains the original six-wave v0.1.1 release.
+
 # SAToReinker-Over MSX版 — 弾幕表現チャレンジ
 
 **MSX1 PCG Bullet-Pattern Challenge · v0.1.1**

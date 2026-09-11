@@ -1,0 +1,11 @@
+{
+  "rom_sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
+  "source_archive_sha256": "0e633c9fb5b273b4adf04c17b7a30eacacc67d63ef6f788eab8717ffedb4e4ef",
+  "source_rebuild_sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
+  "byte_identical": true,
+  "bios_or_disk_images_packaged": false,
+  "original_v9990_preservation_check_performed": true,
+  "original_v9990_rom_sha256": "dcb1c0c6bd279ac3bc26f37056864ce5387db3217860bfad24573dc6ad1f88af",
+  "original_msx1_preservation_check_performed": true,
+  "original_msx1_rom_sha256": "624286f312a1286a54f8458cebfb54e5a6b9d041af4be29d3f3b07134f051cc7"
+}
