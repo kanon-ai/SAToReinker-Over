@@ -2,15 +2,19 @@
 
 ## 初代MSX版 — 弾幕表現チャレンジ / MSX1 challenge
 
-**[MSX版の紹介・ダウンロード / MSX1 page and downloads](msx1/README.md)**
+**[全37WAVE拡張版 v0.2 — 紹介・ダウンロード / Expanded Waves](msx1/EXPANDED.md)**
 
-初代MSXのPCGで色鮮やかな弾幕をどこまで動かせるか試す、SAToReinker-Overの実験版を追加しました。
-**RAM32KiB・VRAM16KiB・512KiB ASCII8 ROM、リプレイなし。** ６種類の弾幕、かすり加点、PSGサウンドを搭載しています。
-専用ページにROM、ソース、Windows起動セット、WAVE 2・WAVE 4の実ROM GIFを掲載しています。実機は未検証・無保証です。
+遊んでくださった皆さんへのお礼に、初代MSXのPCG弾幕を既存6種類から**全37WAVE（新31種類）**へ拡張しました。
+**RAM32KiB・VRAM16KiB・512KiB ASCII8 ROM、リプレイなし。** 自分で避けても、無敵のDEMOで眺めても楽しめます。
+新しい弾幕・ROM・ソース・Windows起動セット・実ROM GIFを専用ページに掲載しています。
+全37WAVEを事前計算したキーボード入力で無被弾通過できることをopenMSXで確認しました。人間の難易度や実機動作の保証ではありません。
+[従来の6WAVE版 v0.1.1](msx1/README.md)も残しています。試作品・実機未検証・無保証です。
 
-A playable **MSX1 PCG bullet-pattern rendering challenge**: 32 KiB RAM, 16 KiB VRAM, a 512 KiB ASCII8 ROM and no replay.
-Six patterns, graze scoring and PSG sound. The dedicated page includes the ROM, full source archive, Windows launcher bundle
-and native emulator GIFs of WAVE 2 and WAVE 4. Experimental, no warranty, and not tested on physical hardware.
+The MSX1 PCG bullet-pattern challenge now has **37 waves: the original six plus 31 additions**, as a thank-you to everyone playing.
+32 KiB RAM, 16 KiB VRAM, a 512 KiB ASCII8 ROM, graze scoring and PSG sound; no replay.
+Play or watch the invincible DEMO. The dedicated page includes the ROM, source, Windows launcher bundle and native emulator GIFs.
+A precomputed keyboard-only route survived all 37 waves in openMSX; this is not a human difficulty or hardware guarantee.
+The [original six-wave v0.1.1 edition](msx1/README.md) remains available. Experimental and provided without warranty.
 
 ## turbo R + V9990版 / turbo R + V9990 version
 
