@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "byte_identical_source_rebuild": true,
+  "source_archive_sha256": "d12bd98d627f97eb1de242397aad15152f246c12db6b2b9d2fe4a6cb4557b86c",
+  "normal_and_msx1_baseline_files_preserved": 12,
+  "bios_or_user_replays_packaged": false,
+  "save_disk": "empty FAT12 image; launcher never overwrites an existing EXPERT-SAVE.dsk"
+}

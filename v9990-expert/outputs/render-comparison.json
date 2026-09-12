@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "method": "Isolated native draw routine benchmark. Identical bullet positions/colors, 15 laser segments, graze aura and player/score state; game simulation is bypassed with CPU/scratch-stack fixtures. Discard first 32 draws and measure 64 intervals. This compares rendering cost, not ordinary game difficulty.",
+  "physical_hardware_tested": false,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "results": [
+    {
+      "edition": "regular",
+      "live_bullets": 0,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360883855350323,
+      "draws_per_second": 29.96130704768086
+    },
+    {
+      "edition": "regular",
+      "live_bullets": 32,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360848934710965,
+      "draws_per_second": 29.96135602831835
+    },
+    {
+      "edition": "regular",
+      "live_bullets": 64,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360850331536483,
+      "draws_per_second": 29.961354069089857
+    },
+    {
+      "edition": "regular",
+      "live_bullets": 96,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360829379152904,
+      "draws_per_second": 29.961383457545328
+    },
+    {
+      "edition": "regular",
+      "live_bullets": 128,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 3.204125384650844,
+      "draws_per_second": 19.974249542976025
+    },
+    {
+      "edition": "regular",
+      "live_bullets": 160,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 3.204129295762449,
+      "draws_per_second": 19.974225161463302
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 0,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.136082937915294,
+      "draws_per_second": 29.961383457545278
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 32,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.136082937915294,
+      "draws_per_second": 29.961383457545278
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 64,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360829379152904,
+      "draws_per_second": 29.961383457545328
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 96,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 2.1360829379152904,
+      "draws_per_second": 29.961383457545328
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 128,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 3.204128876714776,
+      "draws_per_second": 19.974227773765396
+    },
+    {
+      "edition": "expert",
+      "live_bullets": 160,
+      "laser_segments": 15,
+      "graze_aura": true,
+      "measured_intervals": 64,
+      "seconds": 3.204125384650844,
+      "draws_per_second": 19.974249542976025
+    }
+  ]
+}

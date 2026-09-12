@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "input_sha256": "89659609e37ce92d6f151d40953622309ae00707f127296fab3368e0d946514f",
+  "inputs": 16384,
+  "final_tick": 16384,
+  "final_mode": 2,
+  "final_result": 2,
+  "final_score": 23109,
+  "maximum_live_bullets": 125,
+  "dropped_spawns": 0,
+  "beam": 12,
+  "depth": 8,
+  "chunk": 3,
+  "strategy": 0,
+  "host_seconds": 19.176026399999955,
+  "physical_hardware_tested": false,
+  "human_play_tested": false,
+  "scope": "Host model route only. Independent native keyboard execution remains required.",
+  "source_sha256": {
+    "game.c": "39b92b06397927543b8a948366f1ceb91154254198bb8941a6ba226b633cbfc9",
+    "patterns.c": "b94d56592e31de1d65eff52d6a958a9c1417e3c565ab4acf2ff26a1c433de5d9",
+    "patterns.h": "4e904de7eb2149a1604ac191aa51c9efab153a3bc4e26bb21f244a18a7758b89"
+  }
+}

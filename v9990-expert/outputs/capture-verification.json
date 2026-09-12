@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "method": "Actual V9990 framebuffer screenshots during uninterrupted native keyboard-only play. GIF delays derive from captured emulated timestamps; no simulated artwork or speed adjustment.",
+  "physical_hardware_tested": false,
+  "human_play_tested": false,
+  "game_ram_writes": false,
+  "cpu_register_writes": false,
+  "final_tick": 16384,
+  "final_score": 23109,
+  "average_updates_per_second": 22.767890923354656,
+  "peak_live_bullets": 125,
+  "dropped_spawns": 0,
+  "sample_windows": [
+    {
+      "file": "expert-early.gif",
+      "native_frames": 100,
+      "emulated_duration_ms": 3750,
+      "sha256": "1a110bf17419a352f0e56fdbf4d531ed3720925eabdd2a7167f6c9535c63a1e6"
+    },
+    {
+      "file": "expert-middle.gif",
+      "native_frames": 100,
+      "emulated_duration_ms": 4990,
+      "sha256": "7c3582028e0e8e942588cfd10487edaca191db2f11942df4aa8e11dc5424e7d1"
+    },
+    {
+      "file": "expert-late.gif",
+      "native_frames": 100,
+      "emulated_duration_ms": 4920,
+      "sha256": "564e9df6fa6288898eaab79655539bfc0d38bafe2cbac3e91beefeb35744593c"
+    }
+  ],
+  "timing_checker_scope": "The built-in VDP too-fast callback monitors internal V9958 VRAM access, not all V9990 bus timing."
+}

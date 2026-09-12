@@ -1,0 +1,22 @@
+{
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "areas": {
+    "bullets": {
+      "byte_identical": true,
+      "sha256": "449749c96f4b4b734ad739d2367fbf51d8eaca4e856afb11d98180ef8d239949"
+    },
+    "aura": {
+      "byte_identical": true,
+      "sha256": "ce69636f8bd7ba6f8623240da24821a9351c01a626484373534d507b70fd5c36"
+    },
+    "background": {
+      "byte_identical": true,
+      "sha256": "e30a828b42305e2198d6b4cd60bc301cfad1daebcffd27fd025c4d6d910eba10"
+    },
+    "title": {
+      "byte_identical": true,
+      "sha256": "edf93ea808d816925d66b0640ad53947a21a67b2fab9bd105768b8ece31d2dbc"
+    }
+  },
+  "baseline_unchanged": true
+}

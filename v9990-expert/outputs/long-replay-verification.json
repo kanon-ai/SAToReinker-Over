@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "input_sha256": "89659609e37ce92d6f151d40953622309ae00707f127296fab3368e0d946514f",
+  "fixture_replay_sha256": "583e1a09b38ee704699d2ada8cf72e7c5314abf5aa9b1b6cb65deac977e46c33",
+  "input_updates": 16384,
+  "replay_filename": "SATORIX.RPL",
+  "replay_rule_id": 3,
+  "method": "Host-generated header and FAT12 fixture from a full-course, native-verified automated keyboard input stream; normal title L load, X replay, then S save. No game-state injection.",
+  "game_ram_writes": false,
+  "cpu_register_writes": false,
+  "invincibility_used": false,
+  "human_play_tested": false,
+  "physical_hardware_tested": false,
+  "timing_checker_scope": "Internal V9958 only; V9990 bus timing is not guaranteed by this checker.",
+  "source_input_native_verified": true,
+  "source_fixture_is_native_disk_save": false,
+  "loaded_score": 23109,
+  "final": {
+    "mode": 2,
+    "tick": 16384,
+    "recorded": 16384,
+    "playback_at": 16384,
+    "score": 23109,
+    "saved_score": 23109,
+    "result": 2,
+    "saved_result": 2,
+    "replay": 1,
+    "replay_match": 1,
+    "replay_source": 2,
+    "grazes": 269
+  },
+  "final_simulation_state": {
+    "mode": 2,
+    "tick": 16384,
+    "player_x": 80,
+    "player_y": 193,
+    "score": 23109,
+    "grazes": 269,
+    "pattern_id": 3,
+    "pattern_age": 184,
+    "laser_count": 10,
+    "laser_active": 0,
+    "laser_age": 64,
+    "laser_angle": 58,
+    "laser_hx": 2202,
+    "laser_hy": 3369,
+    "laser_points": [
+      [
+        139,
+        207
+      ],
+      [
+        143,
+        201
+      ],
+      [
+        147,
+        194
+      ],
+      [
+        152,
+        188
+      ],
+      [
+        155,
+        181
+      ],
+      [
+        158,
+        174
+      ],
+      [
+        161,
+        168
+      ],
+      [
+        163,
+        160
+      ],
+      [
+        165,
+        153
+      ],
+      [
+        167,
+        146
+      ]
+    ]
+  },
+  "final_state_matches_original": true,
+  "additional_patterns_seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "runtime_unchanged": true,
+  "replay_buffer_unchanged": true,
+  "vram_timing_violations": 0,
+  "native_save_call_and_return_observed": true,
+  "native_resave_byte_identical": true,
+  "native_saved_replay_sha256": "583e1a09b38ee704699d2ada8cf72e7c5314abf5aa9b1b6cb65deac977e46c33",
+  "host_seconds": 73.594
+}

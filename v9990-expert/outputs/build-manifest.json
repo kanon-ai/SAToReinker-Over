@@ -1,0 +1,18 @@
+{
+  "file": "SAToReinker-Over-EXPERT.rom",
+  "rom_bytes": 524288,
+  "mapper": "ASCII8",
+  "runtime_bytes": 18186,
+  "data_end": "0xd1f5",
+  "sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "edition": "V9990 Expert",
+  "replay_file": "SATORIX.RPL",
+  "replay_rule_id": 3,
+  "replay_capacity": 16384,
+  "runtime_limit": "0xC800",
+  "data_base": "0xC800",
+  "stack_top": "0xD800",
+  "startup_art_bytes": 3560,
+  "startup_art_sha256": "78b77ee2eac3d837986475b1de6d86b620261729badad5be034c1186ecda1cb1",
+  "physical_hardware_tested": false
+}

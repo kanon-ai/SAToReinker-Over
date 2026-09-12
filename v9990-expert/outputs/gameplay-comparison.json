@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "physical_hardware_tested": false,
+  "method": "Full native simulation benchmark with identical no-input stream and fixed player (128,250) outside the playfield to prevent collision termination. One player-position RAM fixture after title; no rule/code patches. This is a controlled performance test, not a survival or player playtest. Different editions retain their actual progression and emissions.",
+  "results": [
+    {
+      "edition": "regular",
+      "begin_tick": 0,
+      "end_tick": 120,
+      "seconds": 4.005152330812994,
+      "updates_per_second": 29.96140722958259,
+      "mean_sampled_bullets": 12.75,
+      "max_sampled_bullets": 24
+    },
+    {
+      "edition": "regular",
+      "begin_tick": 1200,
+      "end_tick": 1320,
+      "seconds": 4.0885978525203654,
+      "updates_per_second": 29.349915136806004,
+      "mean_sampled_bullets": 50.5,
+      "max_sampled_bullets": 59
+    },
+    {
+      "edition": "regular",
+      "begin_tick": 3600,
+      "end_tick": 3720,
+      "seconds": 5.039821541564635,
+      "updates_per_second": 23.810366896988473,
+      "mean_sampled_bullets": 81.5,
+      "max_sampled_bullets": 87
+    },
+    {
+      "edition": "regular",
+      "begin_tick": 7200,
+      "end_tick": 7320,
+      "seconds": 5.440338646392206,
+      "updates_per_second": 22.05745042720433,
+      "mean_sampled_bullets": 93.75,
+      "max_sampled_bullets": 103
+    },
+    {
+      "edition": "regular",
+      "begin_tick": 10020,
+      "end_tick": 10140,
+      "seconds": 5.1399515860256315,
+      "updates_per_second": 23.34652340427737,
+      "mean_sampled_bullets": 91.75,
+      "max_sampled_bullets": 99
+    },
+    {
+      "edition": "expert",
+      "begin_tick": 0,
+      "end_tick": 120,
+      "seconds": 4.005154565733914,
+      "updates_per_second": 29.961390510783176,
+      "mean_sampled_bullets": 11.25,
+      "max_sampled_bullets": 20
+    },
+    {
+      "edition": "expert",
+      "begin_tick": 1200,
+      "end_tick": 1320,
+      "seconds": 4.856253238889295,
+      "updates_per_second": 24.710408229749977,
+      "mean_sampled_bullets": 55.0,
+      "max_sampled_bullets": 64
+    },
+    {
+      "edition": "expert",
+      "begin_tick": 3600,
+      "end_tick": 3720,
+      "seconds": 5.807480140632407,
+      "updates_per_second": 20.66300651816479,
+      "mean_sampled_bullets": 81.5,
+      "max_sampled_bullets": 95
+    },
+    {
+      "edition": "expert",
+      "begin_tick": 7200,
+      "end_tick": 7320,
+      "seconds": 5.907606972394547,
+      "updates_per_second": 20.312793413770393,
+      "mean_sampled_bullets": 95.5,
+      "max_sampled_bullets": 104
+    },
+    {
+      "edition": "expert",
+      "begin_tick": 10020,
+      "end_tick": 10140,
+      "seconds": 6.024424053895132,
+      "updates_per_second": 19.91891655143585,
+      "mean_sampled_bullets": 97.0,
+      "max_sampled_bullets": 110
+    }
+  ]
+}

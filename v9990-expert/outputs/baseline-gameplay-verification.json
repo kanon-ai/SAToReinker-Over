@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "base": "regular V9990 game.c",
+  "original_step_preserved_except": [
+    "speed-scaled spawn entry point",
+    "level interval 450 to 360 updates",
+    "additive patterns_step call",
+    "named unchanged 16384-input capacity"
+  ],
+  "bullet_and_laser_collision_code_byte_identical": true,
+  "original_aimed_radial_fan_spiral_crossing_and_laser_attacks_preserved": true,
+  "expert_source_sha256": "39b92b06397927543b8a948366f1ceb91154254198bb8941a6ba226b633cbfc9"
+}

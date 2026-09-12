@@ -1,5 +1,25 @@
 # SAToReinker-Over
 
+## V9990 EXPERT v0.1 — 上級者向け試作版 / Expert prototype
+
+**[紹介・ダウンロード / V9990 EXPERT](v9990-expert/README.md)**
+
+Turbo R + V9990版の弾幕に、初代MSX拡張版をもとにした31種類の追加パターンを重ねる上級者版です。
+**512 KiB ASCII8 ROM・R800 DRAMモード・FS-A1STの256 KiB RAM構成**で検証しています。
+通常弾の移動量を1更新あたり約18％増やし、弾幕の組み合わせを増やしました。実行速度は描画負荷で変わります。
+専用の `SATORIX.RPL` にリプレイを保存し、通常版の `SATORI2.RPL` と分けて扱います。
+ROM、保存用の空ディスク付きWindows試遊ZIP、ソース、3段階の実ROM GIF、検証記録を専用ページに掲載しています。
+実機と上級プレイヤーによる難易度評価は未実施です。試作品・無保証です。
+
+A separate expert prototype for **MSX turbo R + V9990**, adding 31 supplementary patterns over the original continuous barrage.
+512 KiB ASCII8 ROM, R800 DRAM mode, verified on the FS-A1ST 256 KiB configuration in openMSX.
+Ordinary bullets move about 18% farther per update; actual speed depends on rendering load.
+Expert replays use `SATORIX.RPL`, separately from the regular edition's `SATORI2.RPL`.
+The dedicated page includes the ROM, a Windows play bundle with a blank save disk, source, three native-ROM GIFs and verification reports.
+Physical hardware and expert-player difficulty calibration remain untested. Experimental and provided without warranty.
+
+![V9990 EXPERT — 中盤 / Middle](v9990-expert/outputs/expert-middle.gif)
+
 ## 初代MSX版 — 弾幕表現チャレンジ / MSX1 challenge
 
 **[全37WAVE拡張版 v0.2 — 紹介・ダウンロード / Expanded Waves](msx1/EXPANDED.md)**

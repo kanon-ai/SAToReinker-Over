@@ -1,0 +1,413 @@
+{
+  "passed": true,
+  "method": "Compile the actual procedural pattern source on the host and check its bounds.\n\nThe independent position advance uses the released Z80 loop's fixed-point\nlimits. Exhaustive reachability uses actual 1/3-pixel conditional movement and\n7x7 collision exclusion. It also searches with a larger 9x9 exclusion.\n\nThis deliberately tests the supplementary layer alone. The original aimed\nshots, rosettes, fans, spirals, crossings and homing laser are excluded. It\nestablishes extra-layer geometric feasibility, not combined-game difficulty,\nnative timing, full replay validation, or real-hardware compatibility.",
+  "density": {
+    "ticks": 8040,
+    "dropped_spawns": 0,
+    "spawned": 1000,
+    "max_birth_vx": 62,
+    "max_birth_vy": 46,
+    "waves": [
+      {
+        "id": 0,
+        "name": "LOTUS BLOOM",
+        "peak_live": 23,
+        "remaining_at_end": 0,
+        "spawned": 32
+      },
+      {
+        "id": 1,
+        "name": "DRIFTING GATES",
+        "peak_live": 24,
+        "remaining_at_end": 0,
+        "spawned": 24
+      },
+      {
+        "id": 2,
+        "name": "CRESCENT MOON",
+        "peak_live": 18,
+        "remaining_at_end": 0,
+        "spawned": 26
+      },
+      {
+        "id": 3,
+        "name": "PRISM RICOCHET",
+        "peak_live": 22,
+        "remaining_at_end": 0,
+        "spawned": 22
+      },
+      {
+        "id": 4,
+        "name": "RISING FOUNTAIN",
+        "peak_live": 26,
+        "remaining_at_end": 0,
+        "spawned": 26
+      },
+      {
+        "id": 5,
+        "name": "DOUBLE HELIX",
+        "peak_live": 12,
+        "remaining_at_end": 0,
+        "spawned": 16
+      },
+      {
+        "id": 6,
+        "name": "SNAKE PASS",
+        "peak_live": 23,
+        "remaining_at_end": 0,
+        "spawned": 25
+      },
+      {
+        "id": 7,
+        "name": "BINARY CLOCK",
+        "peak_live": 12,
+        "remaining_at_end": 0,
+        "spawned": 24
+      },
+      {
+        "id": 8,
+        "name": "KITE FESTIVAL",
+        "peak_live": 26,
+        "remaining_at_end": 0,
+        "spawned": 28
+      },
+      {
+        "id": 9,
+        "name": "SUNFLOWER",
+        "peak_live": 23,
+        "remaining_at_end": 0,
+        "spawned": 32
+      },
+      {
+        "id": 10,
+        "name": "IRIS GATES",
+        "peak_live": 25,
+        "remaining_at_end": 0,
+        "spawned": 37
+      },
+      {
+        "id": 11,
+        "name": "LUNAR ECHO",
+        "peak_live": 16,
+        "remaining_at_end": 0,
+        "spawned": 39
+      },
+      {
+        "id": 12,
+        "name": "MIRROR CASCADE",
+        "peak_live": 22,
+        "remaining_at_end": 0,
+        "spawned": 33
+      },
+      {
+        "id": 13,
+        "name": "REVERSE RAIN",
+        "peak_live": 21,
+        "remaining_at_end": 0,
+        "spawned": 33
+      },
+      {
+        "id": 14,
+        "name": "SILK RIBBONS",
+        "peak_live": 32,
+        "remaining_at_end": 0,
+        "spawned": 40
+      },
+      {
+        "id": 15,
+        "name": "METEOR WEAVE",
+        "peak_live": 28,
+        "remaining_at_end": 0,
+        "spawned": 48
+      },
+      {
+        "id": 16,
+        "name": "CLOVER CROWN",
+        "peak_live": 23,
+        "remaining_at_end": 1,
+        "spawned": 48
+      },
+      {
+        "id": 17,
+        "name": "ALTERNATE DOORS",
+        "peak_live": 24,
+        "remaining_at_end": 0,
+        "spawned": 36
+      },
+      {
+        "id": 18,
+        "name": "ORBITAL CLOCK",
+        "peak_live": 9,
+        "remaining_at_end": 0,
+        "spawned": 18
+      },
+      {
+        "id": 19,
+        "name": "STAR ANEMONE",
+        "peak_live": 23,
+        "remaining_at_end": 1,
+        "spawned": 48
+      },
+      {
+        "id": 20,
+        "name": "TIDAL CROSS",
+        "peak_live": 26,
+        "remaining_at_end": 0,
+        "spawned": 42
+      },
+      {
+        "id": 21,
+        "name": "WAVERING CORRIDOR",
+        "peak_live": 23,
+        "remaining_at_end": 0,
+        "spawned": 37
+      },
+      {
+        "id": 22,
+        "name": "ECLIPSE ARCS",
+        "peak_live": 12,
+        "remaining_at_end": 2,
+        "spawned": 33
+      },
+      {
+        "id": 23,
+        "name": "CRYSTAL RAIN",
+        "peak_live": 18,
+        "remaining_at_end": 0,
+        "spawned": 27
+      },
+      {
+        "id": 24,
+        "name": "SKY BLOSSOM",
+        "peak_live": 34,
+        "remaining_at_end": 0,
+        "spawned": 51
+      },
+      {
+        "id": 25,
+        "name": "QUANTUM BRAID",
+        "peak_live": 16,
+        "remaining_at_end": 0,
+        "spawned": 20
+      },
+      {
+        "id": 26,
+        "name": "CHECKER COMETS",
+        "peak_live": 28,
+        "remaining_at_end": 0,
+        "spawned": 48
+      },
+      {
+        "id": 27,
+        "name": "SERPENT RIVER",
+        "peak_live": 24,
+        "remaining_at_end": 0,
+        "spawned": 38
+      },
+      {
+        "id": 28,
+        "name": "CELESTIAL GEARS",
+        "peak_live": 16,
+        "remaining_at_end": 0,
+        "spawned": 30
+      },
+      {
+        "id": 29,
+        "name": "SPARSE CONSTELLATION",
+        "peak_live": 9,
+        "remaining_at_end": 0,
+        "spawned": 18
+      },
+      {
+        "id": 30,
+        "name": "SILVER STREAM",
+        "peak_live": 21,
+        "remaining_at_end": 0,
+        "spawned": 21
+      }
+    ]
+  },
+  "reachability": {
+    "passed": true,
+    "scope": "actual patterns.c host simulation; supplementary layer only; excludes all original bullets and the homing laser",
+    "actual_collision_halfwidth": 3,
+    "larger_collision_halfwidth_also_reachable": 4,
+    "ticks": 8040,
+    "whole_course_stationary_safe_centres": 20,
+    "positions_sha256": "1a401706e0e05f3d73ed7c2b9d142118aec3d7cd691530d6138ab624b3a150aa",
+    "results": [
+      {
+        "motif": 1,
+        "minimum_reachable_centres": 17,
+        "stationary_safe_centres": 26809
+      },
+      {
+        "motif": 2,
+        "minimum_reachable_centres": 45435,
+        "stationary_safe_centres": 28200
+      },
+      {
+        "motif": 3,
+        "minimum_reachable_centres": 46154,
+        "stationary_safe_centres": 35045
+      },
+      {
+        "motif": 4,
+        "minimum_reachable_centres": 45546,
+        "stationary_safe_centres": 20208
+      },
+      {
+        "motif": 5,
+        "minimum_reachable_centres": 45553,
+        "stationary_safe_centres": 23582
+      },
+      {
+        "motif": 6,
+        "minimum_reachable_centres": 46054,
+        "stationary_safe_centres": 34901
+      },
+      {
+        "motif": 7,
+        "minimum_reachable_centres": 45483,
+        "stationary_safe_centres": 21359
+      },
+      {
+        "motif": 8,
+        "minimum_reachable_centres": 46036,
+        "stationary_safe_centres": 33992
+      },
+      {
+        "motif": 9,
+        "minimum_reachable_centres": 45670,
+        "stationary_safe_centres": 20144
+      },
+      {
+        "motif": 10,
+        "minimum_reachable_centres": 45479,
+        "stationary_safe_centres": 27125
+      },
+      {
+        "motif": 11,
+        "minimum_reachable_centres": 45385,
+        "stationary_safe_centres": 28200
+      },
+      {
+        "motif": 12,
+        "minimum_reachable_centres": 46236,
+        "stationary_safe_centres": 37452
+      },
+      {
+        "motif": 13,
+        "minimum_reachable_centres": 45532,
+        "stationary_safe_centres": 19614
+      },
+      {
+        "motif": 14,
+        "minimum_reachable_centres": 45595,
+        "stationary_safe_centres": 20711
+      },
+      {
+        "motif": 15,
+        "minimum_reachable_centres": 45116,
+        "stationary_safe_centres": 22786
+      },
+      {
+        "motif": 16,
+        "minimum_reachable_centres": 45284,
+        "stationary_safe_centres": 14500
+      },
+      {
+        "motif": 17,
+        "minimum_reachable_centres": 45364,
+        "stationary_safe_centres": 19988
+      },
+      {
+        "motif": 18,
+        "minimum_reachable_centres": 45435,
+        "stationary_safe_centres": 28029
+      },
+      {
+        "motif": 19,
+        "minimum_reachable_centres": 46194,
+        "stationary_safe_centres": 33784
+      },
+      {
+        "motif": 20,
+        "minimum_reachable_centres": 45418,
+        "stationary_safe_centres": 19948
+      },
+      {
+        "motif": 21,
+        "minimum_reachable_centres": 45412,
+        "stationary_safe_centres": 7460
+      },
+      {
+        "motif": 22,
+        "minimum_reachable_centres": 45484,
+        "stationary_safe_centres": 18414
+      },
+      {
+        "motif": 23,
+        "minimum_reachable_centres": 46354,
+        "stationary_safe_centres": 37861
+      },
+      {
+        "motif": 24,
+        "minimum_reachable_centres": 45739,
+        "stationary_safe_centres": 20465
+      },
+      {
+        "motif": 25,
+        "minimum_reachable_centres": 45189,
+        "stationary_safe_centres": 19286
+      },
+      {
+        "motif": 26,
+        "minimum_reachable_centres": 45868,
+        "stationary_safe_centres": 26250
+      },
+      {
+        "motif": 27,
+        "minimum_reachable_centres": 45284,
+        "stationary_safe_centres": 14500
+      },
+      {
+        "motif": 28,
+        "minimum_reachable_centres": 45434,
+        "stationary_safe_centres": 17145
+      },
+      {
+        "motif": 29,
+        "minimum_reachable_centres": 45912,
+        "stationary_safe_centres": 29837
+      },
+      {
+        "motif": 30,
+        "minimum_reachable_centres": 46242,
+        "stationary_safe_centres": 33784
+      },
+      {
+        "motif": 31,
+        "minimum_reachable_centres": 45588,
+        "stationary_safe_centres": 23941
+      }
+    ],
+    "planned_input_sha256": "b0f7a95a9ed366e2df3e3b51cbb6f0e129c0a2ad8c3bef4ae51b3443709b99bc"
+  },
+  "source_sha256": {
+    "patterns.c": "b94d56592e31de1d65eff52d6a958a9c1417e3c565ab4acf2ff26a1c433de5d9",
+    "patterns.h": "4e904de7eb2149a1604ac191aa51c9efab153a3bc4e26bb21f244a18a7758b89"
+  },
+  "physical_hardware_tested": false,
+  "native_runtime_test": false,
+  "homing_laser_included": false,
+  "original_barrage_included": false,
+  "weave_velocity_lookup_cases": 192,
+  "slot_metadata_reset_cases": 192,
+  "unlock_tick": 600,
+  "motif_duration": 240,
+  "trajectory_comparison": {
+    "earlier_positions_sha256": "1a401706e0e05f3d73ed7c2b9d142118aec3d7cd691530d6138ab624b3a150aa",
+    "all_position_bytes_identical": true
+  }
+}

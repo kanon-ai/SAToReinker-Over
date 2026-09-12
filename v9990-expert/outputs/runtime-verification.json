@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "rom_sha256": "af74e3fd7185cf5a914b506a90564caa3cdb651c5c4cb346d6105f45cffec800",
+  "physical_hardware_tested": false,
+  "scope": "Native startup and isolated native input/spawn unit fixtures. Fixtures write a scratch stack and CPU registers; full-course route is tested separately without either.",
+  "keyboard": [
+    {
+      "row": 8,
+      "mask": 16,
+      "decoded": 1
+    },
+    {
+      "row": 8,
+      "mask": 128,
+      "decoded": 2
+    },
+    {
+      "row": 8,
+      "mask": 32,
+      "decoded": 4
+    },
+    {
+      "row": 8,
+      "mask": 64,
+      "decoded": 8
+    },
+    {
+      "row": 8,
+      "mask": 1,
+      "decoded": 16
+    },
+    {
+      "row": 5,
+      "mask": 32,
+      "decoded": 32
+    },
+    {
+      "row": 7,
+      "mask": 4,
+      "decoded": 64
+    }
+  ],
+  "joystick_port_sample_fixtures": [
+    {
+      "active_port_bits": 0,
+      "decoded": 0
+    },
+    {
+      "active_port_bits": 1,
+      "decoded": 4
+    },
+    {
+      "active_port_bits": 2,
+      "decoded": 8
+    },
+    {
+      "active_port_bits": 4,
+      "decoded": 1
+    },
+    {
+      "active_port_bits": 8,
+      "decoded": 2
+    },
+    {
+      "active_port_bits": 16,
+      "decoded": 16
+    },
+    {
+      "active_port_bits": 32,
+      "decoded": 32
+    },
+    {
+      "active_port_bits": 9,
+      "decoded": 6
+    },
+    {
+      "active_port_bits": 63,
+      "decoded": 63
+    }
+  ],
+  "native_expert_spawn": [
+    {
+      "source_velocity": -48,
+      "native_expert_velocity": -62,
+      "expected_regular_velocity": -53,
+      "native_regular_velocity": -53
+    },
+    {
+      "source_velocity": -32,
+      "native_expert_velocity": -42,
+      "expected_regular_velocity": -35,
+      "native_regular_velocity": -35
+    },
+    {
+      "source_velocity": -20,
+      "native_expert_velocity": -26,
+      "expected_regular_velocity": -22,
+      "native_regular_velocity": -22
+    },
+    {
+      "source_velocity": -1,
+      "native_expert_velocity": -1,
+      "expected_regular_velocity": -1,
+      "native_regular_velocity": -1
+    },
+    {
+      "source_velocity": 0,
+      "native_expert_velocity": 0,
+      "expected_regular_velocity": 0,
+      "native_regular_velocity": 0
+    },
+    {
+      "source_velocity": 1,
+      "native_expert_velocity": 1,
+      "expected_regular_velocity": 1,
+      "native_regular_velocity": 1
+    },
+    {
+      "source_velocity": 20,
+      "native_expert_velocity": 26,
+      "expected_regular_velocity": 22,
+      "native_regular_velocity": 22
+    },
+    {
+      "source_velocity": 32,
+      "native_expert_velocity": 42,
+      "expected_regular_velocity": 35,
+      "native_regular_velocity": 35
+    },
+    {
+      "source_velocity": 48,
+      "native_expert_velocity": 62,
+      "expected_regular_velocity": 53,
+      "native_regular_velocity": 53
+    }
+  ],
+  "native_runtime_unchanged_after_fixtures": true,
+  "reference_rom_sha256": "dcb1c0c6bd279ac3bc26f37056864ce5387db3217860bfad24573dc6ad1f88af",
+  "startup": [
+    {
+      "machine": {
+        "machine": "GRAZE_V9990_FS_A1ST",
+        "version": "openMSX 21.0-unknown",
+        "ram_bytes": 262144,
+        "vram_bytes": 524288,
+        "internal_vdp_vram_bytes": 131072,
+        "cpu": "r800",
+        "extension": "gfx9000",
+        "s1990_register6": 0,
+        "emulated_seconds": 25.046478253521048,
+        "physical_hardware_tested": false
+      },
+      "output_values": [
+        0
+      ],
+      "output_to_first_register_seconds": [
+        0.01888591985852983
+      ],
+      "himem": "0xde67",
+      "stktop": "0xdb87"
+    },
+    {
+      "machine": {
+        "machine": "GRAZE_V9990_FS_A1ST",
+        "version": "openMSX 21.0-unknown",
+        "ram_bytes": 262144,
+        "vram_bytes": 524288,
+        "internal_vdp_vram_bytes": 131072,
+        "cpu": "r800",
+        "extension": "video9000",
+        "s1990_register6": 0,
+        "emulated_seconds": 25.046478253521048,
+        "physical_hardware_tested": false
+      },
+      "output_values": [
+        0
+      ],
+      "output_to_first_register_seconds": [
+        0.01888591985852983
+      ],
+      "himem": "0xde67",
+      "stktop": "0xdb87"
+    }
+  ]
+}
