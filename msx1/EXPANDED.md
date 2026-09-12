@@ -145,7 +145,7 @@ ROMは正確に524,288バイト。起動・実行用4バンクと、弾幕用60�
 - 全コースを同じ場所に停止したまま通れる座標は、探索した自機移動範囲にはありません。
 - NTSC／PALのRAM32KiB・VRAM16KiB構成で、2桁表示、入力、デモ終了、停止・再開、発生源、後半バンクとPSGを確認。
 
-経路探索は完全に先を知った機械操作です。**人間の反応時間や難易度を保証するものではありません。**
+経路探索は完全に先を知った機械操作です。**プレイヤーの反応時間や難易度を保証するものではありません。**
 単純な移動で通れる区間も含めて緩急を付けています。全ての開始位置から救済可能という意味でもありません。
 詳細・測定条件・最終ROMのSHA-256は `outputs/*-verification.json` と `outputs/build-manifest.json` を参照してください。
 実エミュレータの復号／当たり判定検証には、場面指定や一時的な判定用RAM配置を使う別の検査もあります。
@@ -154,7 +154,7 @@ ROMは正確に524,288バイト。起動・実行用4バンクと、弾幕用60�
 English validation: final-ROM keyboard-only playback of a precomputed route survived all 37 waves twice
 (9,472 updates) with normal collision enabled. No gameplay RAM or CPU register modifications were used
 in that run. Offline reachability also succeeds with a hypothetical 5×5 core. These are perfect-information
-machine checks, not proof of human difficulty or physical-hardware compatibility. Targeted decoder/collision
+machine checks, not proof of difficulty for players or physical-hardware compatibility. Targeted decoder/collision
 fixtures are separate tests and explicitly documented in their reports. Inspect the JSON reports for measured rates.
 
 ## ビルド

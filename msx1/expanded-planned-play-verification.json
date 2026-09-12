@@ -13,7 +13,7 @@
   "cpu_register_writes": false,
   "invincibility_used": false,
   "method": "Perfect-information precomputed route delivered through emulated keyboard input to the actual ROM; native breakpoints only observe game state and schedule keyboard input.",
-  "scope": "One continuous machine-input survival route. This is not evidence of human difficulty, practical reaction time or real-hardware operation.",
+  "scope": "One continuous machine-input survival route. This is not evidence of difficulty for players, practical reaction time or real-hardware operation.",
   "machine": {
     "machine": "GRAZE_MSX1_RAM32_NTSC",
     "version": "openMSX 21.0-unknown",

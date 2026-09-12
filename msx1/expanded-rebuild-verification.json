@@ -1,6 +1,6 @@
 {
   "rom_sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
-  "source_archive_sha256": "0e633c9fb5b273b4adf04c17b7a30eacacc67d63ef6f788eab8717ffedb4e4ef",
+  "source_archive_sha256": "cf667d1e08f5d555169716d9b475119f589790be815fd268ffc70e33461411df",
   "source_rebuild_sha256": "9416c8348747fbbfa04dec7a2d1abdc26a87bff099c15e3c19b907b4fb50de63",
   "byte_identical": true,
   "bios_or_disk_images_packaged": false,

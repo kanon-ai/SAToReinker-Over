@@ -57,11 +57,11 @@ Six patterns play in sequence, then the final three repeat. PSG provides the rhy
 
 ## 実ROMの映像 / Actual ROM captures
 
-openMSXでROMを動かした無音GIFです。**Dで選択する無敵の鑑賞DEMO**を撮影しており、人間が生き残ったプレイ記録ではありません。
+openMSXでROMを動かした無音GIFです。**Dで選択する無敵の鑑賞DEMO**を撮影しており、プレイヤーが生き残ったプレイ記録ではありません。
 DEMOは当たり判定を省くため、下記の通常プレイ性能測定とは区別しています。
 
 Silent GIFs captured from the actual ROM in openMSX, using the keyboard-selected **invincible DEMO**.
-These are not human survival runs. The demo skips collision checks; its speed is distinct from the normal-play measurement below.
+These are not player survival runs. The demo skips collision checks; its speed is distinct from the normal-play measurement below.
 
 ### WAVE 2 — TWIN GALAXIES
 
