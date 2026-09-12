@@ -1,6 +1,6 @@
-> **全37WAVEの拡張版 v0.2を追加しました。** [紹介・ダウンロード / Expanded Waves downloads](EXPANDED.md)  
-> 既存6WAVE＋新31WAVE、RAM32KiB・512KiB ROM。以下は従来の6WAVE版 v0.1.1の説明とダウンロードです。  
-> **37-wave expanded edition v0.2 is available.** This page retains the original six-wave v0.1.1 release.
+> **全37WAVEから選べるステージセレクト版 v0.3を追加しました。** [紹介・ダウンロード / Stage Select downloads](STAGE-SELECT.md)
+> RAM32KiB・512KiB ROM。[全37WAVE拡張版 v0.2](EXPANDED.md)も残しています。以下は従来の6WAVE版 v0.1.1の説明とダウンロードです。
+> **Stage Select v0.3 lets you start from any of 37 waves.** The [v0.2 expanded edition](EXPANDED.md) remains available. This page retains the original six-wave v0.1.1 release.
 
 # SAToReinker-Over MSX版 — 弾幕表現チャレンジ
 

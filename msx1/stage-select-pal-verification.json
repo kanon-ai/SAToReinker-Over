@@ -1,0 +1,1827 @@
+{
+  "machine": "GRAZE_MSX1_RAM32_PAL",
+  "bios": "externally installed C-BIOS MSX1 JP",
+  "physical_hardware_tested": false,
+  "rom_sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94",
+  "rom_bytes": 524288,
+  "results": [
+    {
+      "name": "physical-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "physical-16KiB-VRAM",
+      "passed": true
+    },
+    {
+      "name": "native-PAL-TMS9929A-config",
+      "passed": true
+    },
+    {
+      "name": "title-boot-mode0",
+      "passed": true,
+      "mode": 0
+    },
+    {
+      "name": "SCREEN2",
+      "passed": true,
+      "registers": [
+        2,
+        194,
+        7,
+        255,
+        3,
+        55,
+        7,
+        1
+      ]
+    },
+    {
+      "name": "ROM-debug-device-found",
+      "passed": true,
+      "device": "SAToReinker-Over-MSX1-PCG-v0.3.rom"
+    },
+    {
+      "name": "actual-executed-ROM-hash",
+      "passed": true,
+      "sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94"
+    },
+    {
+      "name": "boot-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "space-start",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-left",
+      "passed": true,
+      "before": 128,
+      "after": 122,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-right",
+      "passed": true,
+      "before": 122,
+      "after": 128,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-up",
+      "passed": true,
+      "before": 166,
+      "after": 157,
+      "mode": 1
+    },
+    {
+      "name": "keyboard-down",
+      "passed": true,
+      "before": 157,
+      "after": 163,
+      "mode": 1
+    },
+    {
+      "name": "shift-focus-slower",
+      "passed": true,
+      "normal_pixels": 12,
+      "focus_pixels": 4,
+      "mode": 1
+    },
+    {
+      "name": "ESC-pauses",
+      "passed": true,
+      "mode": 3
+    },
+    {
+      "name": "pause-freezes-game-state",
+      "passed": true,
+      "frame": 28
+    },
+    {
+      "name": "ESC-resumes",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "ESC-resumes-sound-driver",
+      "passed": true,
+      "sound_run": 1
+    },
+    {
+      "name": "keyboard-smoke-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "seeded-dense-scene-progresses",
+      "passed": true,
+      "updates": 40,
+      "measured_updates_per_second": 25.0
+    },
+    {
+      "name": "seeded-dense-scene-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "wave01-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        219
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave02-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        220
+      ],
+      "emitter_count": 2
+    },
+    {
+      "name": "wave03-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        221
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave04-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        222
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave05-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        223
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave06-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        224
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave07-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        225
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave08-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        226
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave09-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        218,
+        227
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave10-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 21,
+      "measured_updates_per_second": 26.25,
+      "hud": [
+        219,
+        218
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave11-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        219
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave12-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        220
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave13-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        221
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave14-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        222
+      ],
+      "emitter_count": 2
+    },
+    {
+      "name": "wave15-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        223
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave16-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        224
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave17-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        225
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave18-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        226
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave19-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        219,
+        227
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave20-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        218
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave21-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        219
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave22-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        220
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave23-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 21,
+      "measured_updates_per_second": 26.25,
+      "hud": [
+        220,
+        221
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave24-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        222
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave25-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        223
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave26-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        224
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave27-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        225
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave28-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        226
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave29-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        220,
+        227
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave30-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        218
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave31-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        219
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave32-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        220
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave33-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        221
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave34-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        222
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "wave35-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        223
+      ],
+      "emitter_count": 2
+    },
+    {
+      "name": "wave36-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        224
+      ],
+      "emitter_count": 1
+    },
+    {
+      "name": "wave37-PAL-peak-HUD-markers",
+      "passed": true,
+      "updates": 20,
+      "measured_updates_per_second": 25.0,
+      "hud": [
+        221,
+        225
+      ],
+      "emitter_count": 0
+    },
+    {
+      "name": "all-wave-PAL-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "original-wave06-continues-to-wave07",
+      "passed": true,
+      "final_scene": 6,
+      "final_frame": 6,
+      "loop_count": 0
+    },
+    {
+      "name": "last-wave-loops-to-wave01",
+      "passed": true,
+      "final_scene": 0,
+      "final_frame": 6,
+      "loop_count": 1
+    },
+    {
+      "name": "title-two-digit-wave10-HUD",
+      "passed": true,
+      "hud": [
+        219,
+        218
+      ]
+    },
+    {
+      "name": "entry-hints-native-decode-and-overlay",
+      "passed": true,
+      "cases": 48
+    },
+    {
+      "name": "pal-normal-stress-active",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "pal-normal-stress-no-hit",
+      "passed": true,
+      "mode": 1,
+      "first_frame": 24,
+      "last_frame": 74
+    },
+    {
+      "name": "pal-normal-stress-progresses",
+      "passed": true,
+      "updates": 50,
+      "measured_updates_per_second": 25.0
+    },
+    {
+      "name": "pal-normal-stress-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "ntsc-normal-stress-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "ntsc-normal-stress-active",
+      "passed": true,
+      "mode": 1
+    },
+    {
+      "name": "ntsc-normal-stress-no-hit",
+      "passed": true,
+      "mode": 1,
+      "first_frame": 23,
+      "last_frame": 80
+    },
+    {
+      "name": "ntsc-normal-stress-progresses",
+      "passed": true,
+      "updates": 57,
+      "measured_updates_per_second": 28.5
+    },
+    {
+      "name": "ntsc-normal-stress-VRAM-timing",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "name": "stock64-machine",
+      "passed": true
+    },
+    {
+      "name": "stock64-native-RAM",
+      "passed": true,
+      "bytes": 65536
+    },
+    {
+      "name": "stock64-title",
+      "passed": true
+    },
+    {
+      "name": "stock64-actual-ROM-hash",
+      "passed": true,
+      "sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94"
+    },
+    {
+      "name": "stock64-space-start",
+      "passed": true
+    },
+    {
+      "name": "stock64-VRAM-timing",
+      "passed": true,
+      "count": 0
+    }
+  ],
+  "environment": {
+    "machine": "GRAZE_MSX1_RAM32_PAL",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 32768,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.150930355673696,
+    "physical_hardware_tested": false
+  },
+  "stress": {
+    "scenario": "RAM-seeded scene4/frame60, invincible showcase mode4",
+    "player_survival_claim": false,
+    "updates": 40,
+    "emulated_seconds": 1.6000005587302288,
+    "updates_per_second": 24.999991269843225,
+    "final_scene": 4,
+    "final_frame": 104
+  },
+  "all_wave_peak_stress": [
+    {
+      "scene": 0,
+      "displayed_wave": 1,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 59,
+      "peak_dots": 85,
+      "peak_packet_bank": 4,
+      "updates": 20,
+      "emulated_seconds": 0.8000025142860334,
+      "updates_per_second": 24.999921428808396,
+      "hud_tiles": [
+        218,
+        219
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 1,
+      "displayed_wave": 2,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 50,
+      "peak_dots": 80,
+      "peak_packet_bank": 6,
+      "updates": 20,
+      "emulated_seconds": 0.800000838095345,
+      "updates_per_second": 24.999973809547907,
+      "hud_tiles": [
+        218,
+        220
+      ],
+      "emitter_markers": [
+        [
+          80,
+          75,
+          8
+        ],
+        [
+          80,
+          167,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 2,
+      "displayed_wave": 3,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 57,
+      "peak_dots": 162,
+      "peak_packet_bank": 8,
+      "updates": 20,
+      "emulated_seconds": 0.8000002793651149,
+      "updates_per_second": 24.99999126984321,
+      "hud_tiles": [
+        218,
+        221
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 3,
+      "displayed_wave": 4,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 60,
+      "peak_dots": 271,
+      "peak_packet_bank": 12,
+      "updates": 20,
+      "emulated_seconds": 0.8000030730162635,
+      "updates_per_second": 24.99990396861065,
+      "hud_tiles": [
+        218,
+        222
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 4,
+      "displayed_wave": 5,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 56,
+      "peak_dots": 309,
+      "peak_packet_bank": 15,
+      "updates": 20,
+      "emulated_seconds": 0.8000030730162635,
+      "updates_per_second": 24.99990396861065,
+      "hud_tiles": [
+        218,
+        223
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 5,
+      "displayed_wave": 6,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 51,
+      "peak_dots": 274,
+      "peak_packet_bank": 19,
+      "updates": 20,
+      "emulated_seconds": 0.7999999999999989,
+      "updates_per_second": 25.000000000000032,
+      "hud_tiles": [
+        218,
+        224
+      ],
+      "emitter_markers": [
+        [
+          81,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 6,
+      "displayed_wave": 7,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 54,
+      "peak_dots": 120,
+      "peak_packet_bank": 22,
+      "updates": 20,
+      "emulated_seconds": 0.8000030730162635,
+      "updates_per_second": 24.99990396861065,
+      "hud_tiles": [
+        218,
+        225
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 7,
+      "displayed_wave": 8,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 148,
+      "peak_packet_bank": 23,
+      "updates": 20,
+      "emulated_seconds": 0.8000025142860316,
+      "updates_per_second": 24.99992142880845,
+      "hud_tiles": [
+        218,
+        226
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 8,
+      "displayed_wave": 9,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 53,
+      "peak_dots": 96,
+      "peak_packet_bank": 25,
+      "updates": 20,
+      "emulated_seconds": 0.8000025142860316,
+      "updates_per_second": 24.99992142880845,
+      "hud_tiles": [
+        218,
+        227
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 9,
+      "displayed_wave": 10,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 104,
+      "peak_packet_bank": 26,
+      "updates": 21,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 26.249945000108248,
+      "hud_tiles": [
+        219,
+        218
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 10,
+      "displayed_wave": 11,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 56,
+      "peak_dots": 114,
+      "peak_packet_bank": 28,
+      "updates": 20,
+      "emulated_seconds": 0.8000011174604573,
+      "updates_per_second": 24.99996507940949,
+      "hud_tiles": [
+        219,
+        219
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 11,
+      "displayed_wave": 12,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 68,
+      "peak_packet_bank": 29,
+      "updates": 20,
+      "emulated_seconds": 0.800003911111606,
+      "updates_per_second": 24.999877778359842,
+      "hud_tiles": [
+        219,
+        220
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 12,
+      "displayed_wave": 13,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 144,
+      "peak_packet_bank": 30,
+      "updates": 20,
+      "emulated_seconds": 0.8000011174604573,
+      "updates_per_second": 24.99996507940949,
+      "hud_tiles": [
+        219,
+        221
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 13,
+      "displayed_wave": 14,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 45,
+      "peak_dots": 54,
+      "peak_packet_bank": 31,
+      "updates": 20,
+      "emulated_seconds": 0.8000022349209175,
+      "updates_per_second": 24.99993015891644,
+      "hud_tiles": [
+        219,
+        222
+      ],
+      "emitter_markers": [
+        [
+          80,
+          65,
+          8
+        ],
+        [
+          80,
+          177,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 14,
+      "displayed_wave": 15,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 56,
+      "peak_dots": 145,
+      "peak_packet_bank": 33,
+      "updates": 20,
+      "emulated_seconds": 0.8000025142860316,
+      "updates_per_second": 24.99992142880845,
+      "hud_tiles": [
+        219,
+        223
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 15,
+      "displayed_wave": 16,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 48,
+      "peak_dots": 129,
+      "peak_packet_bank": 34,
+      "updates": 20,
+      "emulated_seconds": 0.8000002793651149,
+      "updates_per_second": 24.99999126984321,
+      "hud_tiles": [
+        219,
+        224
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 16,
+      "displayed_wave": 17,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 108,
+      "peak_packet_bank": 36,
+      "updates": 20,
+      "emulated_seconds": 0.800000558730229,
+      "updates_per_second": 24.99998253969254,
+      "hud_tiles": [
+        219,
+        225
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 17,
+      "displayed_wave": 18,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 48,
+      "peak_dots": 94,
+      "peak_packet_bank": 38,
+      "updates": 20,
+      "emulated_seconds": 0.800001396825575,
+      "updates_per_second": 24.999956349276996,
+      "hud_tiles": [
+        219,
+        226
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 18,
+      "displayed_wave": 19,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 109,
+      "peak_packet_bank": 39,
+      "updates": 20,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 24.999947619150714,
+      "hud_tiles": [
+        219,
+        227
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 19,
+      "displayed_wave": 20,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 53,
+      "peak_dots": 96,
+      "peak_packet_bank": 41,
+      "updates": 20,
+      "emulated_seconds": 0.8000033523813777,
+      "updates_per_second": 24.99989523852095,
+      "hud_tiles": [
+        220,
+        218
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 20,
+      "displayed_wave": 21,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 136,
+      "peak_packet_bank": 43,
+      "updates": 20,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 24.999947619150714,
+      "hud_tiles": [
+        220,
+        219
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 21,
+      "displayed_wave": 22,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 53,
+      "peak_dots": 92,
+      "peak_packet_bank": 44,
+      "updates": 20,
+      "emulated_seconds": 0.800000558730229,
+      "updates_per_second": 24.99998253969254,
+      "hud_tiles": [
+        220,
+        220
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 22,
+      "displayed_wave": 23,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 54,
+      "peak_dots": 120,
+      "peak_packet_bank": 46,
+      "updates": 21,
+      "emulated_seconds": 0.8000027936511458,
+      "updates_per_second": 26.249908333641883,
+      "hud_tiles": [
+        220,
+        221
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 23,
+      "displayed_wave": 24,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 124,
+      "peak_packet_bank": 47,
+      "updates": 20,
+      "emulated_seconds": 0.8000008380953432,
+      "updates_per_second": 24.999973809547964,
+      "hud_tiles": [
+        220,
+        222
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 24,
+      "displayed_wave": 25,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 53,
+      "peak_dots": 48,
+      "peak_packet_bank": 49,
+      "updates": 20,
+      "emulated_seconds": 0.8000011174604609,
+      "updates_per_second": 24.999965079409375,
+      "hud_tiles": [
+        220,
+        223
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 25,
+      "displayed_wave": 26,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 54,
+      "peak_dots": 121,
+      "peak_packet_bank": 50,
+      "updates": 20,
+      "emulated_seconds": 0.8000002793651149,
+      "updates_per_second": 24.99999126984321,
+      "hud_tiles": [
+        220,
+        224
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 26,
+      "displayed_wave": 27,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 51,
+      "peak_dots": 96,
+      "peak_packet_bank": 51,
+      "updates": 20,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 24.999947619150714,
+      "hud_tiles": [
+        220,
+        225
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 27,
+      "displayed_wave": 28,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 98,
+      "peak_packet_bank": 53,
+      "updates": 20,
+      "emulated_seconds": 0.8000005587302326,
+      "updates_per_second": 24.999982539692425,
+      "hud_tiles": [
+        220,
+        226
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 28,
+      "displayed_wave": 29,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 58,
+      "peak_packet_bank": 55,
+      "updates": 20,
+      "emulated_seconds": 0.8000027936511529,
+      "updates_per_second": 24.999912698706332,
+      "hud_tiles": [
+        220,
+        227
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 29,
+      "displayed_wave": 30,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 52,
+      "peak_dots": 63,
+      "peak_packet_bank": 55,
+      "updates": 20,
+      "emulated_seconds": 0.8000022349209175,
+      "updates_per_second": 24.99993015891644,
+      "hud_tiles": [
+        221,
+        218
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 30,
+      "displayed_wave": 31,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 55,
+      "peak_dots": 101,
+      "peak_packet_bank": 56,
+      "updates": 20,
+      "emulated_seconds": 0.8000033523813812,
+      "updates_per_second": 24.99989523852084,
+      "hud_tiles": [
+        221,
+        219
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 31,
+      "displayed_wave": 32,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 60,
+      "peak_dots": 67,
+      "peak_packet_bank": 58,
+      "updates": 20,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 24.999947619150714,
+      "hud_tiles": [
+        221,
+        220
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 32,
+      "displayed_wave": 33,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 52,
+      "peak_dots": 82,
+      "peak_packet_bank": 59,
+      "updates": 20,
+      "emulated_seconds": 0.8000030730162635,
+      "updates_per_second": 24.99990396861065,
+      "hud_tiles": [
+        221,
+        221
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 33,
+      "displayed_wave": 34,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 57,
+      "peak_dots": 102,
+      "peak_packet_bank": 60,
+      "updates": 20,
+      "emulated_seconds": 0.8000033523813741,
+      "updates_per_second": 24.99989523852106,
+      "hud_tiles": [
+        221,
+        222
+      ],
+      "emitter_markers": []
+    },
+    {
+      "scene": 34,
+      "displayed_wave": 35,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 52,
+      "peak_dots": 54,
+      "peak_packet_bank": 62,
+      "updates": 20,
+      "emulated_seconds": 0.8000016761906892,
+      "updates_per_second": 24.999947619150714,
+      "hud_tiles": [
+        221,
+        223
+      ],
+      "emitter_markers": [
+        [
+          80,
+          69,
+          8
+        ],
+        [
+          80,
+          173,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 35,
+      "displayed_wave": 36,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 53,
+      "peak_dots": 24,
+      "peak_packet_bank": 62,
+      "updates": 20,
+      "emulated_seconds": 0.8000013968255786,
+      "updates_per_second": 24.999956349276886,
+      "hud_tiles": [
+        221,
+        224
+      ],
+      "emitter_markers": [
+        [
+          80,
+          121,
+          8
+        ]
+      ]
+    },
+    {
+      "scene": 36,
+      "displayed_wave": 37,
+      "fixture": "RAM-seeded peak frame; invincible mode; not survival evidence",
+      "peak_frame": 58,
+      "peak_dots": 45,
+      "peak_packet_bank": 63,
+      "updates": 20,
+      "emulated_seconds": 0.8000005587302326,
+      "updates_per_second": 24.999982539692425,
+      "hud_tiles": [
+        221,
+        225
+      ],
+      "emitter_markers": []
+    }
+  ],
+  "entry_hint_tests": {
+    "fixture": "Native decode_frame and overlay calls with scene/frame/mode and return-stack fixtures",
+    "natural_gameplay_claim": false,
+    "cases": [
+      {
+        "scene": 0,
+        "displayed_wave": 1,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 0,
+        "displayed_wave": 1,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 1,
+        "displayed_wave": 2,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 1,
+        "displayed_wave": 2,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "displayed_wave": 3,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 2,
+        "displayed_wave": 3,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "displayed_wave": 4,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 3,
+        "displayed_wave": 4,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "displayed_wave": 5,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 4,
+        "displayed_wave": 5,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "displayed_wave": 6,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 5,
+        "displayed_wave": 6,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 31,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 32,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 31,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 32,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 0,
+        "mode": 0,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 0,
+        "mode": 2,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "frame": 0,
+        "mode": 3,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 31,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 32,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 31,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 32,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 0,
+        "mode": 0,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 0,
+        "mode": 2,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 19,
+        "displayed_wave": 20,
+        "frame": 0,
+        "mode": 3,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9f6ece7e8f6",
+        "native_names": "e9f5f2f0d9f6ece7e8f6",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 31,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9f6ece7e8f6",
+        "native_names": "e9f5f2f0d9f6ece7e8f6",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 32,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9f6ece7e8f6",
+        "native_names": "e9f5f2f0d9f6ece7e8f6",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 31,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9f6ece7e8f6",
+        "native_names": "e9f5f2f0d9f6ece7e8f6",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 32,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 0,
+        "mode": 0,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 0,
+        "mode": 2,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 26,
+        "displayed_wave": 27,
+        "frame": 0,
+        "mode": 3,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 0,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 31,
+        "mode": 1,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 32,
+        "mode": 1,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 0,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 31,
+        "mode": 4,
+        "expected_hint": "e9f5f2f0d9e5e8eff2fa",
+        "native_names": "e9f5f2f0d9e5e8eff2fa",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 32,
+        "mode": 4,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 0,
+        "mode": 0,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 0,
+        "mode": 2,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      },
+      {
+        "scene": 30,
+        "displayed_wave": 31,
+        "frame": 0,
+        "mode": 3,
+        "expected_hint": "00000000000000000000",
+        "native_names": "00000000000000000000",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "normal_play_stress": {
+    "pal": {
+      "scenario": "RAM-seeded normal mode1 scene4/frame20, player(8,180)",
+      "natural_survival_claim": false,
+      "collision_and_graze_enabled": true,
+      "updates": 50,
+      "emulated_seconds": 2.0000027936511486,
+      "updates_per_second": 24.99996507940942,
+      "start_frame": 24,
+      "final_frame": 74,
+      "final_scene": 4,
+      "final_mode": 1,
+      "VRAM_timing_violations": 0
+    },
+    "ntsc": {
+      "scenario": "RAM-seeded normal mode1 scene4/frame20, player(8,180)",
+      "natural_survival_claim": false,
+      "collision_and_graze_enabled": true,
+      "updates": 57,
+      "emulated_seconds": 2.000000279365114,
+      "updates_per_second": 28.49999601904768,
+      "start_frame": 23,
+      "final_frame": 80,
+      "final_scene": 4,
+      "final_mode": 1,
+      "VRAM_timing_violations": 0
+    }
+  },
+  "stock_64KiB_smoke": {
+    "machine": "C-BIOS_MSX1_JP",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 65536,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.197370336174011,
+    "physical_hardware_tested": false
+  },
+  "passed": true
+}

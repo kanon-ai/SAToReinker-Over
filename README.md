@@ -22,19 +22,23 @@ Physical hardware and expert-player difficulty calibration remain untested. Expe
 
 ## 初代MSX版 — 弾幕表現チャレンジ / MSX1 challenge
 
-**[全37WAVE拡張版 v0.2 — 紹介・ダウンロード / Expanded Waves](msx1/EXPANDED.md)**
+**[ステージセレクト版 v0.3 — 紹介・ダウンロード / Stage Select](msx1/STAGE-SELECT.md)**
 
-遊んでくださった皆さんへのお礼に、初代MSXのPCG弾幕を既存6種類から**全37WAVE（新31種類）**へ拡張しました。
+初代MSXのPCG弾幕チャレンジに、**全37WAVEから開始位置を選べるステージセレクト**を追加しました。
+タイトルとゲームオーバー画面で左右を押して選択し、SPACE／トリガー1で開始、Dで無敵のDEMOを楽しめます。
+プレイ・DEMOともに37の後は01へ戻り、スコアを引き継いで全37WAVEを循環します。再挑戦時も選択した開始WAVEを保持します。
 **RAM32KiB・VRAM16KiB・512KiB ASCII8 ROM、リプレイなし。** 自分で避けても、無敵のDEMOで眺めても楽しめます。
-新しい弾幕・ROM・ソース・Windows起動セット・実ROM GIFを専用ページに掲載しています。
+弾幕データはv0.2から変更していません。ROM・ソース・Windows起動セット・実ROM映像を専用ページに掲載しています。
 全37WAVEを事前計算したキーボード入力で無被弾通過できることをopenMSXで確認しました。プレイヤーにとっての難易度や実機動作の保証ではありません。
-[従来の6WAVE版 v0.1.1](msx1/README.md)も残しています。試作品・実機未検証・無保証です。
+[全37WAVE拡張版 v0.2](msx1/EXPANDED.md)と[従来の6WAVE版 v0.1.1](msx1/README.md)も残しています。試作品・実機未検証・無保証です。
 
-The MSX1 PCG bullet-pattern challenge now has **37 waves: the original six plus 31 additions**, as a thank-you to everyone playing.
+The MSX1 PCG bullet-pattern challenge now lets you **start from any of its 37 waves**.
+Use LEFT/RIGHT at the title or game-over screen, then SPACE / trigger 1 to play or D to watch the invincible DEMO.
+Both modes loop from wave 37 to 01 with the score retained; retry keeps your chosen starting wave.
 32 KiB RAM, 16 KiB VRAM, a 512 KiB ASCII8 ROM, graze scoring and PSG sound; no replay.
-Play or watch the invincible DEMO. The dedicated page includes the ROM, source, Windows launcher bundle and native emulator GIFs.
+Bullet data is unchanged from v0.2. The dedicated page includes the ROM, source, Windows launcher bundle and native emulator captures.
 A precomputed keyboard-only route survived all 37 waves in openMSX; this does not establish how difficult the game is for players or confirm physical-hardware compatibility.
-The [original six-wave v0.1.1 edition](msx1/README.md) remains available. Experimental and provided without warranty.
+The [37-wave v0.2 edition](msx1/EXPANDED.md) and [original six-wave v0.1.1 edition](msx1/README.md) remain available. Experimental and provided without warranty.
 
 ## turbo R + V9990版 / turbo R + V9990 version
 

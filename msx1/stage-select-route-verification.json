@@ -1,0 +1,1237 @@
+{
+  "rom_sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94",
+  "passed": true,
+  "method": "Perfect-information integer reachability using final ROM occupancy, 3x3 core, native 1/3-pixel moves and clamps; no reaction-time model.",
+  "native_runtime_test": false,
+  "physical_hardware_tested": false,
+  "waves": 37,
+  "updates": 9472,
+  "passes_per_wave": 2,
+  "larger_5x5_core_also_has_uninterrupted_route": true,
+  "larger_core_first_failure": null,
+  "whole_course_stationary_safe_centres": 0,
+  "planned_input_sha256": "d2362ea1beb64370256ae0dc97b872a9aac6bc3c1dc3bf677535ec547bdb7da7",
+  "results": [
+    {
+      "wave": 1,
+      "name": "LUNAR FAN",
+      "minimum_reachable_centres": 17,
+      "stationary_safe_centres": 15098,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 51
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 195
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 42
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "name": "TWIN GALAXIES",
+      "minimum_reachable_centres": 34532,
+      "stationary_safe_centres": 6927,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 26
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 93
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 34
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 56
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 176
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "name": "SINE LOOM",
+      "minimum_reachable_centres": 33400,
+      "stationary_safe_centres": 30118,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 38
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "name": "MIRROR WINGS",
+      "minimum_reachable_centres": 31864,
+      "stationary_safe_centres": 7526,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 58
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 80
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 44
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 11
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "name": "BRAIDED RIBBONS",
+      "minimum_reachable_centres": 31288,
+      "stationary_safe_centres": 28784,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 76
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 12
+        }
+      ]
+    },
+    {
+      "wave": 6,
+      "name": "MANDALA OVER",
+      "minimum_reachable_centres": 31756,
+      "stationary_safe_centres": 218,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 22
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 62
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 74
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 26
+        }
+      ]
+    },
+    {
+      "wave": 7,
+      "name": "LOTUS BLOOM",
+      "minimum_reachable_centres": 34056,
+      "stationary_safe_centres": 3316,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 51
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 89
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 77
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 70
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 38
+        }
+      ]
+    },
+    {
+      "wave": 8,
+      "name": "DRIFTING GATES",
+      "minimum_reachable_centres": 33824,
+      "stationary_safe_centres": 21456,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 63
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 12
+        }
+      ]
+    },
+    {
+      "wave": 9,
+      "name": "CRESCENT MOON",
+      "minimum_reachable_centres": 34444,
+      "stationary_safe_centres": 9893,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 42
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 165
+        },
+        {
+          "name": "perimeter",
+          "survived": true,
+          "hit_update": null
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "name": "PRISM RICOCHET",
+      "minimum_reachable_centres": 34116,
+      "stationary_safe_centres": 7378,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 53
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 96
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 65
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 65
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 36
+        }
+      ]
+    },
+    {
+      "wave": 11,
+      "name": "RISING FOUNTAIN",
+      "minimum_reachable_centres": 34032,
+      "stationary_safe_centres": 11540,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 16
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 158
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 58
+        }
+      ]
+    },
+    {
+      "wave": 12,
+      "name": "DOUBLE HELIX",
+      "minimum_reachable_centres": 34703,
+      "stationary_safe_centres": 33040,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 71
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 45
+        }
+      ]
+    },
+    {
+      "wave": 13,
+      "name": "SNAKE PASS",
+      "minimum_reachable_centres": 33792,
+      "stationary_safe_centres": 6424,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 79
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 79
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 79
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 71
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 20
+        }
+      ]
+    },
+    {
+      "wave": 14,
+      "name": "BINARY CLOCK",
+      "minimum_reachable_centres": 34988,
+      "stationary_safe_centres": 13958,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 75
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 43
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 186
+        }
+      ]
+    },
+    {
+      "wave": 15,
+      "name": "KITE FESTIVAL",
+      "minimum_reachable_centres": 33592,
+      "stationary_safe_centres": 8860,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 66
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 47
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 47
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 204
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 186
+        }
+      ]
+    },
+    {
+      "wave": 16,
+      "name": "SUNFLOWER",
+      "minimum_reachable_centres": 33976,
+      "stationary_safe_centres": 10377,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 54
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 50
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 32
+        }
+      ]
+    },
+    {
+      "wave": 17,
+      "name": "IRIS GATES",
+      "minimum_reachable_centres": 34144,
+      "stationary_safe_centres": 23840,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 53
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 51
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 53
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 227
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 11
+        }
+      ]
+    },
+    {
+      "wave": 18,
+      "name": "LUNAR ECHO",
+      "minimum_reachable_centres": 34440,
+      "stationary_safe_centres": 10454,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 37
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 165
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 37
+        }
+      ]
+    },
+    {
+      "wave": 19,
+      "name": "MIRROR CASCADE",
+      "minimum_reachable_centres": 34176,
+      "stationary_safe_centres": 7640,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 72
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 37
+        }
+      ]
+    },
+    {
+      "wave": 20,
+      "name": "REVERSE RAIN",
+      "minimum_reachable_centres": 34224,
+      "stationary_safe_centres": 28468,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 46
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 69
+        }
+      ]
+    },
+    {
+      "wave": 21,
+      "name": "SILK RIBBONS",
+      "minimum_reachable_centres": 33616,
+      "stationary_safe_centres": 30600,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 74
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 12
+        }
+      ]
+    },
+    {
+      "wave": 22,
+      "name": "METEOR WEAVE",
+      "minimum_reachable_centres": 34360,
+      "stationary_safe_centres": 22377,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 52
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 189
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 18
+        }
+      ]
+    },
+    {
+      "wave": 23,
+      "name": "CLOVER CROWN",
+      "minimum_reachable_centres": 34040,
+      "stationary_safe_centres": 2829,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 59
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 65
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 38
+        }
+      ]
+    },
+    {
+      "wave": 24,
+      "name": "ALTERNATE DOORS",
+      "minimum_reachable_centres": 33872,
+      "stationary_safe_centres": 21456,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 55
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 12
+        }
+      ]
+    },
+    {
+      "wave": 25,
+      "name": "ORBITAL CLOCK",
+      "minimum_reachable_centres": 35032,
+      "stationary_safe_centres": 15680,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 41
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 54
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 165
+        },
+        {
+          "name": "perimeter",
+          "survived": true,
+          "hit_update": null
+        }
+      ]
+    },
+    {
+      "wave": 26,
+      "name": "STAR ANEMONE",
+      "minimum_reachable_centres": 34056,
+      "stationary_safe_centres": 5417,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 42
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 81
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 51
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 51
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 73
+        }
+      ]
+    },
+    {
+      "wave": 27,
+      "name": "TIDAL CROSS",
+      "minimum_reachable_centres": 34260,
+      "stationary_safe_centres": 10435,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 102
+        }
+      ]
+    },
+    {
+      "wave": 28,
+      "name": "WAVERING CORRIDOR",
+      "minimum_reachable_centres": 34192,
+      "stationary_safe_centres": 13362,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 12
+        }
+      ]
+    },
+    {
+      "wave": 29,
+      "name": "ECLIPSE ARCS",
+      "minimum_reachable_centres": 34944,
+      "stationary_safe_centres": 16385,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 79
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 53
+        }
+      ]
+    },
+    {
+      "wave": 30,
+      "name": "CRYSTAL RAIN",
+      "minimum_reachable_centres": 34792,
+      "stationary_safe_centres": 14714,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 50
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 93
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 58
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 71
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 39
+        }
+      ]
+    },
+    {
+      "wave": 31,
+      "name": "SKY BLOSSOM",
+      "minimum_reachable_centres": 34254,
+      "stationary_safe_centres": 13326,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 151
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 167
+        }
+      ]
+    },
+    {
+      "wave": 32,
+      "name": "QUANTUM BRAID",
+      "minimum_reachable_centres": 34720,
+      "stationary_safe_centres": 33156,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 187
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 33
+        }
+      ]
+    },
+    {
+      "wave": 33,
+      "name": "CHECKER COMETS",
+      "minimum_reachable_centres": 34484,
+      "stationary_safe_centres": 22998,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 58
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 73
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 18
+        }
+      ]
+    },
+    {
+      "wave": 34,
+      "name": "SERPENT RIVER",
+      "minimum_reachable_centres": 34240,
+      "stationary_safe_centres": 12505,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 90
+        },
+        {
+          "name": "still-left",
+          "survived": false,
+          "hit_update": 89
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 82
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 11
+        }
+      ]
+    },
+    {
+      "wave": 35,
+      "name": "CELESTIAL GEARS",
+      "minimum_reachable_centres": 34956,
+      "stationary_safe_centres": 14872,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 39
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 40
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 170
+        }
+      ]
+    },
+    {
+      "wave": 36,
+      "name": "SPARSE CONSTELLATION",
+      "minimum_reachable_centres": 35412,
+      "stationary_safe_centres": 24735,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": false,
+          "hit_update": 46
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": false,
+          "hit_update": 54
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 165
+        },
+        {
+          "name": "perimeter",
+          "survived": true,
+          "hit_update": null
+        }
+      ]
+    },
+    {
+      "wave": 37,
+      "name": "SILVER STREAM",
+      "minimum_reachable_centres": 35088,
+      "stationary_safe_centres": 31424,
+      "simple_paths": [
+        {
+          "name": "still-centre",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-left",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "still-right",
+          "survived": true,
+          "hit_update": null
+        },
+        {
+          "name": "horizontal-sweep",
+          "survived": false,
+          "hit_update": 85
+        },
+        {
+          "name": "perimeter",
+          "survived": false,
+          "hit_update": 30
+        }
+      ]
+    }
+  ]
+}

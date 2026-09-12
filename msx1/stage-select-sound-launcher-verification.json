@@ -1,0 +1,152 @@
+{
+  "rom_sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94",
+  "rom_bytes": 524288,
+  "physical_hardware_tested": false,
+  "launcher": {
+    "ram_bytes": 32768,
+    "ram_base": "8000h",
+    "vdp": "TMS9918A",
+    "vram_bytes": 16384,
+    "mapper": "ASCII8",
+    "v9990_required": false,
+    "replay_disk_required": false,
+    "audible_driver_requested": true
+  },
+  "native_psg": {
+    "bass_periods": [
+      679,
+      906,
+      1016,
+      1141,
+      1357
+    ],
+    "percussion_periods": [
+      256,
+      512,
+      896,
+      1200
+    ],
+    "noise_periods": [
+      2,
+      12
+    ],
+    "bass_volumes": [
+      0,
+      4,
+      7,
+      10,
+      13
+    ],
+    "percussion_volumes": [
+      0,
+      3,
+      6,
+      8,
+      11,
+      13,
+      15
+    ],
+    "mixer_values": [
+      170,
+      184
+    ],
+    "snapshots": 135,
+    "sound_registers_written": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "io_direction_violations": 0,
+    "sound_writes_to_r14_r15": 0,
+    "pause_silences_all_channels": true,
+    "resume_restarts_groove": true,
+    "late_wave_tempo_tests": [
+      {
+        "scene": 5,
+        "displayed_wave": 6,
+        "fixture": "RAM-seeded scene/frame16 in invincible showcase; not survival evidence",
+        "sampled_updates": 36,
+        "phase_increment": 84,
+        "phase_increments_observed": [
+          84
+        ],
+        "tempo_ceiling_preserved": true,
+        "varying_psg_volumes": true
+      },
+      {
+        "scene": 6,
+        "displayed_wave": 7,
+        "fixture": "RAM-seeded scene/frame16 in invincible showcase; not survival evidence",
+        "sampled_updates": 36,
+        "phase_increment": 84,
+        "phase_increments_observed": [
+          84
+        ],
+        "tempo_ceiling_preserved": true,
+        "varying_psg_volumes": true
+      },
+      {
+        "scene": 9,
+        "displayed_wave": 10,
+        "fixture": "RAM-seeded scene/frame16 in invincible showcase; not survival evidence",
+        "sampled_updates": 36,
+        "phase_increment": 84,
+        "phase_increments_observed": [
+          84
+        ],
+        "tempo_ceiling_preserved": true,
+        "varying_psg_volumes": true
+      },
+      {
+        "scene": 10,
+        "displayed_wave": 11,
+        "fixture": "RAM-seeded scene/frame16 in invincible showcase; not survival evidence",
+        "sampled_updates": 36,
+        "phase_increment": 84,
+        "phase_increments_observed": [
+          84
+        ],
+        "tempo_ceiling_preserved": true,
+        "varying_psg_volumes": true
+      },
+      {
+        "scene": 36,
+        "displayed_wave": 37,
+        "fixture": "RAM-seeded scene/frame16 in invincible showcase; not survival evidence",
+        "sampled_updates": 36,
+        "phase_increment": 84,
+        "phase_increments_observed": [
+          84
+        ],
+        "tempo_ceiling_preserved": true,
+        "varying_psg_volumes": true
+      }
+    ],
+    "vram_timing_violations": 0,
+    "machine": {
+      "machine": "GRAZE_MSX1_RAM32_NTSC",
+      "version": "openMSX 21.0-unknown",
+      "ram_bytes": 32768,
+      "vram_bytes": 16384,
+      "emulated_seconds": 15.684319655151702,
+      "physical_hardware_tested": false
+    }
+  },
+  "audio": {
+    "path": "work\\sound\\1c32430c0a06\\native-psg.wav",
+    "frames": 198144,
+    "sample_rate": 44100,
+    "channels": 1,
+    "peak": 13284,
+    "nonzero_samples": 195448,
+    "native_pcm_verified": true,
+    "subjective_listening_performed": false
+  },
+  "rom_unchanged": true
+}

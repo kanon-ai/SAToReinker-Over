@@ -1,0 +1,377 @@
+{
+  "rom_sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94",
+  "physical_hardware_tested": false,
+  "scope": "Native keyboard menus and selected-start routes; physical joystick input is not tested.",
+  "capture_method": "Separate fresh realtime emulator sessions, one rendered screenshot each; review stored PNG pixels independently of chat previews.",
+  "standards": {
+    "ntsc": {
+      "checks": [
+        {
+          "name": "RAM32-VRAM16",
+          "passed": true
+        },
+        {
+          "name": "actual-ROM",
+          "passed": true
+        },
+        {
+          "name": "boot-wave1-title",
+          "passed": true
+        },
+        {
+          "name": "left-wrap-to37",
+          "passed": true
+        },
+        {
+          "name": "right-wrap-to1",
+          "passed": true
+        },
+        {
+          "name": "held-right-one-change",
+          "passed": true
+        },
+        {
+          "name": "release-repress-changes-again",
+          "passed": true
+        },
+        {
+          "name": "opposed-directions-cancel",
+          "passed": true
+        },
+        {
+          "name": "all37-selectable-and-wrap",
+          "passed": true
+        },
+        {
+          "name": "selected37-before-title-animation",
+          "passed": true
+        },
+        {
+          "name": "title-preview-keeps-selected-wave",
+          "passed": true
+        },
+        {
+          "name": "displayed-selection37",
+          "passed": true,
+          "tiles": [
+            221,
+            225
+          ]
+        },
+        {
+          "name": "SPACE-priority-over-right-starts37",
+          "passed": true
+        },
+        {
+          "name": "natural-hit-game-over",
+          "passed": true,
+          "scene": 0,
+          "frame": 99
+        },
+        {
+          "name": "gameover-right-wraps",
+          "passed": true
+        },
+        {
+          "name": "gameover-left-wraps",
+          "passed": true
+        },
+        {
+          "name": "gameover-held-left-one-change",
+          "passed": true
+        },
+        {
+          "name": "gameover-D-starts-selected-DEMO",
+          "passed": true
+        },
+        {
+          "name": "DEMO-pause",
+          "passed": true
+        },
+        {
+          "name": "pause-freezes-frame",
+          "passed": true
+        },
+        {
+          "name": "paused-DEMO-exit-keeps-choice-and-held-fire",
+          "passed": true
+        },
+        {
+          "name": "retry-starts-selected-wave",
+          "passed": true
+        },
+        {
+          "name": "normal-pause",
+          "passed": true
+        },
+        {
+          "name": "normal-pause-freezes-frame",
+          "passed": true
+        },
+        {
+          "name": "normal-resume",
+          "passed": true
+        },
+        {
+          "name": "menu-test-runtime-unchanged",
+          "passed": true
+        },
+        {
+          "name": "menu-test-VRAM-timing",
+          "passed": true,
+          "count": 0
+        },
+        {
+          "name": "normal-37-to1-continuous",
+          "passed": true,
+          "score": 522
+        },
+        {
+          "name": "DEMO-37-to1-continuous",
+          "passed": true,
+          "score": 512
+        }
+      ],
+      "machine": {
+        "machine": "GRAZE_MSX1_RAM32_NTSC",
+        "version": "openMSX 21.0-unknown",
+        "ram_bytes": 32768,
+        "vram_bytes": 16384,
+        "emulated_seconds": 5.081274016669716,
+        "physical_hardware_tested": false
+      },
+      "normal_course": {
+        "passed": true,
+        "updates": 512,
+        "wave37_updates": 256,
+        "wave1_updates": 256,
+        "input_sha256": "1af3fbdd34456626cee0bee83993932d77c13f45a3c5feed80a13286904bc150",
+        "final_wave": 2,
+        "final_mode": 1,
+        "selected_wave": 37,
+        "loop_count": 1,
+        "final_score": 522,
+        "transition_scores": [
+          266,
+          267
+        ],
+        "strictly_increasing_score": true,
+        "gameplay_ram_writes": false,
+        "cpu_register_writes": false,
+        "live_collisions": true,
+        "invincible_showcase": false,
+        "trace": "work/stage-select-verification/ntsc/normal-native.tsv",
+        "VRAM_timing_violations": 0
+      },
+      "demo_course": {
+        "passed": true,
+        "updates": 512,
+        "wave37_updates": 256,
+        "wave1_updates": 256,
+        "input_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+        "final_wave": 2,
+        "final_mode": 4,
+        "selected_wave": 37,
+        "loop_count": 1,
+        "final_score": 512,
+        "transition_scores": [
+          256,
+          257
+        ],
+        "strictly_increasing_score": true,
+        "gameplay_ram_writes": false,
+        "cpu_register_writes": false,
+        "live_collisions": false,
+        "invincible_showcase": true,
+        "trace": "work/stage-select-verification/ntsc/demo-native.tsv",
+        "VRAM_timing_violations": 0
+      },
+      "passed": true
+    },
+    "pal": {
+      "checks": [
+        {
+          "name": "RAM32-VRAM16",
+          "passed": true
+        },
+        {
+          "name": "actual-ROM",
+          "passed": true
+        },
+        {
+          "name": "boot-wave1-title",
+          "passed": true
+        },
+        {
+          "name": "left-wrap-to37",
+          "passed": true
+        },
+        {
+          "name": "right-wrap-to1",
+          "passed": true
+        },
+        {
+          "name": "held-right-one-change",
+          "passed": true
+        },
+        {
+          "name": "release-repress-changes-again",
+          "passed": true
+        },
+        {
+          "name": "opposed-directions-cancel",
+          "passed": true
+        },
+        {
+          "name": "all37-selectable-and-wrap",
+          "passed": true
+        },
+        {
+          "name": "selected37-before-title-animation",
+          "passed": true
+        },
+        {
+          "name": "title-preview-keeps-selected-wave",
+          "passed": true
+        },
+        {
+          "name": "displayed-selection37",
+          "passed": true,
+          "tiles": [
+            221,
+            225
+          ]
+        },
+        {
+          "name": "SPACE-priority-over-right-starts37",
+          "passed": true
+        },
+        {
+          "name": "natural-hit-game-over",
+          "passed": true,
+          "scene": 0,
+          "frame": 67
+        },
+        {
+          "name": "gameover-right-wraps",
+          "passed": true
+        },
+        {
+          "name": "gameover-left-wraps",
+          "passed": true
+        },
+        {
+          "name": "gameover-held-left-one-change",
+          "passed": true
+        },
+        {
+          "name": "gameover-D-starts-selected-DEMO",
+          "passed": true
+        },
+        {
+          "name": "DEMO-pause",
+          "passed": true
+        },
+        {
+          "name": "pause-freezes-frame",
+          "passed": true
+        },
+        {
+          "name": "paused-DEMO-exit-keeps-choice-and-held-fire",
+          "passed": true
+        },
+        {
+          "name": "retry-starts-selected-wave",
+          "passed": true
+        },
+        {
+          "name": "normal-pause",
+          "passed": true
+        },
+        {
+          "name": "normal-pause-freezes-frame",
+          "passed": true
+        },
+        {
+          "name": "normal-resume",
+          "passed": true
+        },
+        {
+          "name": "menu-test-runtime-unchanged",
+          "passed": true
+        },
+        {
+          "name": "menu-test-VRAM-timing",
+          "passed": true,
+          "count": 0
+        },
+        {
+          "name": "normal-37-to1-continuous",
+          "passed": true,
+          "score": 522
+        },
+        {
+          "name": "DEMO-37-to1-continuous",
+          "passed": true,
+          "score": 512
+        }
+      ],
+      "machine": {
+        "machine": "GRAZE_MSX1_RAM32_PAL",
+        "version": "openMSX 21.0-unknown",
+        "ram_bytes": 32768,
+        "vram_bytes": 16384,
+        "emulated_seconds": 5.208980750346762,
+        "physical_hardware_tested": false
+      },
+      "normal_course": {
+        "passed": true,
+        "updates": 512,
+        "wave37_updates": 256,
+        "wave1_updates": 256,
+        "input_sha256": "1af3fbdd34456626cee0bee83993932d77c13f45a3c5feed80a13286904bc150",
+        "final_wave": 2,
+        "final_mode": 1,
+        "selected_wave": 37,
+        "loop_count": 1,
+        "final_score": 522,
+        "transition_scores": [
+          266,
+          267
+        ],
+        "strictly_increasing_score": true,
+        "gameplay_ram_writes": false,
+        "cpu_register_writes": false,
+        "live_collisions": true,
+        "invincible_showcase": false,
+        "trace": "work/stage-select-verification/pal/normal-native.tsv",
+        "VRAM_timing_violations": 0
+      },
+      "demo_course": {
+        "passed": true,
+        "updates": 512,
+        "wave37_updates": 256,
+        "wave1_updates": 256,
+        "input_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+        "final_wave": 2,
+        "final_mode": 4,
+        "selected_wave": 37,
+        "loop_count": 1,
+        "final_score": 512,
+        "transition_scores": [
+          256,
+          257
+        ],
+        "strictly_increasing_score": true,
+        "gameplay_ram_writes": false,
+        "cpu_register_writes": false,
+        "live_collisions": false,
+        "invincible_showcase": true,
+        "trace": "work/stage-select-verification/pal/demo-native.tsv",
+        "VRAM_timing_violations": 0
+      },
+      "passed": true
+    }
+  },
+  "passed": true
+}

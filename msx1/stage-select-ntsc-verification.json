@@ -1,0 +1,630 @@
+{
+  "physical_hardware_tested": false,
+  "rom_sha256": "f3ad62081dec62dcca877ce5a090eaa518ec4149aacc44f9d16054dfadce9e94",
+  "checks": [
+    {
+      "name": "physical-32KiB-RAM",
+      "passed": true
+    },
+    {
+      "name": "physical-16KiB-VRAM",
+      "passed": true
+    },
+    {
+      "name": "title-on-boot",
+      "passed": true,
+      "mode": 0
+    },
+    {
+      "name": "space-start",
+      "passed": true
+    },
+    {
+      "name": "left-arrow",
+      "passed": true,
+      "pixels": 18
+    },
+    {
+      "name": "shift-focus",
+      "passed": true,
+      "normal_pixels": 18,
+      "focus_pixels": 6
+    },
+    {
+      "name": "pause",
+      "passed": true
+    },
+    {
+      "name": "pause-freezes-game",
+      "passed": true
+    },
+    {
+      "name": "resume",
+      "passed": true
+    },
+    {
+      "name": "native-hit-gameover",
+      "passed": true
+    },
+    {
+      "name": "high-score-retained",
+      "passed": true
+    },
+    {
+      "name": "restart-after-hit",
+      "passed": true
+    },
+    {
+      "name": "keyboard-demo-mode",
+      "passed": true
+    },
+    {
+      "name": "demo-space-exits-to-title",
+      "passed": true
+    },
+    {
+      "name": "held-demo-exit-does-not-start",
+      "passed": true
+    },
+    {
+      "name": "start-after-demo-exit",
+      "passed": true
+    },
+    {
+      "name": "paused-demo",
+      "passed": true
+    },
+    {
+      "name": "paused-demo-space-exits",
+      "passed": true
+    },
+    {
+      "name": "demo-reentry-after-exit",
+      "passed": true
+    },
+    {
+      "name": "scene-1-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-1-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-2-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-2-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-3-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-3-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-4-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-4-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-5-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-5-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-6-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-6-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-7-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-7-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-8-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-8-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-9-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-9-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-10-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-10-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-11-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-11-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-12-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-12-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-13-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-13-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-14-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-14-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-15-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-15-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-16-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-16-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-17-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-17-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-18-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-18-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-19-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-19-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-20-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-20-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-21-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-21-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-22-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-22-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-23-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-23-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-24-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-24-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-25-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-25-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-26-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-26-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-27-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-27-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-28-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-28-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-29-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-29-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-30-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-30-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-31-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-31-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-32-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-32-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-33-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-33-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-34-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-34-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-35-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-35-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-36-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-36-continues",
+      "passed": true
+    },
+    {
+      "name": "scene-37-capture-complete",
+      "passed": true
+    },
+    {
+      "name": "scene-37-continues",
+      "passed": true
+    },
+    {
+      "name": "strict-VRAM-timing",
+      "passed": true,
+      "violations": 0
+    }
+  ],
+  "machine": {
+    "machine": "GRAZE_MSX1_RAM32_NTSC",
+    "version": "openMSX 21.0-unknown",
+    "ram_bytes": 32768,
+    "vram_bytes": 16384,
+    "emulated_seconds": 5.1817988040379435,
+    "physical_hardware_tested": false
+  },
+  "rates": [
+    {
+      "scene": 1,
+      "updates": 60,
+      "emulated_seconds": 2.001000406476244,
+      "updates_per_second": 29.985001405202024
+    },
+    {
+      "scene": 2,
+      "updates": 100,
+      "emulated_seconds": 3.334336067852199,
+      "updates_per_second": 29.99097810330038
+    },
+    {
+      "scene": 3,
+      "updates": 60,
+      "emulated_seconds": 2.0010032001273856,
+      "updates_per_second": 29.984959542383713
+    },
+    {
+      "scene": 4,
+      "updates": 100,
+      "emulated_seconds": 3.3343355091219706,
+      "updates_per_second": 29.99098312884925
+    },
+    {
+      "scene": 5,
+      "updates": 60,
+      "emulated_seconds": 2.001000406476237,
+      "updates_per_second": 29.98500140520213
+    },
+    {
+      "scene": 6,
+      "updates": 60,
+      "emulated_seconds": 2.0010015239367007,
+      "updates_per_second": 29.98498466006067
+    },
+    {
+      "scene": 7,
+      "updates": 100,
+      "emulated_seconds": 3.3343338329312786,
+      "updates_per_second": 29.990998205506024
+    },
+    {
+      "scene": 8,
+      "updates": 60,
+      "emulated_seconds": 2.0010015239366936,
+      "updates_per_second": 29.98498466006078
+    },
+    {
+      "scene": 9,
+      "updates": 60,
+      "emulated_seconds": 2.0010040382227317,
+      "updates_per_second": 29.98494698356096
+    },
+    {
+      "scene": 10,
+      "updates": 60,
+      "emulated_seconds": 2.001002082666929,
+      "updates_per_second": 29.98497628749701
+    },
+    {
+      "scene": 11,
+      "updates": 60,
+      "emulated_seconds": 2.0010032001273856,
+      "updates_per_second": 29.984959542383713
+    },
+    {
+      "scene": 12,
+      "updates": 60,
+      "emulated_seconds": 2.001000685841362,
+      "updates_per_second": 29.98499721891488
+    },
+    {
+      "scene": 13,
+      "updates": 60,
+      "emulated_seconds": 2.001004876318092,
+      "updates_per_second": 29.984934424748516
+    },
+    {
+      "scene": 14,
+      "updates": 60,
+      "emulated_seconds": 2.0010001271111264,
+      "updates_per_second": 29.98500559149034
+    },
+    {
+      "scene": 15,
+      "updates": 60,
+      "emulated_seconds": 2.001002082666929,
+      "updates_per_second": 29.98497628749701
+    },
+    {
+      "scene": 16,
+      "updates": 60,
+      "emulated_seconds": 2.0010009652064866,
+      "updates_per_second": 29.984993032628797
+    },
+    {
+      "scene": 17,
+      "updates": 60,
+      "emulated_seconds": 2.0010006858413476,
+      "updates_per_second": 29.984997218915094
+    },
+    {
+      "scene": 18,
+      "updates": 60,
+      "emulated_seconds": 2.0010006858413476,
+      "updates_per_second": 29.984997218915094
+    },
+    {
+      "scene": 19,
+      "updates": 100,
+      "emulated_seconds": 3.3343346710266246,
+      "updates_per_second": 29.990990667175744
+    },
+    {
+      "scene": 20,
+      "updates": 60,
+      "emulated_seconds": 2.001000406476237,
+      "updates_per_second": 29.98500140520213
+    },
+    {
+      "scene": 21,
+      "updates": 60,
+      "emulated_seconds": 2.0010032001273714,
+      "updates_per_second": 29.984959542383926
+    },
+    {
+      "scene": 22,
+      "updates": 60,
+      "emulated_seconds": 2.0010009652064866,
+      "updates_per_second": 29.984993032628797
+    },
+    {
+      "scene": 23,
+      "updates": 60,
+      "emulated_seconds": 2.0010001271111264,
+      "updates_per_second": 29.98500559149034
+    },
+    {
+      "scene": 24,
+      "updates": 60,
+      "emulated_seconds": 2.0010001271111264,
+      "updates_per_second": 29.98500559149034
+    },
+    {
+      "scene": 25,
+      "updates": 60,
+      "emulated_seconds": 2.001002362032068,
+      "updates_per_second": 29.98497210121656
+    },
+    {
+      "scene": 26,
+      "updates": 60,
+      "emulated_seconds": 2.0010018033018184,
+      "updates_per_second": 29.984980473778204
+    },
+    {
+      "scene": 27,
+      "updates": 60,
+      "emulated_seconds": 2.001000406476237,
+      "updates_per_second": 29.98500140520213
+    },
+    {
+      "scene": 28,
+      "updates": 60,
+      "emulated_seconds": 2.0010009652064866,
+      "updates_per_second": 29.984993032628797
+    },
+    {
+      "scene": 29,
+      "updates": 60,
+      "emulated_seconds": 2.001001803301847,
+      "updates_per_second": 29.984980473777778
+    },
+    {
+      "scene": 30,
+      "updates": 60,
+      "emulated_seconds": 2.001000965206458,
+      "updates_per_second": 29.984993032629223
+    },
+    {
+      "scene": 31,
+      "updates": 60,
+      "emulated_seconds": 2.0010020826669574,
+      "updates_per_second": 29.984976287496586
+    },
+    {
+      "scene": 32,
+      "updates": 60,
+      "emulated_seconds": 2.001004596952953,
+      "updates_per_second": 29.984938611018446
+    },
+    {
+      "scene": 33,
+      "updates": 60,
+      "emulated_seconds": 2.0010015239367362,
+      "updates_per_second": 29.98498466006014
+    },
+    {
+      "scene": 34,
+      "updates": 60,
+      "emulated_seconds": 2.0010015239366794,
+      "updates_per_second": 29.98498466006099
+    },
+    {
+      "scene": 35,
+      "updates": 60,
+      "emulated_seconds": 2.0010020826669574,
+      "updates_per_second": 29.984976287496586
+    },
+    {
+      "scene": 36,
+      "updates": 60,
+      "emulated_seconds": 2.0010015239367362,
+      "updates_per_second": 29.98498466006014
+    },
+    {
+      "scene": 37,
+      "updates": 100,
+      "emulated_seconds": 3.334333832931293,
+      "updates_per_second": 29.990998205505896
+    }
+  ],
+  "waves": 37,
+  "gif_waves": [
+    2,
+    4,
+    7,
+    19,
+    37
+  ],
+  "capture_mode": "Keyboard-selected D showcase; invincible and labelled DEMO on screen. No gameplay-memory writes. Native rendered-framebuffer screenshots without OSD.",
+  "vram_timing_violations": 0,
+  "capture_publication": "Not included in the stage-select-only publication; functional observations are retained."
+}
