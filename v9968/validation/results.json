@@ -1,0 +1,60 @@
+{
+  "rom_sha256": "87b97613d9a084a214a14b9f0fac00430b4e39b061846581df3fb6547d9b0d75",
+  "emulator_only": true,
+  "screen": "SCREEN 5 / EPAL / Sprite3",
+  "shared_colors": 16,
+  "validated_live_states": 8737,
+  "gameplay_changes": [
+    "laser locks initial target and follows a parabola"
+  ],
+  "aim": {
+    "aim_cases": 192,
+    "aim_failures": 0,
+    "edge_cases": 16,
+    "edge_failures": 0,
+    "examples": []
+  },
+  "disk_boot_input_code_unchanged": true,
+  "background_bytes": 32768,
+  "background_bytes_256": 65536,
+  "palette": {
+    "title_cpu": "Z80",
+    "cpu_switches": 0,
+    "VRAM_writes": 0,
+    "redraws": 0,
+    "palette_indices": [],
+    "palette_writes": 0,
+    "distinct_frames": 1,
+    "capture_interval_ms": 80
+  },
+  "replay": {
+    "recorded_with_keyboard": true,
+    "expected": [
+      8736,
+      4793,
+      8737,
+      1
+    ],
+    "all_simulation_states_match_live_recording": true,
+    "runs": [
+      {
+        "divider": 1,
+        "state_comparisons": 8737,
+        "updates_per_second": 49.993443038932696,
+        "draws_per_second": 44.69995233254388,
+        "mean_update_ms": 3.522986267569986,
+        "max_update_ms": 27.12747011145509
+      },
+      {
+        "divider": 3,
+        "state_comparisons": 8737,
+        "updates_per_second": 49.99344120064508,
+        "draws_per_second": 16.664480400215027,
+        "mean_update_ms": 3.523013126525745,
+        "max_update_ms": 27.12747011145509
+      }
+    ]
+  },
+  "pixel_frames": 87,
+  "pixel_errors": 0
+}
