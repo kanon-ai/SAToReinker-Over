@@ -4,7 +4,7 @@
 
 **[紹介・ダウンロード / V9968 edition](v9968/README.md)**
 
-MSX turbo R + V9968専用。16色、EPAL・Sprite3、猫と兎のフェード背景、青いロケット、放物線状の緑レーザーを収録。512KiB ASCII8 ROM、ソース、実時間GIFと検証結果を公開しています。R800前提、確認済み本体RAM256KiB、リプレイ専用RAM16KiB（最大約5分28秒）。実機・FPGA未検証。
+MSX turbo R + V9968専用。16色、EPAL・Sprite3、猫と兎のフェード背景、青いロケット、放物線状の緑レーザーを収録。かすりシールドと、当たった弾だけを跳ね返す短い平和演出を追加（旧公開版のリプレイと一致確認済み）。512KiB ASCII8 ROM、ソース、実時間GIFと検証結果を公開しています。R800前提、確認済み本体RAM256KiB、リプレイ専用RAM16KiB（最大約5分28秒）。実機・FPGA未検証。
 
 Requires MSX turbo R + V9968; tested in a custom openMSX build with the FS-A1ST 256KiB RAM configuration. Dedicated replay buffer: 16KiB. Physical hardware is untested.
 

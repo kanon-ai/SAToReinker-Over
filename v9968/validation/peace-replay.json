@@ -1,34 +1,7 @@
 {
+  "published_replay_byte_identical": true,
+  "all_simulation_states_identical_to_published": 8737,
   "rom_sha256": "caff06c90d77840a3fbe8f61056d349d33056e4102a8dd8af8fb817d8b6a9304",
-  "emulator_only": true,
-  "screen": "SCREEN 5 / EPAL / Sprite3",
-  "shared_colors": 16,
-  "validated_live_states": 8737,
-  "gameplay_changes": [],
-  "presentation_changes": [
-    "ship-centred graze shield",
-    "non-destructive ending with reflected bullets and laser"
-  ],
-  "aim": {
-    "aim_cases": 192,
-    "aim_failures": 0,
-    "edge_cases": 16,
-    "edge_failures": 0,
-    "examples": []
-  },
-  "disk_boot_input_code_unchanged": true,
-  "background_bytes": 32768,
-  "background_bytes_256": 65536,
-  "palette": {
-    "title_cpu": "Z80",
-    "cpu_switches": 0,
-    "VRAM_writes": 0,
-    "redraws": 0,
-    "palette_indices": [],
-    "palette_writes": 0,
-    "distinct_frames": 1,
-    "capture_interval_ms": 80
-  },
   "replay": {
     "recorded_with_keyboard": true,
     "expected": [
@@ -56,7 +29,5 @@
         "max_update_ms": 27.12747011145509
       }
     ]
-  },
-  "pixel_frames": 87,
-  "pixel_errors": 0
+  }
 }

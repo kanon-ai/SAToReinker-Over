@@ -29,6 +29,7 @@ static u8 last_scene[2];
 u8 background_scene;
 static u16 background_y;
 static u8 palette_play;
+extern u8 peace_active;
 u8 background_fade;
 static u8 palette_fade;
 void gfx_dirty(u8 x,u8 y,u8 w,u8 h){
@@ -151,18 +152,18 @@ static void upload_sat(void) __naked {
 /* SCREEN 5 packs two pixels per byte; Sprite3 stays in extended VRAM. */
 void gfx_flip(u8 page){
  u8 n=sprite_count+1;extern u8 mode;
- if(mode!=1)n=0;
+ if(mode!=1&&!peace_active)n=0;
  if(n<64){sat[(u16)n*8]=216;sat[(u16)n*8+1]=0;++n;}
  sat_bytes=(u16)n*8;
  u16 start=timer_read();gfx_wait();vaddr(11,page?0x2200:0x2000);upload_sat();upload_ticks=timer_read()-start;start=timer_read();
  gfx_vblank();
- if(palette_play!=(mode==1)){
-  u8 i;const u8 *colors=mode==1?colors16:colors16_title;
-  reg(16,0);for(i=0;i<48;++i)pal=colors[i];palette_play=mode==1;
+ if(palette_play!=(mode==1||peace_active)){
+  u8 i;const u8 *colors=(mode==1||peace_active)?colors16:colors16_title;
+  reg(16,0);for(i=0;i<48;++i)pal=colors[i];palette_play=(mode==1||peace_active);
   palette_fade=255;
  }
  /* Only the two background inks fade; publish during blanking with the page. */
- if(mode==1 && palette_fade!=background_fade){
+ if((mode==1||peace_active) && palette_fade!=background_fade){
   u8 i;reg(16,8);for(i=24;i<27;++i)pal=(colors16[i]*background_fade)>>4;
   reg(16,14);for(i=42;i<45;++i)pal=(colors16[i]*background_fade)>>4;
   palette_fade=background_fade;
@@ -196,12 +197,12 @@ void background_init(void){}
 void background_draw(u8 page,u16 phase){
  static const u16 sources[3]={768,1152,1536};
  u16 start=timer_read();
- extern u8 mode;u8 i;render_page=page;background_scene=mode==1?(phase>>9)%3:0;background_y=sources[background_scene];
+ extern u8 mode;u8 i;render_page=page;background_scene=(mode==1||peace_active)?(phase>>9)%3:0;background_y=sources[background_scene];
  /* 1.28 s out, black at the scene boundary, then 1.28 s in. */
  {u16 age=phase&511;background_fade=16;
   if(mode==1){if(age>=448)background_fade=(511-age)>>2;else if(phase>=512 && age<64)background_fade=age>>2;}
  }
- background_full=mode!=1 || last_mode[page]!=mode || last_scene[page]!=background_scene;
+ background_full=(mode!=1&&!peace_active) || last_mode[page]!=mode || last_scene[page]!=background_scene;
  if(background_full){gfx_blit(0,background_y,0,(u16)page*256,256,212,0);for(i=0;i<14;++i)dirty[page][i]=0;}
  else repair(page);
  last_mode[page]=mode;last_scene[page]=background_scene;gfx_wait();bg_ticks=timer_read()-start;geo_ticks=0;

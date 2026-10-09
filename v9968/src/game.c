@@ -23,6 +23,8 @@ u8 disk_status, disk_old;
 u8 laser_px[16],laser_py[16],laser_count,laser_active,laser_age,laser_angle,laser_grazed;
 int laser_hx,laser_hy;
 int laser_curve_dx,laser_curve_sum;
+/* Presentation only: never serialized or used by step(). */
+u8 peace_active,peace_frame;
 __sfr __at(0xA0) ps;
 __sfr __at(0xA1) pw;
 static const signed char vx[64]={0,2,4,6,8,9,11,13,14,15,17,18,18,19,20,20,20,20,20,19,18,18,17,15,14,13,11,9,8,6,4,2,0,-2,-4,-6,-8,-9,-11,-13,-14,-15,-17,-18,-18,-19,-20,-20,-20,-20,-20,-19,-18,-18,-17,-15,-14,-13,-11,-9,-8,-6,-4,-2};
@@ -346,12 +348,78 @@ static void number(u32 n,u16 x,u16 y) {
   gfx_blit((u16)score_digits[i]*8,528,x+56-i*8,y,6,10,0);cached_digits[page][i]=score_digits[i];
  }
 }
-/* Short detached glints, never a ring/shield. Cosmetic only. */
-static void draw_aura(u16 base) {
- u16 x=player_x,y=base+player_y;
- if(x>14 && x<241 && player_y>30 && player_y<199){
-  gfx_line(x-11,y-6,x-8,y-9,6);gfx_line(x+8,y+9,x+11,y+6,7);gfx_dirty(x-12,player_y-10,24,20);
+/* Cosmetic shield: clipped at screen borders, centred on the ship. */
+static void shield(u16 base,u8 color) {
+ static const signed char sx[9]={0,7,10,7,0,-7,-10,-7,0};
+ static const signed char sy[9]={-10,-7,0,7,10,7,0,-7,-10};
+ u8 i;int x,y,x1,y1;
+ for(i=0;i<8;++i){
+  x=(int)player_x+sx[i];y=(int)player_y+sy[i];
+  x1=(int)player_x+sx[i+1];y1=(int)player_y+sy[i+1];
+  if(x<0)x=0;if(x>255)x=255;if(x1<0)x1=0;if(x1>255)x1=255;
+  if(y<18)y=18;if(y>211)y=211;if(y1<18)y1=18;if(y1>211)y1=211;
+  gfx_line(x,base+y,x1,base+y1,i<3&&color==6?7:color);
  }
+ x=(int)player_x-11;y=(int)player_y-11;
+ if(x<0)x=0;if(y<18)y=18;
+ gfx_dirty(x,y,((int)player_x+12>256?256:player_x+12)-x,((int)player_y+12>212?212:player_y+12)-y);
+}
+static void draw_aura(u16 base) {shield(base,spark>4?6:2);}
+/* End-of-run positions are transformed for display only. No Bullet, laser,
+ * score, random, input or replay field is written by these effects. */
+static int peaceful_x,peaceful_y;
+static u8 peace_hit,peace_laser;
+static signed char peace_dx[192],peace_dy[192];
+static u8 peace_distance[192];
+/* Divide once per point on entry; animation uses only 16-bit multiply/shift. */
+static void rebound_prepare(u8 i,int x,int y) {
+ int dx=x-player_x,dy=y-player_y,d,ax,ay;
+ ax=dx<0?-dx:dx;ay=dy<0?-dy:dy;d=ax>ay?ax:ay;
+ if(d<4){dx=0;dy=-4;d=4;}
+ peace_dx[i]=dx*16/d;peace_dy[i]=dy*16/d;peace_distance[i]=d;
+}
+static void rebound(u8 i) {
+ int t=(int)peace_distance[i]-14-(int)peace_frame*5,r=14+(t<0?-t:t);
+ if(peace_distance[i]>=36){
+  peaceful_x=(bullets[i].x>>5)+((peace_dx[i]*(int)peace_frame*3)>>4);
+  peaceful_y=(bullets[i].y>>5)+((peace_dy[i]*(int)peace_frame*3)>>4);return;
+ }
+ peaceful_x=(int)player_x+((peace_dx[i]*r)>>4);
+ peaceful_y=(int)player_y+((peace_dy[i]*r)>>4);
+}
+static void draw_peace(void) {
+ u16 base=page?256:0;u8 i;int x,y,px=0,py=0;u8 previous=0;
+ if(!peace_frame){
+  peace_hit=255;peace_laser=laser_age>=18 && laser_contact()==2;
+  if(!peace_laser)for(i=0;i<192;++i)if(bullets[i].live){
+   x=(bullets[i].x>>5)-(int)player_x;y=(bullets[i].y>>5)-(int)player_y;
+   if(x>-4&&x<4&&y>-4&&y<4){peace_hit=i;rebound_prepare(i,bullets[i].x>>5,bullets[i].y>>5);break;}
+  }
+ }
+ background_draw(page,tick);number(score,8,base+4);gfx_bullets_begin();
+ for(i=0;i<192;++i)if(bullets[i].live){
+  x=bullets[i].x>>5;y=bullets[i].y>>5;
+  if(i==peace_hit){rebound(i);x=peaceful_x;y=peaceful_y;}
+  if(x>=4&&x<=251&&y>=22&&y<=207){
+   bullet_x=x;bullet_y=y;
+   bullet_group=bullets[i].color==9?1:bullets[i].color==10?2:bullets[i].color==12?3:0;
+   gfx_bullet_fast();
+  }
+ }
+ for(i=0;i<laser_count;++i){
+  /* Fold the original curve back at the shield; keep its smooth x path. */
+  x=laser_px[i];y=laser_py[i];
+  if(peace_laser){y+=(int)peace_frame*5;if(y>(int)player_y-12)y=2*((int)player_y-12)-y;}
+  if(x>=1&&x<255&&y>=18&&y<212){
+   if(previous){
+    gfx_dirty(px<x?px:x,py<y?py:y,(px<x?x-px:px-x)+2,(py<y?y-py:py-y)+1);
+    gfx_line(px+1,base+py,x+1,base+y,15);gfx_line(px,base+py,x,base+y,i<4?13:11);
+   }
+   px=x;py=y;previous=1;
+  }else previous=0;
+ }
+ shield(base,6);gfx_actors(player_x,player_y,tick,1);
+ gfx_flip(page);page^=1;++draw_count;frame_checkpoint();
 }
 /* Same live-slot order and unsigned coordinate truncation as the C renderer. */
 static void draw_bullets(void) __naked {
@@ -462,10 +530,15 @@ void main(void) {
   state_checkpoint();
   clock_poll();
   if(mode!=1){
-   if(menu_mode!=mode || menu_disk!=disk_status){draw();cpu_idle();menu_mode=mode;menu_disk=disk_status;}
-   else gfx_vblank();
+   if(mode==2 && result==1 && peace_frame<8 && (peace_active || menu_mode==255)){
+    peace_active=1;draw_peace();++peace_frame;
+   }else{
+    peace_active=0;
+    if(menu_mode!=mode || menu_disk!=disk_status){draw();cpu_idle();menu_mode=mode;menu_disk=disk_status;}
+    else gfx_vblank();
+   }
   }else{
-   menu_mode=255;
+   peace_active=0;peace_frame=0;menu_mode=255;
    if(clock_pending<5114UL && (render_divider<=1 || tick%render_divider==0))draw();
   }
  }

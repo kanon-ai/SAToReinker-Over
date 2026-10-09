@@ -1,8 +1,8 @@
 {
-  "rom": "SATORI-GEO16-SMOOTH.rom",
+  "rom": "SATORI-GEO16-PEACE.rom",
   "rom_bytes": 524288,
-  "runtime_bytes": 11710,
-  "data_end": "0xcb01",
+  "runtime_bytes": 14128,
+  "data_end": "0xcd49",
   "mapper": "ASCII8",
-  "sha256": "87b97613d9a084a214a14b9f0fac00430b4e39b061846581df3fb6547d9b0d75"
+  "sha256": "caff06c90d77840a3fbe8f61056d349d33056e4102a8dd8af8fb817d8b6a9304"
 }
